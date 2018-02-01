@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "runmap3d", "runmap3d.vcxproj", "{07C4E7A3-1D3D-491E-84FE-9917FE9BAA4D}"
 EndProject
@@ -11,6 +11,7 @@ Global
 		ClientDebug|Win32 = ClientDebug|Win32
 		ClientRelease|Win32 = ClientRelease|Win32
 		ServerDebug|Win32 = ServerDebug|Win32
+		ServerRelease|Win32 = ServerRelease|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{07C4E7A3-1D3D-491E-84FE-9917FE9BAA4D}.ClientDebug|Win32.ActiveCfg = Debug|Win32
@@ -20,12 +21,16 @@ Global
 		{07C4E7A3-1D3D-491E-84FE-9917FE9BAA4D}.ClientRelease|Win32.Deploy.0 = Release|Win32
 		{07C4E7A3-1D3D-491E-84FE-9917FE9BAA4D}.ServerDebug|Win32.ActiveCfg = DebugServer|Win32
 		{07C4E7A3-1D3D-491E-84FE-9917FE9BAA4D}.ServerDebug|Win32.Build.0 = DebugServer|Win32
+		{07C4E7A3-1D3D-491E-84FE-9917FE9BAA4D}.ServerRelease|Win32.ActiveCfg = ServerRelease|Win32
+		{07C4E7A3-1D3D-491E-84FE-9917FE9BAA4D}.ServerRelease|Win32.Build.0 = ServerRelease|Win32
 		{5D237C68-1C48-4F17-A8FA-D8591DAA4B4A}.ClientDebug|Win32.ActiveCfg = Debug|Win32
 		{5D237C68-1C48-4F17-A8FA-D8591DAA4B4A}.ClientDebug|Win32.Build.0 = Debug|Win32
 		{5D237C68-1C48-4F17-A8FA-D8591DAA4B4A}.ClientRelease|Win32.ActiveCfg = ClientRelease|Win32
 		{5D237C68-1C48-4F17-A8FA-D8591DAA4B4A}.ClientRelease|Win32.Build.0 = ClientRelease|Win32
 		{5D237C68-1C48-4F17-A8FA-D8591DAA4B4A}.ServerDebug|Win32.ActiveCfg = DebugServer|Win32
 		{5D237C68-1C48-4F17-A8FA-D8591DAA4B4A}.ServerDebug|Win32.Build.0 = DebugServer|Win32
+		{5D237C68-1C48-4F17-A8FA-D8591DAA4B4A}.ServerRelease|Win32.ActiveCfg = ServerRelease|Win32
+		{5D237C68-1C48-4F17-A8FA-D8591DAA4B4A}.ServerRelease|Win32.Build.0 = ServerRelease|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
