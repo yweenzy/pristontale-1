@@ -57,6 +57,9 @@ artifacts/
 *.idb
 *.tlog
 *.exp
+*.enc
+*.dat
+*.itm
 
 # Chutzpah Test files
 _Chutzpah*
@@ -201,3 +204,9 @@ FakesAssemblies/
 GeneratedArtifacts/
 _Pvt_Extensions/
 ModelManifest.xml
+
+bin/Client/*.exe
+bin/Client/*.lib
+bin/Server/*.exe
+bin/Server/*.lib
+bin/Obj/*
