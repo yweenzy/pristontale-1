@@ -3,8 +3,14 @@
 
 #define WINMODE			01
 
+#if _USE_DIRECTX_8
 #include "..\Dependency\\DirectX8\\DXSDK\\include\\ddraw.h"
 #include "..\Dependency\\DirectX8\\DXSDK\\include\\d3d.h"
+#else
+#include "..\Dependency\\DirectX9\\include\\ddraw.h"
+#include "..\Dependency\\DirectX9\\include\\d3d.h"
+#include "..\Dependency\\DirectX9\\include\\d3d9.h"
+#endif
 
 
 /***************************************
