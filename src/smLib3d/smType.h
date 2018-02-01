@@ -334,6 +334,7 @@ struct smCONFIG {
 
 	int		WinMode;					//화면 모드
 	POINT	ScreenSize;					//화면 해상도
+	int		AspectRatio;				//Store the aspect ratio ( 0 -> 4:3 ~~~~ 1 -> 16:9 )
 	DWORD	ScreenColorBit;				//색상 비트
 	
 	int		TextureQuality;				//텍스쳐 품질

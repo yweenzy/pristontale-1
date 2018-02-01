@@ -2702,24 +2702,58 @@ smCONFIG *smConfigReg()
 		switch( atoi(buff) )
 		{
 			case 0:
+				smConfig.AspectRatio = 0;
 				smConfig.ScreenSize.x = 800;
 				smConfig.ScreenSize.y = 600;
-				Utils_Log(LOG_DEBUG, " ScreenSize.x = 800 , ScreenSize.y = 600");
+				//Utils_Log(LOG_DEBUG, " AspectRatio = 4:3, ScreenSize.x = 800 , ScreenSize.y = 600");
 				break;
 
 			case 1:
+				smConfig.AspectRatio = 0;
 				smConfig.ScreenSize.x = 1024;
 				smConfig.ScreenSize.y = 768;
-				Utils_Log(LOG_DEBUG, " ScreenSize.x = 1024 , ScreenSize.y = 768");
+				//Utils_Log(LOG_DEBUG, " AspectRatio = 4:3, ScreenSize.x = 1024 , ScreenSize.y = 768");
 				break;
 
 			case 2:				
+				smConfig.AspectRatio = 0;
 				smConfig.ScreenSize.x = 1280;
 				smConfig.ScreenSize.y = 1024;
-				Utils_Log(LOG_DEBUG, " ScreenSize.x = 1280 , ScreenSize.y = 1024");
+				//Utils_Log(LOG_DEBUG, " AspectRatio = 4:3, ScreenSize.x = 1280 , ScreenSize.y = 1024");
+				break;
+			case 3:
+				smConfig.AspectRatio = 0;
+				smConfig.ScreenSize.x = 1400;
+				smConfig.ScreenSize.y = 1050;
+				//Utils_Log(LOG_DEBUG, " AspectRatio = 4:3, ScreenSize.x = 1400 , ScreenSize.y = 1050");
+				break;
+
+			// 16:9 screens
+			case 4:
+				smConfig.AspectRatio = 1;
+				smConfig.ScreenSize.x = 1280;
+				smConfig.ScreenSize.y = 720;
+				//Utils_Log(LOG_DEBUG, " AspectRatio = 4:3, ScreenSize.x = 1280 , ScreenSize.y = 720");
+			case 5:
+				smConfig.AspectRatio = 1;
+				smConfig.ScreenSize.x = 1366;
+				smConfig.ScreenSize.y = 768;
+				//Utils_Log(LOG_DEBUG, " AspectRatio = 4:3, ScreenSize.x = 1366 , ScreenSize.y = 768");
+			case 6:
+				smConfig.AspectRatio = 1;
+				smConfig.ScreenSize.x = 1600;
+				smConfig.ScreenSize.y = 900;
+				//Utils_Log(LOG_DEBUG, " AspectRatio = 4:3, ScreenSize.x = 1600 , ScreenSize.y = 900");
+				break;
+			case 7:
+				smConfig.AspectRatio = 1;
+				smConfig.ScreenSize.x = 1920;
+				smConfig.ScreenSize.y = 1080;
+				//Utils_Log(LOG_DEBUG, " AspectRatio = 4:3, ScreenSize.x = 1920 , ScreenSize.y = 1080");
 				break;
 		}
 
+		Utils_Log(LOG_DEBUG, " AspectRatio = %s , ScreenSize.x = %d , ScreenSize.y = %d", smConfig.AspectRatio ? "16:9" : "4:3", smConfig.ScreenSize.x, smConfig.ScreenSize.y);
 		Utils_Log(LOG_DEBUG, "Use ScreenSize: %d", atoi(buff));
 	}
 	else
