@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+.Accordion {
+	overflow: hidden;
+	border: none;
+	outline: none;
+	width: 235px;
+}
+
+.AccordionPanel {
+	margin: 0px;
+	padding: 0px;
+	overflow:hidden;
+}
+
+.AccordionPanelTab {
+	margin: 0px;
+	padding: 0px;
+	cursor: pointer;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+}
+
+.AccordionPanelContent {
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	color: #FFF;
+}
+
+.AccordionPanelOpen .AccordionPanelTab {
+	/* [disabled]background-color: #EEEEEE; */
+}
+
+.AccordionPanelTabHover {
+	color: #FFF;
+}
+.AccordionPanelOpen .AccordionPanelTabHover {
+	color: #FFF;
+}
+
+.AccordionFocused .AccordionPanelTab {
+	/*background-color: #3399FF;*/
+}
+
+.AccordionFocused .AccordionPanelOpen .AccordionPanelTab {
+	/*background-color: #33CCFF;*/
+}
+
+@media print {
+
+  .Accordion {
+  overflow: visible !important;
+  }
+  
+  .AccordionPanelContent {
+  display: block !important;
+  overflow: visible !important;
+  /*height: auto !important;*/
+  }
+}

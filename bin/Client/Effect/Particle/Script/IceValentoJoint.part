@@ -1,0 +1,44 @@
+particlesystem "Power" 1.00 {
+  position = XYZ(0,0,0)
+
+   eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1000
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 15
+    emitradius = xyz(0,0,0)
+    lifetime = 2
+    texture = "effect\\particle\\circle_002.bmp"
+    initial size = 5
+    initial color = rgba(255,100,50,150)
+    initial velocity = XYZ(0,0,0)
+    initial partAngle = xyz(0,0,0)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 15
+    } 
+
+    eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1000
+    numparticles = 2
+    gravity = XYZ(0,0,0)
+    emitrate = 15
+    emitradius = xyz(0,0,0)
+    lifetime = 1000
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 25
+    initial color = rgba(255,100,50,50)
+    initial velocity = XYZ(0,0,0)
+    initial partAngle = xyz(0,0,0)
+    fade so at 1 color = rgba(255,100,50,200)
+    fade so at 1 size   = 25
+    fade so at 2 color = rgba(255,100,50,100)
+    fade so at 2 size   = 20
+    fade so at 3 color = rgba(200,100,50,200)
+    fade so at 3 size   = 25
+    at 3 eventtimer = 1
+    fade so at 5 color = rgba(0,0,0,0)
+    } 
+
+}

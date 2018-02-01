@@ -1,0 +1,793 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="ClientRelease|Win32">
+      <Configuration>ClientRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugClient|Win32">
+      <Configuration>DebugClient</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DebugServer|Win32">
+      <Configuration>DebugServer</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="ServerRelease|Win32">
+      <Configuration>ServerRelease</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <ProjectGuid>{07C4E7A3-1D3D-491E-84FE-9917FE9BAA4D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ClientRelease|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugServer|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ServerRelease|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='DebugClient|Win32'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ClientRelease|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugServer|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='ServerRelease|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(SolutionDir)\Library;D:\MyProjects\GameDev\Extern Librarys\DirectX8\DXSDK\lib\;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\bin\Client</OutDir>
+    <IntDir>$(SolutionDir)\bin\Obj\$(Configuration)\</IntDir>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <TargetName>$(Configuration)Client</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ClientRelease|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(SolutionDir)\Library;D:\MyProjects\GameDev\Extern Librarys\DirectX8\DXSDK\lib\;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\bin\Client</OutDir>
+    <IntDir>$(SolutionDir)\bin\Obj\$(Configuration)\</IntDir>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <TargetName>game</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugServer|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(SolutionDir)\Library;D:\MyProjects\GameDev\Extern Librarys\DirectX8\DXSDK\lib\;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\bin\Server</OutDir>
+    <IntDir>$(SolutionDir)\bin\Obj\$(Configuration)\</IntDir>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <TargetName>$(Configuration)</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='ServerRelease|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(SolutionDir)\Library;D:\MyProjects\GameDev\Extern Librarys\DirectX8\DXSDK\lib\;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolutionDir)\bin\Server</OutDir>
+    <IntDir>$(SolutionDir)\bin\Obj\$(Configuration)\</IntDir>
+    <IncludePath>$(IncludePath)</IncludePath>
+    <TargetName>Server</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4430;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <StringPooling>true</StringPooling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Shared\src\;$(SolutionDir)\src\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>nprotect\npkcrypt.lib;odbc32.lib;odbccp32.lib;winmm.lib;ddraw.lib;dxguid.lib;d3dx.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>libc.lib;libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile />
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\runmap3d___Win32_Debug/runmap3d.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ClientRelease|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <DisableSpecificWarnings>4430;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <StringPooling>true</StringPooling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Shared\src\;$(SolutionDir)\src\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>nprotect\npkcrypt.lib;odbc32.lib;odbccp32.lib;winmm.lib;ddraw.lib;dxguid.lib;d3dx.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>libc.lib;libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\runmap3d___Win32_Debug/runmap3d.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugServer|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_W_SERVER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4430;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <StringPooling>true</StringPooling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Shared\src\;$(SolutionDir)\src\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>nprotect\npkcrypt.lib;odbc32.lib;odbccp32.lib;winmm.lib;ddraw.lib;dxguid.lib;d3dx.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>libc.lib;libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\runmap3d___Win32_Debug/runmap3d.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>$(SolutionDir)Bin\copyServer.bat</Command>
+      <Message>copy server files from client</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='ServerRelease|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_W_SERVER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>false</RuntimeTypeInfo>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <PrecompiledHeaderOutputFile>$(IntDir)$(TargetName).pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ProgramDataBaseFileName>$(IntDir)vc$(PlatformToolsetVersion).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <DisableSpecificWarnings>4430;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <StringPooling>true</StringPooling>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Shared\src\;$(SolutionDir)\src\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>nprotect\npkcrypt.lib;odbc32.lib;odbccp32.lib;winmm.lib;ddraw.lib;dxguid.lib;d3dx.lib;dsound.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>libc.lib;libcmt.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(TargetDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\runmap3d___Win32_Debug/runmap3d.tlb</TypeLibraryName>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+    </ResourceCompile>
+    <PostBuildEvent>
+      <Command>$(SolutionDir)Bin\copyServer.bat</Command>
+      <Message>copy server files from client</Message>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>  
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MinSpace</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <PrecompiledHeaderOutputFile>.\Release/runmap3d.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4430;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/MACHINE:I386 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>nprotect\npkcrypt.lib;dsound.lib;odbc32.lib;odbccp32.lib;C:\DXSDK\lib\ddraw.lib;C:\DXSDK\lib\dxguid.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>libc.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Release/game.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <Midl>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Release/runmap3d.tlb</TypeLibraryName>
+    </Midl>
+    <PostBuildEvent>
+      <Command>cmd</Command>
+    </PostBuildEvent>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0412</Culture>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="nprotect\nProtect.cpp" />
+    <ClCompile Include="nprotect\PT_KeyCrypt.cpp" />
+    <ClCompile Include="src\ActionGame.cpp" />
+    <ClCompile Include="src\AreaServer.cpp" />
+    <ClCompile Include="src\avictrl.cpp" />
+    <ClCompile Include="src\BellatraFontEffect.cpp" />
+    <ClCompile Include="src\CAutoCamera.cpp" />
+    <ClCompile Include="src\character.cpp" />
+    <ClCompile Include="src\checkdll.cpp" />
+    <ClCompile Include="src\cracker.cpp" />
+    <ClCompile Include="src\CurseFilter.cpp" />
+    <ClCompile Include="src\Damage.cpp" />
+    <ClCompile Include="src\Drawsub.cpp" />
+    <ClCompile Include="src\effectsnd.cpp" />
+    <ClCompile Include="src\field.cpp" />
+    <ClCompile Include="src\fileread.cpp" />
+    <ClCompile Include="src\FontImage.cpp" />
+    <ClCompile Include="src\FullZoomMap.cpp" />
+    <ClCompile Include="src\HoBaram\AssaParticle.cpp" />
+    <ClCompile Include="src\HoBaram\HoAnimData.cpp" />
+    <ClCompile Include="src\HoBaram\hoAssaParticleEffect.cpp" />
+    <ClCompile Include="src\HoBaram\HoEffect.cpp" />
+    <ClCompile Include="src\HoBaram\HoLinkHeader.cpp" />
+    <ClCompile Include="src\HoBaram\HoLogic.cpp" />
+    <ClCompile Include="src\HoBaram\HoLogin.cpp" />
+    <ClCompile Include="src\HoBaram\HoMinMax.cpp" />
+    <ClCompile Include="src\HoBaram\HoNewParticle.cpp" />
+    <ClCompile Include="src\HoBaram\HoNewParticleMgr.cpp" />
+    <ClCompile Include="src\HoBaram\HoOpening.cpp" />
+    <ClCompile Include="src\HoBaram\HoParticle.cpp" />
+    <ClCompile Include="src\HoBaram\HoParty.cpp" />
+    <ClCompile Include="src\HoBaram\HoPhysics.cpp" />
+    <ClCompile Include="src\HoBaram\HoSky.cpp" />
+    <ClCompile Include="src\HoBaram\HoTextFile.cpp" />
+    <ClCompile Include="src\HoBaram\LowLevelPetSystem.cpp" />
+    <ClCompile Include="src\HoBaram\NewEffect\HoEffectController.cpp" />
+    <ClCompile Include="src\HoBaram\NewEffect\HoEffectMain.cpp" />
+    <ClCompile Include="src\HoBaram\NewEffect\HoEffectManager.cpp" />
+    <ClCompile Include="src\HoBaram\NewEffect\HoEffectModel.cpp" />
+    <ClCompile Include="src\HoBaram\NewEffect\HoEffectResMgr.cpp" />
+    <ClCompile Include="src\HoBaram\NewEffect\HoEffectUtil.cpp" />
+    <ClCompile Include="src\HoBaram\NewEffect\HoEffectView.cpp" />
+    <ClCompile Include="src\HoBaram\NewEffect\HoNewEffectFunction.cpp" />
+    <ClCompile Include="src\HoBaram\NewEffect\math\COLOR3.CPP" />
+    <ClCompile Include="src\HoBaram\NewEffect\math\COLOR4.CPP" />
+    <ClCompile Include="src\HoBaram\NewEffect\math\MATRIX4.CPP" />
+    <ClCompile Include="src\HoBaram\NewEffect\math\POINT3.CPP" />
+    <ClCompile Include="src\HoBaram\NewEffect\Script\PiScript.cpp" />
+    <ClCompile Include="src\HoBaram\NewEffect\Script\PiScriptLuaCommand.cpp" />
+    <ClCompile Include="src\HoBaram\PCBangPetSystem.cpp" />
+    <ClCompile Include="src\Ime.cpp" />
+    <ClCompile Include="src\Language\jts.cpp" />
+    <ClCompile Include="src\makeshadow.cpp" />
+    <ClCompile Include="src\mini_dump.cpp" />
+    <ClCompile Include="src\netplay.cpp" />
+    <ClCompile Include="src\Park\HoMessageBox.cpp" />
+    <ClCompile Include="src\Particle.cpp" />
+    <ClCompile Include="src\pbackground.cpp" />
+    <ClCompile Include="src\playmain.cpp" />
+    <ClCompile Include="src\playsub.cpp" />
+    <ClCompile Include="src\record.cpp" />
+    <ClCompile Include="src\Server\ClientFuncPos.cpp" />
+    <ClCompile Include="src\Server\DllServer.cpp" />
+    <ClCompile Include="src\Server\gameSQL.cpp" />
+    <ClCompile Include="src\Server\OnSever.cpp" />
+    <ClCompile Include="src\Server\openlive.cpp" />
+    <ClCompile Include="src\Server\PartySever.cpp" />
+    <ClCompile Include="src\Server\svrEventSpawn.cpp" />
+    <ClCompile Include="src\Server\Svr_Damge.cpp" />
+    <ClCompile Include="src\sinbaram\AssaEffect.cpp" />
+    <ClCompile Include="src\sinbaram\AssaParticle7.cpp" />
+    <ClCompile Include="src\sinbaram\AssaTestParticle.cpp" />
+    <ClCompile Include="src\sinbaram\AssaUtil.cpp" />
+    <ClCompile Include="src\sinbaram\HaPremiumItem.cpp" />
+    <ClCompile Include="src\sinbaram\HaQuest.cpp" />
+    <ClCompile Include="src\sinbaram\sin3D.cpp" />
+    <ClCompile Include="src\sinbaram\sinAssaParticle.cpp" />
+    <ClCompile Include="src\sinbaram\sinAssaSkillEffect.cpp" />
+    <ClCompile Include="src\sinbaram\sinCharStatus.cpp" />
+    <ClCompile Include="src\sinbaram\sinEffect.cpp" />
+    <ClCompile Include="src\sinbaram\sinEffect2.cpp" />
+    <ClCompile Include="src\sinbaram\sinEvent.cpp" />
+    <ClCompile Include="src\sinbaram\sinHelp.cpp" />
+    <ClCompile Include="src\sinbaram\sinHelpPet.cpp" />
+    <ClCompile Include="src\sinbaram\sinInterFace.cpp" />
+    <ClCompile Include="src\sinbaram\sinInvenTory.cpp" />
+    <ClCompile Include="src\sinbaram\sinItem.cpp" />
+    <ClCompile Include="src\sinbaram\sinMain.cpp" />
+    <ClCompile Include="src\sinbaram\sinMessageBox.cpp" />
+    <ClCompile Include="src\sinbaram\sinMsg.cpp" />
+    <ClCompile Include="src\sinbaram\sinParkPcBangPet.cpp" />
+    <ClCompile Include="src\sinbaram\sinParticle.cpp" />
+    <ClCompile Include="src\sinbaram\sinPetMessage.cpp" />
+    <ClCompile Include="src\sinbaram\sinPublicEffect.cpp" />
+    <ClCompile Include="src\sinbaram\sinQuest.cpp" />
+    <ClCompile Include="src\sinbaram\sinShop.cpp" />
+    <ClCompile Include="src\sinbaram\sinSkill.cpp" />
+    <ClCompile Include="src\sinbaram\sinSkillEffect.cpp" />
+    <ClCompile Include="src\sinbaram\sinSkill_Info.cpp" />
+    <ClCompile Include="src\sinbaram\sinSOD2.cpp" />
+    <ClCompile Include="src\sinbaram\sinSubMain.cpp" />
+    <ClCompile Include="src\sinbaram\sinTrade.cpp" />
+    <ClCompile Include="src\sinbaram\sinUtil.cpp" />
+    <ClCompile Include="src\sinbaram\sinWarpGate.cpp" />
+    <ClCompile Include="src\sinbaram\SkillFunction\Morayion.cpp" />
+    <ClCompile Include="src\sinbaram\SkillFunction\Tempskron.cpp" />
+    <ClCompile Include="src\sinbaram\YameEffect.cpp" />
+    <ClCompile Include="src\sinHaQuest.cpp" />
+    <ClCompile Include="src\SkillSub.cpp" />
+    <ClCompile Include="src\smLib3d\FilterEffect.cpp" />
+    <ClCompile Include="src\smLib3d\smDsx.cpp" />
+    <ClCompile Include="src\smLib3d\smgeosub.cpp" />
+    <ClCompile Include="src\smLib3d\smJpeg.cpp" />
+    <ClCompile Include="src\smLib3d\smMap3d.cpp" />
+    <ClCompile Include="src\smLib3d\smmatrix.cpp" />
+    <ClCompile Include="src\smLib3d\smObj3d.cpp" />
+    <ClCompile Include="src\smLib3d\smRead3d.cpp" />
+    <ClCompile Include="src\smLib3d\smRend3d.cpp" />
+    <ClCompile Include="src\smLib3d\smSin.cpp" />
+    <ClCompile Include="src\smLib3d\smStage3d.cpp" />
+    <ClCompile Include="src\smLib3d\smStgObj.cpp" />
+    <ClCompile Include="src\smLib3d\smTexture.cpp" />
+    <ClCompile Include="src\smReg.cpp" />
+    <ClCompile Include="src\smwsock.cpp" />
+    <ClCompile Include="src\Sound\Dxwav.cpp" />
+    <ClCompile Include="src\Sound\Wave.cpp" />
+    <ClCompile Include="src\STRCLASS.CPP" />
+    <ClCompile Include="src\TextMessage.cpp" />
+    <ClCompile Include="src\timer.cpp" />
+    <ClCompile Include="src\TJBOY\clanmenu\BMPsmooth.cpp" />
+    <ClCompile Include="src\TJBOY\clanmenu\cE_chatlist.cpp" />
+    <ClCompile Include="src\TJBOY\clanmenu\cE_chip.cpp" />
+    <ClCompile Include="src\TJBOY\clanmenu\cE_CJoin.cpp" />
+    <ClCompile Include="src\TJBOY\clanmenu\cE_Cmake.cpp" />
+    <ClCompile Include="src\TJBOY\clanmenu\cE_CViewClanInfo.cpp" />
+    <ClCompile Include="src\TJBOY\clanmenu\cE_deletecha.cpp" />
+    <ClCompile Include="src\TJBOY\clanmenu\cE_isclanmember.cpp" />
+    <ClCompile Include="src\TJBOY\clanmenu\cE_Notice.cpp" />
+    <ClCompile Include="src\TJBOY\clanmenu\cE_nouser.cpp" />
+    <ClCompile Include="src\TJBOY\clanmenu\cE_report.cpp" />
+    <ClCompile Include="src\TJBOY\clanmenu\cE_Updatecldata.cpp" />
+    <ClCompile Include="src\TJBOY\clanmenu\cE_user.cpp" />
+    <ClCompile Include="src\TJBOY\clanmenu\clan_Enti.cpp" />
+    <ClCompile Include="src\TJBOY\clanmenu\GuideHelp.cpp" />
+    <ClCompile Include="src\TJBOY\clanmenu\Help.cpp" />
+    <ClCompile Include="src\TJBOY\clanmenu\tjclan.cpp" />
+    <ClCompile Include="src\TJBOY\clanmenu\tjScroll.cpp" />
+    <ClCompile Include="src\TJBOY\isaocheck\auth.cpp" />
+    <ClCompile Include="src\TJBOY\isaocheck\isaocheck.cpp" />
+    <ClCompile Include="src\TJBOY\park\MicVolume.cpp" />
+    <ClCompile Include="src\TJBOY\park\ParkDXPlayer.cpp" />
+    <ClCompile Include="src\TJBOY\Ygy\memmap\memmap.cpp" />
+    <ClCompile Include="src\TJBOY\Ygy\Packet\Packet.cpp" />
+    <ClCompile Include="src\TJBOY\Ygy\Process\Process.cpp" />
+    <ClCompile Include="src\TJBOY\Ygy\Util.cpp" />
+    <ClCompile Include="src\WinInt\WavIntHttp.cpp" />
+    <ClCompile Include="src\WinInt\WinIntThread.cpp" />
+    <ClCompile Include="src\Winmain.cpp" />
+    <ClCompile Include="Xigncode\Server\zwave_sdk_linker.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nprotect\CSAuth.h" />
+    <ClInclude Include="nprotect\npfgmsdk.h" />
+    <ClInclude Include="nprotect\NPGameLib.h" />
+    <ClInclude Include="nprotect\npkcrypt.h" />
+    <ClInclude Include="nprotect\nProtect.h" />
+    <ClInclude Include="nprotect\PT_KeyCrypt.h" />
+    <ClInclude Include="SrcServer\PristonSQLDll.h" />
+    <ClInclude Include="src\ActionGame.h" />
+    <ClInclude Include="src\AreaServer.h" />
+    <ClInclude Include="src\avictrl.h" />
+    <ClInclude Include="src\BellatraFontEffect.h" />
+    <ClInclude Include="src\CAutoCamera.h" />
+    <ClInclude Include="src\character.h" />
+    <ClInclude Include="src\checkname.h" />
+    <ClInclude Include="src\cracker.h" />
+    <ClInclude Include="src\CurseFilter.h" />
+    <ClInclude Include="src\damage.h" />
+    <ClInclude Include="src\drawsub.h" />
+    <ClInclude Include="src\effectsnd.h" />
+    <ClInclude Include="src\field.h" />
+    <ClInclude Include="src\fileread.h" />
+    <ClInclude Include="src\FontImage.h" />
+    <ClInclude Include="src\FullZoomMap.h" />
+    <ClInclude Include="src\HoBaram\AssaParticle.h" />
+    <ClInclude Include="src\HoBaram\HoAnimData.h" />
+    <ClInclude Include="src\HoBaram\hoAssaParticleEffect.h" />
+    <ClInclude Include="src\HoBaram\HoEffect.h" />
+    <ClInclude Include="src\HoBaram\HoLinkHeader.h" />
+    <ClInclude Include="src\HoBaram\HoLogic.h" />
+    <ClInclude Include="src\HoBaram\HoLogin.h" />
+    <ClInclude Include="src\HoBaram\HoMinMax.h" />
+    <ClInclude Include="src\HoBaram\HoNewParticle.h" />
+    <ClInclude Include="src\HoBaram\HoNewParticleLinkHeader.h" />
+    <ClInclude Include="src\HoBaram\HoNewParticleMgr.h" />
+    <ClInclude Include="src\HoBaram\HoOpening.h" />
+    <ClInclude Include="src\HoBaram\HoParticle.h" />
+    <ClInclude Include="src\HoBaram\HoParty.h" />
+    <ClInclude Include="src\HoBaram\HoPhysics.h" />
+    <ClInclude Include="src\HoBaram\HoSky.h" />
+    <ClInclude Include="src\HoBaram\HoTextFile.h" />
+    <ClInclude Include="src\HoBaram\LowLevelPetSystem.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\HoEffectController.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\HoEffectEvent.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\HoEffectMain.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\HoEffectManager.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\HoEffectModel.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\HoEffectResMgr.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\HoEffectUtil.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\HoEffectView.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\HoNewEffectFunction.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\HoNewEffectHeader.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\math\bSphere3.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\math\COLOR3.H" />
+    <ClInclude Include="src\HoBaram\NewEffect\math\color4.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\math\lineSeg3.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\math\mathGlobal.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\math\MATRIX4.H" />
+    <ClInclude Include="src\HoBaram\NewEffect\math\point3.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\math\POINT4.H" />
+    <ClInclude Include="src\HoBaram\NewEffect\Script\lua\lauxlib.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\Script\lua\lua.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\Script\lua\lualib.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\Script\PiScript.h" />
+    <ClInclude Include="src\HoBaram\NewEffect\Script\PiScriptLuaCommand.h" />
+    <ClInclude Include="src\HoBaram\ParkFireCrackerTable.h" />
+    <ClInclude Include="src\HoBaram\PCBangPetSystem.h" />
+    <ClInclude Include="src\Ime.h" />
+    <ClInclude Include="src\ItemForm.h" />
+    <ClInclude Include="src\ItemForm2.h" />
+    <ClInclude Include="src\Language\English\e_clanText.h" />
+    <ClInclude Include="src\Language\English\e_HoTextFile.h" />
+    <ClInclude Include="src\Language\English\e_JobCode.h" />
+    <ClInclude Include="src\Language\English\e_PartyMsg.h" />
+    <ClInclude Include="src\Language\English\e_QuestMsg.h" />
+    <ClInclude Include="src\Language\English\e_ServerMsg.h" />
+    <ClInclude Include="src\Language\English\E_Set_EventSpawn.h" />
+    <ClInclude Include="src\Language\English\e_sinCraftItem.h" />
+    <ClInclude Include="src\Language\English\e_sinMsg.h" />
+    <ClInclude Include="src\Language\English\e_sinSkill_Info.h" />
+    <ClInclude Include="src\Language\English\E_TalkText.h" />
+    <ClInclude Include="src\Language\English\e_TextMessage.h" />
+    <ClInclude Include="src\Language\English\E_VolText.h" />
+    <ClInclude Include="src\Language\jts.h" />
+    <ClInclude Include="src\Language\language.h" />
+    <ClInclude Include="src\LevelTable.h" />
+    <ClInclude Include="src\makeshadow.h" />
+    <ClInclude Include="src\mini_dump.h" />
+    <ClInclude Include="src\netplay.h" />
+    <ClInclude Include="src\NetType.h" />
+    <ClInclude Include="src\npkcrypt.h" />
+    <ClInclude Include="src\Park\HoMessageBox.h" />
+    <ClInclude Include="src\particle.h" />
+    <ClInclude Include="src\pbackground.h" />
+    <ClInclude Include="src\playmain.h" />
+    <ClInclude Include="src\playmodel.h" />
+    <ClInclude Include="src\playsub.h" />
+    <ClInclude Include="src\record.h" />
+    <ClInclude Include="src\resource.h" />
+    <ClInclude Include="src\Server\AutoDropItem.h" />
+    <ClInclude Include="src\Server\BlessCastle.h" />
+    <ClInclude Include="src\Server\ClientFuncPos.h" />
+    <ClInclude Include="src\Server\DllServer.h" />
+    <ClInclude Include="src\Server\E_serverlog.h" />
+    <ClInclude Include="src\Server\Gamesql.h" />
+    <ClInclude Include="src\Server\HackTrap.h" />
+    <ClInclude Include="src\Server\onserver.h" />
+    <ClInclude Include="src\Server\openlive.h" />
+    <ClInclude Include="src\Server\PartyMsg.h" />
+    <ClInclude Include="src\Server\PristonSQLDll.h" />
+    <ClInclude Include="src\Server\serverlog.h" />
+    <ClInclude Include="src\Server\ServerMsg.h" />
+    <ClInclude Include="src\Server\Set_EventSpawn.h" />
+    <ClInclude Include="src\Server\svrEventGame.h" />
+    <ClInclude Include="src\Server\svrEventSpawn.h" />
+    <ClInclude Include="src\Server\svrHaQuest.h" />
+    <ClInclude Include="src\Server\svr_Damage.h" />
+    <ClInclude Include="src\sinbaram\amstream.h" />
+    <ClInclude Include="src\sinbaram\AssaEffect.h" />
+    <ClInclude Include="src\sinbaram\AssaParticle7.h" />
+    <ClInclude Include="src\sinbaram\AssaTestParticle.h" />
+    <ClInclude Include="src\sinbaram\AssaUtil.h" />
+    <ClInclude Include="src\sinbaram\HaPremiumItem.h" />
+    <ClInclude Include="src\sinbaram\HaQuest.h" />
+    <ClInclude Include="src\sinbaram\HaQuestBoard.h" />
+    <ClInclude Include="src\sinbaram\sin3D.h" />
+    <ClInclude Include="src\sinbaram\sinAssaParticle.h" />
+    <ClInclude Include="src\sinbaram\sinAssaSkillEffect.h" />
+    <ClInclude Include="src\sinbaram\sinCharStatus.h" />
+    <ClInclude Include="src\sinbaram\sinCraftItem_Server.h" />
+    <ClInclude Include="src\sinbaram\sinEffect.h" />
+    <ClInclude Include="src\sinbaram\sinEffect2.h" />
+    <ClInclude Include="src\sinbaram\sinEvent.h" />
+    <ClInclude Include="src\sinbaram\sinHelp.h" />
+    <ClInclude Include="src\sinbaram\sinHelpPet.h" />
+    <ClInclude Include="src\sinbaram\sinInterFace.h" />
+    <ClInclude Include="src\sinbaram\sinInvenTory.h" />
+    <ClInclude Include="src\sinbaram\sinItem.h" />
+    <ClInclude Include="src\sinbaram\sinLinkHeader.h" />
+    <ClInclude Include="src\sinbaram\sinMain.h" />
+    <ClInclude Include="src\sinbaram\sinMakeItem.h" />
+    <ClInclude Include="src\sinbaram\sinMessageBox.h" />
+    <ClInclude Include="src\sinbaram\sinMonster.h" />
+    <ClInclude Include="src\sinbaram\sinMsg.h" />
+    <ClInclude Include="src\sinbaram\sinParkPcBangPet.h" />
+    <ClInclude Include="src\sinbaram\sinParticle.h" />
+    <ClInclude Include="src\sinbaram\sinPetMessage.h" />
+    <ClInclude Include="src\sinbaram\sinPublicEffect.h" />
+    <ClInclude Include="src\sinbaram\sinQuest.h" />
+    <ClInclude Include="src\sinbaram\sinShop.h" />
+    <ClInclude Include="src\sinbaram\sinSkill.h" />
+    <ClInclude Include="src\sinbaram\sinSkillEffect.h" />
+    <ClInclude Include="src\sinbaram\sinSkill_Info.h" />
+    <ClInclude Include="src\sinbaram\sinSOD2.h" />
+    <ClInclude Include="src\sinbaram\sinSubMain.h" />
+    <ClInclude Include="src\sinbaram\sinTable.h" />
+    <ClInclude Include="src\sinbaram\sinTrade.h" />
+    <ClInclude Include="src\sinbaram\sinUtil.h" />
+    <ClInclude Include="src\sinbaram\sinWarpGate.h" />
+    <ClInclude Include="src\sinbaram\sinWingItem.h" />
+    <ClInclude Include="src\sinbaram\SkillFunction\Morayion.h" />
+    <ClInclude Include="src\sinbaram\SkillFunction\Tempskron.h" />
+    <ClInclude Include="src\sinbaram\YameEffect.h" />
+    <ClInclude Include="src\sinbaram\sinCraftItem_Client.h" />
+    <ClInclude Include="src\sinHaQuest.h" />
+    <ClInclude Include="src\SkillSub.h" />
+    <ClInclude Include="src\smLib3d\FilterEffect.h" />
+    <ClInclude Include="src\smLib3d\smd3d.h" />
+    <ClInclude Include="src\smLib3d\smDsx.h" />
+    <ClInclude Include="src\smLib3d\smGeosub.h" />
+    <ClInclude Include="src\smLib3d\smJpeg.h" />
+    <ClInclude Include="src\smLib3d\smMap3d.h" />
+    <ClInclude Include="src\smLib3d\smmatrix.h" />
+    <ClInclude Include="src\smLib3d\smObj3d.h" />
+    <ClInclude Include="src\smLib3d\smRead3d.h" />
+    <ClInclude Include="src\smLib3d\smrend3d.h" />
+    <ClInclude Include="src\smLib3d\smSin.h" />
+    <ClInclude Include="src\smLib3d\smStage3d.h" />
+    <ClInclude Include="src\smLib3d\smStgObj.h" />
+    <ClInclude Include="src\smLib3d\smTexture.h" />
+    <ClInclude Include="src\smLib3d\smType.h" />
+    <ClInclude Include="src\smPacket.h" />
+    <ClInclude Include="src\smreg.h" />
+    <ClInclude Include="src\smwsock.h" />
+    <ClInclude Include="src\Sound\Dxwav.h" />
+    <ClInclude Include="src\Sound\SHELL.H" />
+    <ClInclude Include="src\Sound\STREAM.H" />
+    <ClInclude Include="src\Sound\Wave.h" />
+    <ClInclude Include="src\STRCLASS.H" />
+    <ClInclude Include="src\TextMessage.h" />
+    <ClInclude Include="src\timer.h" />
+    <ClInclude Include="src\TJBOY\clanmenu\BMPsmooth.h" />
+    <ClInclude Include="src\TJBOY\clanmenu\cE_chatlist.h" />
+    <ClInclude Include="src\TJBOY\clanmenu\cE_chip.h" />
+    <ClInclude Include="src\TJBOY\clanmenu\cE_CJoin.h" />
+    <ClInclude Include="src\TJBOY\clanmenu\cE_Cmake.h" />
+    <ClInclude Include="src\TJBOY\clanmenu\cE_CViewClanInfo.h" />
+    <ClInclude Include="src\TJBOY\clanmenu\cE_deletecha.h" />
+    <ClInclude Include="src\TJBOY\clanmenu\cE_isclanmember.h" />
+    <ClInclude Include="src\TJBOY\clanmenu\cE_Notice.h" />
+    <ClInclude Include="src\TJBOY\clanmenu\cE_nouser.h" />
+    <ClInclude Include="src\TJBOY\clanmenu\cE_report.h" />
+    <ClInclude Include="src\TJBOY\clanmenu\cE_Updatecldata.h" />
+    <ClInclude Include="src\TJBOY\clanmenu\cE_user.h" />
+    <ClInclude Include="src\TJBOY\clanmenu\clan_Enti.h" />
+    <ClInclude Include="src\TJBOY\clanmenu\GuideHelp.h" />
+    <ClInclude Include="src\TJBOY\clanmenu\Help.h" />
+    <ClInclude Include="src\TJBOY\clanmenu\tjclan.h" />
+    <ClInclude Include="src\TJBOY\clanmenu\tjclanDEF.h" />
+    <ClInclude Include="src\TJBOY\clanmenu\tjScroll.h" />
+    <ClInclude Include="src\TJBOY\isaocheck\auth.h" />
+    <ClInclude Include="src\TJBOY\isaocheck\isaocheck.h" />
+    <ClInclude Include="src\TJBOY\park\MicVolume.h" />
+    <ClInclude Include="src\TJBOY\park\ParkDXPlayer.h" />
+    <ClInclude Include="src\TJBOY\Ygy\memmap\memmap.h" />
+    <ClInclude Include="src\TJBOY\Ygy\Packet\Packet.h" />
+    <ClInclude Include="src\TJBOY\Ygy\Packet\PacketStruct.h" />
+    <ClInclude Include="src\TJBOY\Ygy\Process\Process.h" />
+    <ClInclude Include="src\TJBOY\Ygy\Util.h" />
+    <ClInclude Include="src\TJBOY\Ygy\YgyHeader.h" />
+    <ClInclude Include="src\WinInt\RingBuff.h" />
+    <ClInclude Include="src\WinInt\WavIntHttp.h" />
+    <ClInclude Include="src\WinInt\WinIntThread.h" />
+    <ClInclude Include="src\WinInt\ZipLib.h" />
+    <ClInclude Include="Xigncode\Client\xtypes.h" />
+    <ClInclude Include="Xigncode\Client\zcwave_errors.h" />
+    <ClInclude Include="Xigncode\Client\zwave_sdk_client.h" />
+    <ClInclude Include="Xigncode\Server\xtypes.h" />
+    <ClInclude Include="Xigncode\Server\zwave_sdk_errors.h" />
+    <ClInclude Include="Xigncode\Server\zwave_sdk_helper.h" />
+    <ClInclude Include="Xigncode\Server\zwave_sdk_linker.h" />
+    <ClInclude Include="XTrapSrcD5\ClientExt\XTrap4ClientExt1.h" />
+    <ClInclude Include="XTrapSrcD5\Client\XTrap4Client.h" />
+    <ClInclude Include="XTrapSrcD5\Server\MessageProtocol.h" />
+    <ClInclude Include="XTrapSrcD5\Server\ServerXTrap.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="HanDes.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\arario.bmp" />
+    <Image Include="Resources\arario2.bmp" />
+    <Image Include="Resources\arario3.bmp" />
+    <Image Include="Resources\argenPT.bmp" />
+    <Image Include="Resources\argenPT1.bmp" />
+    <Image Include="Resources\bitmap1.bmp" />
+    <Image Include="Resources\icon1.ico" />
+    <Image Include="Resources\icon2.ico" />
+    <Image Include="Resources\loadimg.bmp" />
+    <Image Include="Resources\loading.bmp" />
+    <Image Include="Resources\Loading1.bmp" />
+    <Image Include="Resources\loading_japan.bmp" />
+    <Image Include="Resources\logo.bmp" />
+    <Image Include="Resources\SUBAPT.bmp" />
+    <Image Include="Resources\ë¡œë”©ì¤‘.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Script1.aps" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\Script1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Shared.vcxproj">
+      <Project>{5d237c68-1c48-4f17-a8fa-d8591daa4b4a}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

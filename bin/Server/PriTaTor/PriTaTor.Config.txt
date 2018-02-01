@@ -1,0 +1,58 @@
+
+
+ItemSelector:
+Everything=
+--Defence--=da,db,dg1,oa2,om,ds
+Armor=da1
+Robe=da2
+Boots=db
+Gauntletss=dg1
+Armlets=oa2
+Orb=om
+Shield=ds
+--Weapons--=wp,ws1,ws3,wa,wm,wt,wh,wc,ws2,ws4
+Pike=wp
+Bow=ws1,ws3
+Axe=wa
+Staff/Wand=wm
+Javelin=wt
+Mace=wh
+Claw=wc
+Sword=ws2,ws4
+--Spick and span--=or,oa1,os
+Ring=or
+Amulet=oa1
+Sheltom=os
+--Others--
+Potions=pm,ps,pl
+Crystals=gp
+Force Orb=fo
+Donation Items=b
+Quest Items=_u,2_,ma,qt,sp,uw
+Event Items=ch,pz,sd,se,sp
+Other=ec
+<End>
+
+MonsterSelector:
+Name=
+Level=0-10
+Level=11-20
+Level=21-30
+Level=31-40
+Level=41-50
+Level=51-60
+Level=61-70
+Level=71-80
+Level=81-90
+Level=91-100
+Level=100-200
+Name=Hopy
+<End>
+Server-Path=C:\OldSchoolPT\bin\Server\
+Max-Exp=1000000
+Max-Gold=1000000
+Text-Editor=C:\Windows\system32\notepad.exe
+Drop-warnings=DA120,DA220
+Monster.zhoon not found=False
+Monstereditor: Find maps=True
+Monstereditor: Find Items=True

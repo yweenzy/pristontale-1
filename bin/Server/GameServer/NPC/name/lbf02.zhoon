@@ -1,0 +1,6 @@
+//lbf02.npc
+
+*J_NAME			"Potion Store Marie"
+
+*J_CHAT			"You must prepare yourself well before battle"
+*J_CHAT			"Potion for sell! Buy some before you die!"

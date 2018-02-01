@@ -1,0 +1,1 @@
+<a href="index.asp"><b>Index</b></a> - <a href="account.asp"><b>Account Manager</b></a> - <a href="clan.asp"><b>Clan Manager</b></a> - <a href="sod.asp"><b>SoD Ranking</b></a> - <a href="downloads.asp"><b>Download</b></a>

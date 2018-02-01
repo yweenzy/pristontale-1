@@ -1,0 +1,6 @@
+//ji_woo.npc
+
+*J_NAME			"Ran Quest"
+
+*J_CHAT			"Low Level Quest can be done here!"
+*J_CHAT			"You must be between level 1 and 39 to do my quests!"

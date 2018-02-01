@@ -1,0 +1,370 @@
+TestMode: 0
+StartSky: 33
+
+È²¹«Áö³·0 {
+LightColor: 12 0 -7
+LightDark: 1
+FileName: Effect\\Sky\\sky02\\day\\dayspace02.ase 	        FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\day\\02daysun.ase 		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\day\\02daysky.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\day\\02dayhill.ase 		FadeDelay: 1	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky02\\day\\02dayfog.ase        		FadeDelay: 0      RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky02\\day\\02dayfog02.ase               FadeDelay: 0      RGBA: 255 255 255 255
+}
+
+È²¹«Áö³·1 {
+LightColor: 12 0 -7
+LightDark: 1
+FileName: Effect\\Sky\\sky02\\day\\dayspace02.ase 	    	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\day\\02daysun.ase 		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\day\\02daysky02.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\day\\02dayhill.ase 		FadeDelay: 1	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky02\\day\\02dayfog.ase        		FadeDelay: 0      RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky02\\day\\02dayfog02.ase               FadeDelay: 0      RGBA: 255 255 255 255
+}
+
+È²¹«ÁöÀú³á2 {
+LightColor: 30 0 -20
+LightDark: 30
+FileName: Effect\\Sky\\sky02\\evening\\eveningspace02.ase 	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\evening\\02eveningsun.ase  	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\evening\\02eveningsky.ase  	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\evening\\02eveninghill.ase 	FadeDelay: 1	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky02\\evening\\02eveningfog.ase  	FadeDelay: 0      RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky02\\evening\\02eveningfog02.ase  	FadeDelay: 0      RGBA: 255 255 255 255
+}
+
+È²¹«Áö¹ã3 {
+LightColor: -15 -15 30
+LightDark: 150
+FileName: Effect\\Sky\\sky02\\night\\nightspace02.ase 	    	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\night\\02nightsun.ase 		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\night\\02nightsky.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\night\\02nighthill.ase 		FadeDelay: 1	  RGBA: 255 255 255 255
+}
+
+½£³·4 {
+LightColor: 0 0 -10
+LightDark: 1
+FileName: Effect\\Sky\\june_space_day.ase 	    		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky01\\day\\01daysun.ase 		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky01\\day\\01daysky.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky01\\day\\01dayhill.ase 		FadeDelay: 1	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky01\\day\\01dayfog.ase        		FadeDelay: 0      RGBA: 255 255 255 255
+}
+
+½£Àú³á5 {
+LightColor: 28 0 -30
+LightDark: 24
+FileName: Effect\\Sky\\june_space_evening.ase 	    		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky01\\evening\\01eveningsun.ase  	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky01\\evening\\01eveningsky.ase  	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky01\\evening\\01eveninghill.ase 	FadeDelay: 1	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky01\\evening\\01eveningfog.ase  	FadeDelay: 0      RGBA: 200 200 200 200
+}
+
+½£¹ã6 {
+LightColor: -50 0 10
+LightDark: 145
+FileName: Effect\\Sky\\june_space_night.ase 	    		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky01\\night\\01nightsun.ase 		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky01\\night\\01nightsky.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky01\\night\\01nighthill.ase 		FadeDelay: 1	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky01\\night\\01nightfog.ase        	FadeDelay: 0      RGBA: 200 200 200 200
+}
+
+ºñ¿À´ÂÇÏ´Ã7 {
+LightColor: 0 0 0 
+LightDark: 1
+FileName: Effect\\Sky\\SkyRain\\rainsky01.ase 	    		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\SkyRain\\rainfog01.ase          		FadeDelay: 0      RGBA: 255 255 255 255
+}
+
+»ç¸·³·8 {
+LightColor: 4 0 -14
+LightDark: 1
+FileName: Effect\\Sky\\Sky04\\day\\space_sa_day.ase 	        FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky04\\day\\04daysky.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky04\\day\\04dayhill.ase 		FadeDelay: 1	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky04\\day\\04dayfog.ase        		FadeDelay: 0      RGBA: 255 255 255 255
+}
+
+
+»ç¸·Àú³á9 {
+LightDark: 60
+LightColor: 35 0 -20
+FileName: Effect\\Sky\\Sky04\\evening\\space_sa_evening.ase	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky04\\evening\\04eveningsun.ase 	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky04\\evening\\04eveningsky.ase  	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky04\\evening\\04eveninghill.ase 	FadeDelay: 1	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky04\\evening\\04eveningfog.ase        	FadeDelay: 0      RGBA: 255 255 255 255
+}
+
+»ç¸·¹ã10 {
+LightColor: -10 20 15
+LightDark: 160
+FileName: Effect\\Sky\\Sky04\\night\\space_sa_night.ase 	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky04\\night\\04nightsun.ase 		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky04\\night\\04nightsky.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky04\\night\\04nighthill.ase 		FadeDelay: 1	  RGBA: 255 255 255 255
+}
+
+¸ð¶ó½£11 {
+LightColor: 3 0 -8
+LightDark: 1
+FileName: Effect\\Sky\\space_mo_day.ase 	                FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky05\\day\\05daysky.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky05\\day\\05dayhill.ase 		FadeDelay: 1	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky05\\day\\05dayfog.ase        		FadeDelay: 0      RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky05\\day\\05dayfog01.ase        	FadeDelay: 0      RGBA: 255 255 255 255
+}
+
+¸ð¶ó½£Àú³á12 {
+LightColor: 15 0 -25
+LightDark: 50
+FileName: Effect\\Sky\\space_mo_evening.ase	                FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky05\\evening\\05eveningsun.ase 	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky05\\evening\\05eveningsky.ase  	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky05\\evening\\05eveninghill.ase 	FadeDelay: 1	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky05\\evening\\05eveningfog.ase        	FadeDelay: 0      RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky05\\evening\\05eveningfog01.ase       FadeDelay: 0      RGBA: 255 255 255 255
+}
+
+¸ð¶ó½£¹ã13 {
+LightColor: 0 -15 -17
+LightDark: 206
+FileName: Effect\\Sky\\space_mo_night.ase 	                FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky05\\night\\05nightsun.ase 		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky05\\night\\05nightsky.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky05\\night\\05nighthill.ase 		FadeDelay: 1	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky05\\night\\05nightfog.ase             FadeDelay: 0      RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky05\\night\\05nightfog01.ase           FadeDelay: 0      RGBA: 255 255 255 255
+}
+
+¾ÆÀÌ¾ð³·14 {
+LightColor: 10  0 -3
+LightDark: 1
+Fog: 	StartPos: 1 	EndPos: 2000	RGBA: 30 0 0 255
+FileName: Effect\\Sky\\Sky07\\day\\space_ir_day.ase 	        FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky07\\day\\07daysky.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky07\\day\\07dayhill.ase 		FadeDelay: 1	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky07\\day\\07dayfog.ase 		FadeDelay: 0	  RGBA: 255 255 255 255
+}
+
+¾ÆÀÌ¾ðÀú³á15 {
+LightColor: 20 0 -35
+LightDark: 50
+Fog: 	StartPos: 1 	EndPos: 3000	RGBA: 70 0 30 255
+FileName: Effect\\Sky\\Sky07\\evening\\space_ir_evening.ase	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky07\\evening\\07eveningsun.ase 	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky07\\evening\\07eveningsky.ase  	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky07\\evening\\07eveninghill.ase 	FadeDelay: 1	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky07\\evening\\07eveningfog.ase        	FadeDelay: 0      RGBA: 255 255 255 255
+}
+
+¾ÆÀÌ¾ð¹ã16 {
+LightColor: -40 15 0
+LightDark: 165
+Fog: 	StartPos: 1000	EndPos: 3000	RGBA: 50 0 30 255
+FileName: Effect\\Sky\\Sky07\\night\\space_ir_night.ase 	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky07\\night\\07nightsun.ase 		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky07\\night\\07nightsky.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky07\\night\\07nighthill.ase 		FadeDelay: 1	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky07\\night\\07nightfog.ase             FadeDelay: 0      RGBA: 255 255 255 255
+}
+
+¾ÆÀÌ¾ð¹ã17 {
+LightColor: -30 18 0
+LightDark: 130
+Fog: 	StartPos: 100 	EndPos: 4000	RGBA: 50 0 30 255
+FileName: Effect\\Sky\\Sky07\\night\\space_ir_night01.ase 	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky07\\night\\07nightsun01_16.ase 	FadeDelay: 2	  RGBA: 255 255 255 200
+FileName: Effect\\Sky\\Sky07\\night\\07nightsky01.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky07\\night\\07nighthill.ase 		FadeDelay: 1	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky07\\night\\07nightmak_16.ase          FadeDelay: 0      RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky07\\night\\07nightfog.ase             FadeDelay: 0      RGBA: 255 255 255 255
+}
+
+¼ÒµåÃµ°ø³·18 {
+LightColor: 0 0 0
+LightDark: 1
+Clipping: 0
+Fog: 	StartPos: 1  EndPos: 3000	RGBA: 0 20 0 255
+FileName: Effect\\Sky\\skysod\\flyhigh\\space_sod.ase 	        FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\skysod\\flyhigh\\highsky.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\skysod\\flyhigh\\highfog.ase 		FadeDelay: 0	  RGBA: 255 255 255 255
+}
+
+¼Òµå´Þ¹ã19 {
+LightColor: 0 0 0
+LightDark: 1
+Clipping: 0
+Fog: 	StartPos: 1  EndPos: 3000	RGBA: 0 0 0 255
+FileName: Effect\\Sky\\skysod\\moonsky\\space_moon.ase 	        FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\skysod\\moonsky\\moonsky.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\skysod\\moonsky\\highfog.ase 		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Skysod\\moonsky\\moon.ase  	        FadeDelay: 0	  RGBA: 255 255 255 255
+}
+
+¼Òµå°ËÁ¤20 {
+LightColor: 0 0 0
+LightDark: 1
+}
+
+¾ÆÀÌ¾ðº¸½ºÇÏ´Ã21 {
+LightColor: 30 0 -20
+LightDark: 30
+Clipping: 0
+Fog: 	StartPos: 1000	EndPos: 3000	RGBA: 50 0 30 255
+FileName: Effect\\Sky\\boss\\08b-space.ase 	        	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\boss\\08b-sky.ase 			FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\boss\\08b-sky01.ase  			FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\boss\\08b-mark.ase 			FadeDelay: 1	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\boss\\02eveningfog.ase             	FadeDelay: 0      RGBA: 255 255 255 255
+}
+
+OpneingÇÏ´Ã22 {
+LightColor: 30 0 -20
+LightDark: 70
+Clipping: 1
+Fog: 	StartPos: 1000	EndPos: 3000	RGBA: 50 0 30 255
+FileName: Effect\\Sky\\boss\\08b-space.ase 	        	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\boss\\08b-sky.ase 			FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\boss\\08b-sky01.ase  			FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\boss\\08b-mark.ase 			FadeDelay: 1	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\boss\\02eveningfog.ase             	FadeDelay: 0      RGBA: 255 255 255 255
+}
+
+¾ÆÀÌ½º³·23 {
+LightColor: -10 0 0
+LightDark: 1
+Clipping: 1
+Fog: 	StartPos: 500 	EndPos: 1500	RGBA: 0 0 5 100
+FileName: Effect\\Sky\\sky06\\day\\dayspace06.ase 	    	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky06\\day\\06daysky.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky06\\day\\06dayhill.ase 		FadeDelay: 1	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky06\\day\\05dayfog.ase        		FadeDelay: 0      RGBA: 255 255 255 255
+}
+
+¾ÆÀÌ½ºÀú³á24 {
+LightColor: 40 0 -20
+LightDark: 60
+Clipping: 1
+Fog: 	StartPos: 500 	EndPos: 2000	RGBA: 10 0 20 255
+FileName: Effect\\Sky\\sky06\\evening\\eveningspace06.ase 	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky06\\evening\\06eveningsky.ase  	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky06\\evening\\06eveninghill.ase 	FadeDelay: 1	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky06\\evening\\02eveningfog.ase  	FadeDelay: 0      RGBA: 255 255 255 255
+}
+
+¾ÆÀÌ½º¹ã25 {
+LightColor: -15 -15 15
+LightDark: 180
+Clipping: 1
+Fog: 	StartPos: 500 	EndPos: 2000	RGBA: 30 0 0 255
+FileName: Effect\\Sky\\sky06\\night\\nightspace06.ase 	    	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky06\\night\\06nightsun.ase 		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky06\\night\\06nightsky.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky06\\night\\06nighthill.ase 		FadeDelay: 1	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky06\\night\\05nightfog.ase  	        FadeDelay: 0      RGBA: 255 255 255 255
+}
+
+³²ÀÌ¼¶³·26 {
+LightColor: -10 0 0
+LightDark: 1
+Clipping: 1
+Fog: 	StartPos: 1  EndPos: 3000	RGBA: 0 20 0 100
+FileName: Effect\\Sky\\sky08\\day\\space_sod.ase 	        FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\sky08\\day\\highsky.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\sky08\\day\\highfog.ase 		FadeDelay: 0	  RGBA: 255 255 255 255
+
+}
+
+³²ÀÌ¼¶Àú³á27 {
+LightColor: 40 0 -20
+LightDark: 60
+Clipping: 1
+Fog: 	StartPos: 500  EndPos: 2000	RGBA: 10 0 20 255
+FileName: Effect\\Sky\\sky08\\evening\\space_moon.ase 	        FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\sky08\\evening\\moonsky.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\sky08\\evening\\highfog.ase 		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\sky08\\evening\\02eveningsun.ase  	FadeDelay: 0	  RGBA: 255 255 255 255
+}
+
+
+³²ÀÌ¼¶¹ã28 {
+LightColor: -30 10 0
+LightDark: 160
+Clipping: 1
+Fog: 	StartPos: 1  EndPos: 3000	RGBA: 0 0 0 255
+FileName: Effect\\Sky\\sky08\\night\\space_moon.ase 	        FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\sky08\\night\\moonsky.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\sky08\\night\\highfog.ase 		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\sky08\\night\\moon.ase  	                FadeDelay: 0	  RGBA: 255 255 255 255
+}
+
+·Î½ºÆ®³·29 {
+LightColor: -20 -10 0
+LightDark: 1
+Clipping: 0
+
+FileName: Effect\\Sky\\lostsky\\day\\space.ase	 	    	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\lostsky\\day\\sky.ase	  		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\lostsky\\day\\skyhill.ase 		FadeDelay: 1	  RGBA: 255 255 255 255
+
+}
+
+·Î½ºÆ®Àú³á30 {
+LightColor: -20 0 30
+LightDark: 60
+Clipping: 1
+Fog: 	StartPos: 1000 	EndPos: 2000	RGBA: 10 10 10 255
+FileName: Effect\\Sky\\lostsky\\evening\\eveningspace.ase 	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\lostsky\\evening\\evening.ase   		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\lostsky\\evening\\eveninghill.ase   	FadeDelay: 0	  RGBA: 255 255 255 255
+}
+
+
+·Î½ºÆ®Àú³á31 {
+LightColor: -30 0 40
+LightDark: 120
+Clipping: 1
+Fog: 	StartPos: 500 	EndPos: 2000	RGBA: 10 10 5 255
+FileName: Effect\\Sky\\lostsky\\night\\nightspace.ase 	        FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\lostsky\\night\\night.ase   		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\lostsky\\night\\nighthill.ase    	FadeDelay: 0	  RGBA: 255 255 255 255
+}
+
+·Î½ºÆ®ÅÛÇÃ32 {
+LightColor: 12 0 -7
+LightDark: 1
+FileName: Effect\\Sky\\losttemple\\day\\dayspace02.ase 	        FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\day\\02daysun.ase 		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\day\\02daysky.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky02\\day\\02dayfog.ase        		FadeDelay: 0      RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky02\\day\\02dayfog02.ase               FadeDelay: 0      RGBA: 255 255 255 255
+FileName: Effect\\Sky\\losttemple\\day\\skyhill.ase 		FadeDelay: 1	  RGBA: 255 255 255 255
+}
+
+·Î½ºÆ®ÅÛÇÃ33 {
+LightDark: 60
+LightColor: 35 0 -20
+FileName: Effect\\Sky\\Sky04\\evening\\space_sa_evening.ase	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky04\\evening\\04eveningsun.ase 	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky04\\evening\\04eveningsky.ase  	FadeDelay: 0	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky04\\evening\\04eveningfog.ase        	FadeDelay: 0      RGBA: 255 255 255 255
+FileName: Effect\\Sky\\losttemple\\evening\\eveninghill.ase 		FadeDelay: 1	  RGBA: 255 255 255 255
+}
+
+
+
+·Î½ºÆ®ÅÛÇÃ34 {
+LightColor: -40 15 0
+LightDark: 165
+Fog: 	StartPos: 1000	EndPos: 3000	RGBA: 50 0 30 255
+FileName: Effect\\Sky\\Sky07\\night\\space_ir_night01.ase 	FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky07\\night\\07nightsun.ase 		FadeDelay: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky07\\night\\07nightsky01.ase  		FadeDelay: 0	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky07\\night\\07nightfog.ase             FadeDelay: 0      RGBA: 255 255 255 255
+FileName: Effect\\Sky\\losttemple\\night\\nighthill.ase 		FadeDelay: 1	  RGBA: 255 255 255 255
+}

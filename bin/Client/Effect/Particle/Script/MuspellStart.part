@@ -1,0 +1,33 @@
+particlesystem "HolyValor" 1.00 {
+  position = XYZ(0,0,0)
+ eventsequence "UpLight" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 25
+    gravity = XYZ(0,-60,0)
+    emitrate = 50
+    emitradius = xyz(random(-5,5),random(-5,5),random(-5,5))
+    loops = 1
+    lifetime = 1
+    texture = "effect\\particle\\fire_003.bmp"
+    initial size = 20
+    initial color = rgba(50,150,255,70)
+    initial partAngleZ = random(0,360)
+    initial velocity = XYZ(random(-20,20),random(30,50),random(-20,20))             fade so final color = rgba(50,150,255,0)
+    fade so final size = random(80,100)
+    }
+    eventsequence "UpLight" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 30
+    gravity = XYZ(0,-10,0)
+    emitrate = 50
+    emitradius = xyz(0,-10,0)
+    loops = 1
+    lifetime = 1
+    texture = "effect\\particle\\fire_003.bmp"
+    initial size = 20
+    initial color = rgba(50,150,255,90)
+    initial partAngleZ = random(0,360)
+    initial velocity = XYZ(random(-20,20),random(50,100),random(-20,20))         fade so final color = rgba(50,150,255,0)
+    fade so final size = random(30,70)
+    }
+}

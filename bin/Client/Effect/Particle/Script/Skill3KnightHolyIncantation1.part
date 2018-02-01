@@ -1,0 +1,80 @@
+particlesystem "HolyValor" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "light2" {
+    sourceblendmode = BLEND_LAMP
+    particleType = TYPE_THREE
+    numparticles = 20
+    gravity = XYZ(0,0,0)
+    emitrate = 10
+    loops = 1
+    emitradius = xyz(random(-15,15),110,random(-15,15))
+    lifetime = 1
+    texture = "effect\\particle\\flare.tga"
+    initial size = random(5,10)
+    initial sizeext = random(200,300)
+    
+    initial color = rgba(0, 0, 0, 0)
+    fade so at 0.4 color = rgba(100,150,255,200)
+   initial velocity = XYZ(0,0,0)
+    fade so final color = rgba(0,0,0,0)
+    }
+    eventsequence "light2" {
+    sourceblendmode = BLEND_LAMP
+    particleType = TYPE_THREE
+    numparticles = 10
+    gravity = XYZ(0,0,0)
+    emitrate = 8
+    loops = 1
+    emitradius = xyz(random(-10,10),110,random(-10,10))
+    lifetime = 1
+    texture = "effect\\particle\\flare.tga"
+    initial size = random(5,8)
+    initial sizeext = random(200,300)
+    
+    initial color = rgba(0, 0, 0, 0)
+    fade so at 0.4 color = rgba(255,255,255,180)
+   initial velocity = XYZ(0,0,0)
+    fade so final color = rgba(0,0,0,0)
+    }
+
+  eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    particleType = TYPE_TWO
+    loops = 1
+    numparticles = 2
+    gravity = XYZ(0,0,0)
+    emitrate = 3
+    emitradius = xyz(0,120,0)
+    lifetime = 4
+    texture = "effect\\particle\\Aurora.bmp"
+    initial size = 30
+    initial sizeExt = 250
+    initial color = rgba(100,100,100,100)
+    initial velocity = XYZ(0,0,0)
+    initial partAngleX = 90
+    initial partAngleY = 90
+    fade so at 1 color = rgba(100,100,100,100)
+    //fade so at 2 color = rgba(150,150,150,150)
+    fade so final color = rgba(0,0,0,0)
+    }
+   eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    particleType = TYPE_TWO
+    loops = 1
+    numparticles = 2
+    gravity = XYZ(0,0,0)
+    emitrate = 3
+    emitradius = xyz(0,120,-10)
+    lifetime = 3
+    texture = "effect\\particle\\Aurora.bmp"
+    initial size = 30
+    initial sizeExt = 250
+    initial color = rgba(0,0,0,0)
+    initial velocity = XYZ(0,0,8)
+    initial partAngleX = 90
+    fade so at 1 color = rgba(100,100,100,100)
+    fade so at 2 color = rgba(150,150,150,150)
+    //fade so at 3 color = rgba(100,100,100,100)
+    fade so final color = rgba(0,0,0,0)
+    }
+}

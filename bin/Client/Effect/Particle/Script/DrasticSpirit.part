@@ -1,0 +1,185 @@
+particlesystem "HolyValor" 1.00 {
+  position = XYZ(0,0,0)
+  
+  eventsequence "Light1" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 2
+    gravity = XYZ(0,0,0)
+    emitrate = 100
+    emitradius = xyz(0,random(20,50),0)
+    lifetime = 2
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 80
+    initial color = rgba(120,80,200,100)
+    initial velocity = XYZ(0,0,0)
+    fade so at 0.5 color = rgba(100,100,255,200)
+    fade so final color = rgba(0,0,0,0)
+   }
+
+ eventsequence "smallParticle" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 15
+    delay = 0.2
+    gravity = XYZ(0,0,0)
+    emitrate = 40
+    emitradius = xyz(random(-15,15),random(0,-20),random(-15,15))
+    lifetime = 1
+    texture = "effect\\particle\\star05b_01.bmp"
+    initial size = 6
+    initial color = rgba(255,255,255,255)
+    initial velocity = XYZ(0,random(20,50),0)
+    initial LocalAngleY = 0
+    at 0.2 size = 35
+    at 0.4 size = 20
+    at 0.6 size = 35
+    at 0.8 size = 20
+    at 1.0 size = 35
+    at 1.2 size = 20
+    fade so final color = rgba(0,0,0,0)
+    fade so final LocalAngleY = random(200,400)
+   }
+   eventsequence "smallParticle" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 10
+    delay = 0.5
+    gravity = XYZ(0,0,0)
+    emitrate = 30
+    emitradius = xyz(random(-8,8),random(-5,5),random(-8,8))
+    lifetime = 1.2
+    texture = "effect\\particle\\star05B_01.bmp"
+    initial size = 10
+    initial color = rgba(255,255,255,255)
+    initial velocity = XYZ(0,random(20,60),0)
+    initial LocalAngleY = 0
+    at 0.2 size = 10
+    at 0.4 size = 5
+    at 0.6 size = 10
+    at 0.8 size = 5
+    at 1.0 size = 10
+    at 1.2 size = 5
+    fade so final color = rgba(0,0,0,0)
+    fade so final LocalAngleY = random(200,300)    
+   }
+
+   eventsequence "faeries" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_THREE
+    numparticles = 1
+    loops = 1
+    delay = 0
+    gravity = XYZ(0,0,0)
+    emitrate = 60
+    emitradius = xyz(0,17,0)
+    lifetime = 2.8
+    texture = "effect\\particle\\helmet01.bmp"
+    initial size = 25
+    initial sizeExt = 20
+    initial LocalAngleY = 0
+    initial color = rgba(40,40,40,40)
+    fade so at 1.0 color = rgba(150,150,150,150)
+    fade so at 2.0 color = rgba(255,255,255,255)
+    fade so at 2.5 color = rgba(255,255,255,255)
+    fade so at 2.8 color = rgba(0,0,0,0)
+    at 0.0 velocity = xyz(0, 30, 0)
+    at 1.2 velocity = xyz(0, 0, 0)
+  }
+   
+  eventsequence "DownLight" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 3
+    emitradius = xyz(0,0,0)
+    lifetime = 1000
+    texture = "effect\\particle\\light1.bmp"
+    initial size = 60
+    initial color = rgba(120,80,80,80)
+    initial velocity = XYZ(0,0,0)
+    fade so at 1.0 color = rgba(150,100,150,200)
+    fade so at 2.0 color = rgba(100,50,100,150)
+    fade so at 3.0 color = rgba(150,100,150,200)
+    at 3 eventtimer = 1.0
+    fade so at 6.0 color = rgba(0,0,0,0)
+    }
+    
+    eventsequence "MiddleLight" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 50
+    emitradius = xyz(0,17,0)
+    lifetime = 1000
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 70
+    initial color = rgba(160,100,200,200)
+    initial velocity = XYZ(0,0,0)
+    fade so at 1 color = rgba(160,110,220,255)
+    fade so at 2 color = rgba(140,90,200,200)
+    fade so at 3 color = rgba(160,110,220,255)
+    at 3 eventtimer = 1
+    fade so at 6.0 color = rgba(0,0,0,0)
+    }
+
+eventsequence "Down1" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 100
+    emitradius = xyz(0,0,0)
+    lifetime = 1000
+    texture = "effect\\particle\\DrasticSpirit_down.bmp"
+    initial size = 30
+    initial color = rgba(50,50,50,50)
+    initial velocity = XYZ(0,0,0)
+    initial partAngleY = 0
+    fade so at 1.0 size = 35
+    fade so at 2.0 size = 34
+    fade so at 3.0 size = 35
+    at 3 eventtimer = 1.0
+    fade so at 3.1 color = rgba(255,255,255,255)
+    fade so at 4.0 color = rgba(200,200,200,200)
+    fade so at 5.0 color = rgba(0,0,0,0)
+    fade so at  3.0 partAngleY = 50
+    fade so at 4.0 size = 35
+    at 5.0 size = 35
+
+   }
+   
+    eventsequence "Down2" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 100
+    emitradius = xyz(0,0,0)
+    lifetime = 1000
+    texture = "effect\\particle\\DrasticSpirit_down2.bmp"
+    initial size = 30
+    initial color = rgba(0,0,0,0)
+    initial velocity = XYZ(0,0,0)
+    initial partAngleY = 0
+    fade so at 1.0 size = 35
+    fade so at 2.0 size = 34
+    fade so at 3.0 size = 35
+    fade so at 1.0 color = rgba(250,220,220,200)
+    fade so at 2.0 color = rgba(0,0,0,0)
+    fade so at 3.0 color = rgba(250,220,220,200)
+    fade so at color 
+    at 3 eventtimer = 1.0
+    fade so at 3.1 color = rgba(255,220,220,200)
+    fade so at 4.0 color = rgba(200,180,180,170)
+    fade so at 5.0 color = rgba(0,0,0,0)
+    fade so at 3.0 partAngleY = 50
+    fade so at 4.0 size = 35
+    at 5.0 size = 35
+   }
+}

@@ -1,0 +1,6 @@
+//lbf01.npc
+
+*J_NAME			"Teleport Store Wendy"
+
+*J_CHAT			"You must prepare yourself well before battle"
+*J_CHAT			"Oh hey! Do you want to buy some cores?"

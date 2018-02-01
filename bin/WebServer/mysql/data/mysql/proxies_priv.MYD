@@ -1,0 +1,43 @@
+ÿlocalhost                                                                                                                                                                           root                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       W+M2017-05-01 09:39:55 11716 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-01 09:39:55 11716 [Warning] Info table is not ready to be used. Table 'mysql.slave_master_info' cannot be opened.
+2017-05-01 09:39:55 11716 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-01 09:39:55 11716 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-05-01 09:39:55 11716 [Warning] Info table is not ready to be used. Table 'mysql.slave_relay_log_info' cannot be opened.
+2017-05-01 09:39:55 11716 [ERROR] Column count of mysql.events_waits_current is wrong. Expected 19, found 16. Created with MySQL 50525, now running 50626. Please use mysql_upgrade to fix this error.
+2017-05-01 09:39:55 11716 [ERROR] Column count of mysql.events_waits_history is wrong. Expected 19, found 16. Created with MySQL 50525, now running 50626. Please use mysql_upgrade to fix this error.
+2017-05-01 09:39:55 11716 [ERROR] Column count of mysql.events_waits_history_long is wrong. Expected 19, found 16. Created with MySQL 50525, now running 50626. Please use mysql_upgrade to fix this error.
+2017-05-01 09:39:55 11716 [ERROR] Incorrect definition of table performance_schema.events_waits_summary_by_thread_by_event_name: expected column 'THREAD_ID' at position 0 to have type bigint(20), found type int(11).
+2017-05-01 09:39:55 11716 [ERROR] Column count of mysql.file_summary_by_event_name is wrong. Expected 23, found 5. Created with MySQL 50525, now running 50626. Please use mysql_upgrade to fix this error.
+2017-05-01 09:39:55 11716 [ERROR] Column count of mysql.file_summary_by_instance is wrong. Expected 25, found 6. Created with MySQL 50525, now running 50626. Please use mysql_upgrade to fix this error.
+2017-05-01 09:39:55 11716 [ERROR] Incorrect definition of table performance_schema.mutex_instances: expected column 'LOCKED_BY_THREAD_ID' at position 2 to have type bigint(20), found type int(11).
+2017-05-01 09:39:55 11716 [ERROR] Incorrect definition of table performance_schema.rwlock_instances: expected column 'WRITE_LOCKED_BY_THREAD_ID' at position 2 to have type bigint(20), found type int(11).
+2017-05-01 09:39:55 11716 [ERROR] Column count of mysql.threads is wrong. Expected 14, found 3. Created with MySQL 50525, now running 50626. Please use mysql_upgrade to fix this error.
+2017-05-01 09:39:55 11716 [Note] Event Scheduler: Loaded 0 events
+2017-05-01 09:39:55 11716 [Note] d:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.6.26'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-05-01 09:54:16 18e4 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-05-01 09:54:16 18e4 InnoDB: Error: Fetch of persistent statistics requested for table "usr_web842_3"."category" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-05-01 09:54:16 18e4 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-05-01 09:54:16 18e4 InnoDB: Error: Fetch of persistent statistics requested for table "usr_web842_3"."user" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-05-01 09:55:32 18e4 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-05-01 09:55:32 18e4 InnoDB: Error: Fetch of persistent statistics requested for table "usr_web842_3"."collection" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-05-01 09:55:32 3334 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-05-01 09:55:32 3334 InnoDB: Error: Fetch of persistent statistics requested for table "usr_web842_3"."user_collections_set" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-05-01 09:55:32 3334 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-05-01 09:55:32 3334 InnoDB: Error: Fetch of persistent statistics requested for table "usr_web842_3"."book" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-05-01 09:55:32 3334 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-05-01 09:55:32 3334 InnoDB: Error: Fetch of persistent statistics requested for table "usr_web842_3"."user_collection" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-05-01 09:55:35 1574 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-05-01 09:55:35 1574 InnoDB: Error: Fetch of persistent statistics requested for table "usr_web842_3"."book_variants" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-05-01 11:29:10 1574 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-05-01 11:29:10 1574 InnoDB: Error: Fetch of persistent statistics requested for table "usr_web842_3"."author" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-05-01 11:29:10 1574 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-05-01 11:29:10 1574 InnoDB: Error: Fetch of persistent statistics requested for table "usr_web842_3"."publisher" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-05-01 11:29:10 1574 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-05-01 11:29:10 1574 InnoDB: Error: Fetch of persistent statistics requested for table "usr_web842_3"."book_format" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-05-01 11:29:10 1574 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-05-01 11:29:10 1574 InnoDB: Error: Fetch of persistent statistics requested for table "usr_web842_3"."book_images" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-05-01 14:50:15 18e4 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-05-01 14:50:15 18e4 InnoDB: Error: Fetch of persistent statistics requested for table "usr_web842_3"."private_messages" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-05-01 14:50:15 18e4 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-05-01 14:50:15 18e4 InnoDB: Error: Fetch of persistent statistics requested for table "usr_web842_3"."user_expenses_history" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.

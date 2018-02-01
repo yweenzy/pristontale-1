@@ -1,0 +1,23 @@
+particlesystem "HolyValor" 1.00 {
+  position = XYZ(0,0,0)
+ eventsequence "UpLight" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 2
+    gravity = XYZ(0,0,0)
+    emitrate = 20
+    emitradius = xyz(0,0,0)
+    lifetime = 1000
+    texture = "effect\\particle\\flare2.bmp"
+    initial size = 20
+    initial color = rgba(50,200,200,50)
+    initial velocity = XYZ(0,0,0)
+    fade so at 0.5 color = rgba(50,200,250,150)
+    fade so at 0.5 size   = 35
+    fade so at 1 color    = rgba(50,200,250,100)
+    fade so at 1 size      = 32
+    fade so at 1.5 color = rgba(50,200,250,150)
+    fade so at 1.5 size   = 35
+    at 1.5 eventtimer = 0.5
+    fade so at 2.0 color = rgba(0,0,0,0)
+    }
+}

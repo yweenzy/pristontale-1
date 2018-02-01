@@ -1,0 +1,66 @@
+particlesystem "FireJet" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "FuryRespawn" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    loops = 1
+    numparticles = 8
+    gravity = XYZ(0,0,0)
+    emitrate = 4
+    emitradius = xyz(0,0,0)
+    lifetime = 1.5
+    texture = "effect\\particle\\circle_001.bmp"
+    initial size = random(50,80)
+    initial color = rgba(255,255,255,0)
+    initial velocity = XYZ(0,0,0)
+    fade so at 0.35 color = rgba(255,255,255,200)
+    fade so at 0.5 color = rgba(255,255,255,255)
+    fade so at 0.9 color = rgba(0,0,0,0)
+    fade so final size = 0
+    }
+  eventsequence "FuryRespawn" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    loops = 1
+    numparticles = 9
+    gravity = XYZ(0,0,0)
+    emitrate = 4
+    emitradius = xyz(0,0,0)
+    lifetime = 1
+    texture = "effect\\particle\\circle-1.bmp"
+    initial size = 50
+    initial color = rgba(255,255,255,0)
+    initial partAngleY = random(0,360)
+    fade so at 0.5 color = rgba(150,150,255,150)
+    fade so at 0.7 color = rgba(150,150,255,150)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 70
+    }
+
+  eventsequence "FuryRespawn" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_THREE
+    loops = 1
+    numparticles = 6
+    gravity = XYZ(0,0,0)
+    emitrate = 3
+    emitradius = xyz(0,0,0)
+    lifetime = 3
+    texture = "effect\\particle\\circle-1.bmp"
+    initial size = 30
+    initial sizeExt = 50
+    initial color = rgba(255,255,255,0)
+    initial partAngleY = random(0,360)
+    fade so at 0.6 color = rgba(150,150,255,60)
+    fade so at 0.7 color = rgba(150,150,255,90)
+    fade so at 0.8 color = rgba(150,150,255,60)
+    fade so at 0.9 color = rgba(150,150,255,90)
+    fade so at 1.1 color = rgba(150,150,255,60)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 90
+    fade so final sizeExt = 100
+    }
+}
+
+
+

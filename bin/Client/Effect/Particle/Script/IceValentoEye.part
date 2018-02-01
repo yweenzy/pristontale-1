@@ -1,0 +1,39 @@
+particlesystem "FuryEye" 1.00 {
+  position = XYZ(1,88.5,-5)
+  
+  eventsequence "FireJet" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 10
+    gravity = XYZ(0,-10,0)
+    emitrate = 30
+    lifetime = Random(0,0.8)
+    texture = "effect\\particle\\flare.tga"
+    
+    initial color = rgba(220,80,50,255)
+    initial size = 6
+    initial velocity = XYZ(random(-5,5),random(-5,10),random(-5,5))
+    initial partAngleZ = random(0,360)
+    fade so final color = rgba(0,0,0,0)
+    fade so final partAngleZ = random(0,360)
+    fade so final size = 2
+    }
+
+   eventsequence "FireJet" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 10
+    gravity = XYZ(0,-10,0)
+    emitrate = 30
+    lifetime = Random(0,0.5)
+    texture = "effect\\particle\\flare.tga"
+    
+    initial color = rgba(255,50,50,255)
+    initial size = random(10,18)
+    initial sizeExt = 2
+    initial velocity = XYZ(0,0,0)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 1
+    } 
+}
+
+
+

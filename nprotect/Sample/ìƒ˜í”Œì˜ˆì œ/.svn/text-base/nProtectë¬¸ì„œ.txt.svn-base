@@ -1,0 +1,41 @@
+★  nProtect   ★
+
+● nProtect 실행순서
+nProtect의 변조여부 -> nProtect의 실행 -> 게임 종료시 nProtect의 종료(메모리에서의 리무브)
+
+- FindWindow 시 Findhack.exe화일이 아닌 npmon.exe를 check를 해주어야 합니다
+- UpdateData는 nProtect사에 문의를 했으나 관계자가 없어서 e-mail로 내용을 알려준다고 하였습니다
+- nProtect가 체크하는 해킹및 크랙툴의 리스트 또한 e-mail로 보내준다고 하였습니다
+- 기타 nProtect가 발견하지 못하는 크랙및 해킹툴들은 연락을 해주면 조취를 취해준다고 하였습니다
+
+
+
+
+★ nProtect 사용을 위해 만든 함수 ★
+ 
+
+●int NProtectCheck(void)		nProtect 의 화일 변조여부 체크해주는 함수
+●int NProtectFree(void)		nProtect를 메모리에서의 지워주는 함수
+
+nProtect 변조 여부와 종료시 리턴값
+0	:	정상적 처리
+1	:	Can't Load Dll
+2	:	Can't Load Funcation
+3	:	Alert!! Modified File
+4	:	Can't Free Dll
+5	:	Error Kill
+
+
+●int NProtectRun(void)		nProtect의 실행 함수
+
+nProtect 로드시(실행시) 리턴값의 결과값
+1024 : 진단결과 메모리상에 해킹툴이 존재하지 않을경우
+1025 : 진단결과 메모리상에 해킹둘이 존재하나 정상적으로 치료했을경우
+1026 : 진단결과 메모리상의 해킹툴을 감지했으나 사용자가 치료를 선택하지 않거나 프로그램에서 치료를 정상적으로 하지 못했을경우
+1027 : 해킹툴 진단 프로그램이 정상적으로 다운로드 되지 않았을경우. URL이 잘못되거나 서버가 정상적으로 동작하지 않을 경우
+1028 : NPX.DLL등록 에러 및 nProtect 구동에 필요한 파일이 없을경우
+1029 : 프로그램내에서 예외사항이 발생했을 경우
+1030 : 사용자가 "종료" 버튼을 클릭했을 경우의 처리값
+
+
+●void Init()			암호화 된부분을 정상적으로 돌려주는 함수

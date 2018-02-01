@@ -1,0 +1,78 @@
+particlesystem "HolyValor" 1.00 {
+  position = XYZ(0,0,0)
+  
+  eventsequence "Light1" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 2
+    gravity = XYZ(0,0,0)
+    emitrate = 100
+    emitradius = xyz(0,random(20,50),0)
+    lifetime = 2
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 80
+    initial color = rgba(80,80,200,100)
+    initial velocity = XYZ(0,0,0)
+    fade so at 0.5 color = rgba(100,100,255,200)
+    fade so final color = rgba(0,0,0,0)
+   }
+  eventsequence "smallParticle" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 10
+    gravity = XYZ(0,0,0)
+    emitrate = 50
+    emitradius = xyz(random(-15,15),random(-5,5),random(-15,15))
+    lifetime = 1.2
+    texture = "effect\\particle\\flare.tga"
+    initial size = 4
+    initial color = rgba(255,255,255,255)
+    initial velocity = XYZ(0,random(20,60),0)
+    at 0.2 size = 8
+    at 0.4 size = 4
+    at 0.6 size = 8
+    at 0.8 size = 4
+    at 1.0 size = 8
+    at 1.2 size = 4
+    fade so final color = rgba(0,0,0,0)
+   }
+    
+   eventsequence "faeries" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_THREE
+    numparticles = 1
+    loops = 1
+    delay = 0.2
+    gravity = XYZ(0,0,0)
+    emitrate = 60
+    emitradius = xyz(0,40,0)
+    lifetime = 2
+    texture = "effect\\particle\\NT4-2.bmp"
+    initial size = 25
+    initial sizeExt = 20
+    initial LocalAngleY = 0
+    initial color = rgba(100,100,100,100)
+    fade so at 1.0 color = rgba(255,255,255,255)
+    at 0.8 velocity = xyz(0, 20, 0)
+    fade so final color = rgba(0,0,0,0)
+   }
+    eventsequence "Line" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_THREE
+    numparticles = 20
+    loops = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 60
+    emitradius = xyz(random(-13,13),random(0,20),random(-13,13))
+    lifetime = 1
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 5
+    initial sizeExt = random(50,100)
+    initial LocalAngleY = 0
+    initial color = rgba(0,100,230,255)
+    initial velocity = XYZ(0,random(50,100),0)
+    fade so at 0.5 velocity = XYZ(0,random(50,100),0)
+    fade so final color = rgba(0,0,0,0)
+    fade so final LocalAngleY = random(400,500)
+  }
+ }

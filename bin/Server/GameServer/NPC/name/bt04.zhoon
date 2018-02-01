@@ -1,0 +1,6 @@
+//Bcn01.npc
+
+*J_NAME			"Battle Guard"
+
+*J_CHAT			"Stop! You are not able to leave our Battle Town!"
+*J_CHAT			"Just the strongest man survives here!"

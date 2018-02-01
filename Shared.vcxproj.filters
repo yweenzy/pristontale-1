@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Src\Utils">
+      <UniqueIdentifier>{d32e8782-587f-47a2-b451-cea49e7d51b9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shared\src\common.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared\src\Utils\utils.h">
+      <Filter>Src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared\src\Utils\utils_exception.h">
+      <Filter>Src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared\src\Utils\utils_filesystem.h">
+      <Filter>Src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared\src\Utils\utils_logging.h">
+      <Filter>Src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared\src\Utils\utils_string.h">
+      <Filter>Src\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Shared\src\Utils\utils_testing.h">
+      <Filter>Src\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Shared\src\Utils\utils_exception.cpp">
+      <Filter>Src\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Shared\src\Utils\utils_filesystem.cpp">
+      <Filter>Src\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Shared\src\Utils\utils_logging.cpp">
+      <Filter>Src\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Shared\src\Utils\utils_string.cpp">
+      <Filter>Src\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Shared\src\Utils\utils_testing.cpp">
+      <Filter>Src\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

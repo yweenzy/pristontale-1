@@ -1,0 +1,4 @@
+
+Completed the Quest and
+Received Bouns stat points
++5 and Skill Points +2.

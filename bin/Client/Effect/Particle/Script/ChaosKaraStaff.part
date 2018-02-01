@@ -1,0 +1,24 @@
+particlesystem "FireJet" 1.00 {
+  position = XYZ(0,0,0)
+
+  eventsequence "Third" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 10
+    gravity = XYZ(0,0,0)
+    emitradius = xyz(0,10,0)
+    emitrate = 75
+    lifetime = Random(0.1,0.15)
+    texture = "effect\\particle\\ice_001.bmp"
+    initial color = rgba(random(150,180), random(150,180),255,random(50,230))
+    initial size = 25
+    initial partAngleZ = random(0,360)
+    initial velocity = XYZ(random(-10,10),random(-10,10),random(-10,10))
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 2
+    }
+
+
+}
+
+
+

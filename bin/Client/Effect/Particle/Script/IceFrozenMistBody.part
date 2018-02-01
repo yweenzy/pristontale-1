@@ -1,0 +1,19 @@
+particlesystem "FrozenMistBody" 1.00 {
+  position = XYZ(0,20,0)
+
+    
+    eventsequence "FireJet" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 40
+    gravity = XYZ(0,0,0)
+    emitrate = 100
+    emitradius = xyz(random(-4,4),random(10,10),random(-4,4))
+    lifetime = Random(0.5,1)
+    texture = "effect\\particle\\flare.tga"
+    initial color = rgba(255,255,255,255)
+    initial size = random(12,16)
+    initial velocity = XYZ(random(-25,25),random(60,60),random(-25,25))
+    fade so final color = rgba(0,0,0,0)
+    }
+
+}

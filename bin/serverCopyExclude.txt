@@ -1,0 +1,6 @@
+.bmp
+.BMP
+.tga
+.TGA
+.jpg
+.JPG

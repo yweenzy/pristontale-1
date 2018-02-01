@@ -1,0 +1,524 @@
+Fadeo
+37028608
+Sparky
+37028864
+Raident
+37029120
+Transparo
+37029376
+Murky
+37029632
+Devine
+37029888
+Celesto
+37030144
+Mirage
+37030400
+Inferna
+37030656
+Enigma
+37030912
+Bellum
+37031168
+Ordo
+37031424
+EXP Potion (1 day)
+134941952
+EXP Potion (7 days)
+134942464
+Third Eyes (1 day)
+134941696
+Third Eyes (7 days)
+134942208
+Golden Package (3 hrs)
+135006464
+Golden Package (1 day)
+135006720
+Golden Package (7 days)
+135006976
+Golden Package (30 days)
+135007232
+Gold
+83951872
+Potion Hair (A)
+4786122
+Potion Hair (B)
+86148241
+Potion Hair (C)
+86148241
+Mechanic Axe
+16844544
+Double Headed Axe
+16844800
+Diamond Axe
+16845312
+Jagged Axe
+16845568
+Cleaver
+16845824
+Gigantic Axe
+16846080
+Tomahawk
+16846336
+Titan Axe
+16846592
+Chaos Axe
+16846848
+Ancient Axe
+16847104
+Relic Axe
+16847360
+Fury Axe
+16847872
+Wyvern Axe
+16848128
+Zecram axe
+16848384
+Hand Blade
+16910080
+Pharaoh
+16910336
+Brutal Claw
+16910592
+Hydra Claw
+16910848
+Leviathan
+16911104
+Wyvern Claw
+16911360
+Chaos Claw
+16911616
+Wing Talon
+16911872
+Doom Talon
+16912128
+Titan Talon
+16912384
+Salamander Talon
+16912640
+Phoenix Talon
+16912896
+Dragon Talon
+16913408
+Viper Talon
+16913664
+Injustice Talon
+16913920
+Trident
+17106688
+Enriched Scythe
+17106688
+Double Scythe
+17106944
+Evil Scythe
+17107200
+Chaos Spear
+17107712
+Titan Spear
+17107968
+STYX Scythe
+17108224
+Dragon Wing
+17108480
+Butterfly
+17108736
+Mystic Spear
+17108992
+Hyper Scythe
+17109248
+Oracle Spear
+17109504
+Immortal Scythe
+17109760
+Extreme Spear
+17110016
+Phoenix Spear
+17110272
+Dreadnaught Spear
+17110528
+Reaper Spear
+17110784
+Great Crossbow
+17172480
+Metal Hand Crossbow
+17172736
+Double Crossbow
+17172992
+Sagittarius
+17173504
+Ancient CrossBow
+17173760
+Titan Bow
+17174016
+Chaos Bow
+17174272
+Swift Bow
+17174528
+Relic Crossbow
+17174784
+Thunder Bow
+17175040
+Wave Bow
+17175296
+Grand Bow
+17175552
+Mirage Bow
+17175808
+Dragon Bow
+17176064
+Wyvern Bow
+17176320
+Dragon Bow
+17172224
+Immortal Bow
+17176576
+Blade
+17237760
+Shield Sword
+17238272
+Plated Sword
+17238528
+HighLander
+17239552
+Bastard Sword
+17239808
+Fatal Sword
+17240064
+Ancient Sword
+17240320
+Twin Sword
+17240576
+Salamander Sword
+17240832
+Avenger Sword
+17241088
+Titan Sword
+17241344
+Wyvern Sword
+17241600
+Dragon Sword
+17241856
+Justice Sword
+17242112
+Phoenix Sword
+17238016
+Extreme Sword
+17242368
+Hiper Sword
+17239296
+Fatal Javelin
+17303296
+Matal Javelin
+17303552
+Cobra Javelin
+17303808
+Winged Javelin
+17304064
+Holy Javelin
+17304320
+Trowing Trident
+17304576
+Wyvern Javelin
+17304832
+Twisted Javelin
+17305088
+Link Javelin
+17305344
+Mystic Javelin
+17305856
+Extreme Javelin
+17306112
+Dragon Javelin
+17306368
+Spike Javelin
+17306624
+Legend Javelin
+17306880
+Immortal Javelin
+17307136
+Heretic Javelin
+17307392
+Dryad Wand
+17041152
+Meditation Staff
+17041408
+Skull Staff
+17041664
+Mage Staff
+17041920
+Lofty Staff
+17042432
+Chaos Staff
+17042944
+Rune Wand
+17043200
+Rune Staff
+17043456
+Apostle Wand
+17043712
+Relic Staff
+17043968
+Dragon Staff
+17044224
+Wyvern Wand
+17044480
+Astral Staff
+17044736
+Oracle Wand
+17044992
+Celestial Staff
+17045248
+Wyvern Bracelets
+50467584
+Dragon Bracelets
+50467840
+Inferno Bracelets
+50468096
+Phoenix Bracelets
+50468352
+Breast Plate
+33621760
+Ring Armor
+33622016
+Scale Armor
+33622272
+Synthetic Armor
+33622528
+Full Plate Armor
+33622784
+Full Metal Armor
+33623040
+Supreme Armor
+33623296
+Spiked Armor
+33623552
+Titan Armor
+33623808
+Extreme Armor
+33624064
+Ancient Armor
+33624320
+Minotaur Armor
+33624576
+Doom Armor
+33624832
+Salamander Armor
+33624832
+Wyvern Armor
+33625344
+Dragon Armor
+33625600
+Phoenix Armor
+33625856
+Frenzy Armor
+33626112
+Nymph Robe
+33883904
+Apprentice Robe
+33884160
+Disciple Robe
+33884416
+Master Robe
+33884672
+Arch Robe
+33884928
+Saint Robe
+33885184
+Royal Robe
+33885440
+Mystic Robe
+33885696
+Devine Robe
+33885952
+Bishop Robe
+33886208
+Celestial Robe
+33886464
+Salvation Robe
+33886720
+Alchemist Robe
+33886976
+Astral Robe
+33887232
+Archon Robe
+33887488
+Angel Robe
+33887744
+Ruah Robe
+33888000
+Eternal Robe
+33888256
+Brass Boots
+33687296
+War Boots
+33687552
+Mechanic Boots
+33687808
+Chaos Boots
+33688064
+Holy Boots
+33688320
+Spike Boots
+33688576
+Grand Boots
+33688832
+Wing Boots
+33689088
+Titan Boots
+33689344
+Saint Boots
+33689600
+Wyvern Boots
+33689856
+Rune Boots
+33690112
+Royal Boots
+33690368
+Dragon Boots
+33690624
+Inferno Boots
+33690880
+Phoenix Boots
+33691136
+War Gauntlets
+33752832
+Metal Gauntlets
+33753088
+Holy Gauntlets
+33753344
+Great Gauntlets
+33753600
+Brass Gauntlets
+33753856
+Giant Gauntlets
+33754112
+Titan Gauntlets
+33754368
+Grand Gauntlets
+33754624
+Ivory Gauntlets
+33754880
+Saint Gauntlets
+33755136
+Diamond Gauntlets
+33755392
+Angel Gauntlets
+33755648
+Relic Gauntlets
+33755904
+Dragon Gauntlets
+33756160
+Inferno Gauntlets
+33756160
+Phoenix Gauntlets
+33756672
+Holy Orb
+50530048
+Arch Orb
+50530304
+Dark Moon
+50530560
+Ceremonial Sphere
+50530816
+Orbital Beads
+50531072
+Harmony Sphere
+50531328
+Angel
+50531584
+Lucifer
+50531840
+Astral Orb
+50532096
+Rune Beads
+50532352
+Creation Beads
+50532608
+Mundane
+50532864
+Salamander Beads
+50533120
+Cosmos
+50533376
+Clairvoyance
+50533632
+Ebony Manes
+50533888
+Avernus Beads
+50534144
+Scutum
+33818368
+Blaze Shield
+33818624
+Claw Shield
+33818880
+Wing Shield
+33819136
+Great Shield
+33819392
+Spike Shield
+33819648
+Grand Shield
+33819904
+Extreme Shield
+33820160
+Gladiator Shield
+33820416
+Synthetic Shield
+33820672
+Titan Shield
+33820928
+Mystic Shield
+33821184
+Vampire Shield
+33821440
+Dragon Shield
+33821696
+Phoenix Shield
+33821952
+Dreadnaught Shield
+33822208
+Teleport Core
+4788558
+Imperial Wing
+134415872
+Rebirth Scroll
+134939648
+Fatal Edge
+134940160
+Avert Scroll
+134940416
+Raident Force
+50726144
+Transparo Force
+50726400
+Murky Force
+50726656
+Devine Force
+50726912
+Celesto Force
+50727168
+Mirage Force
+50727424
+Inferna Force
+50727680
+Enigma Force
+50727936
+Bellum Force
+50728192
+Ordo Force
+50728448
+Jera
+50790656
+Kelvezu Amulet
+50408960
+Valento Ring
+50599424
+Dark Sheltom
+37039616
+Halloween Sword
+17244160
+Halloween Shield
+33823488
+Star Dust
+134481152

@@ -1,0 +1,9 @@
+<?xml version="1.0" standalone="yes"?>
+<ApplicationMonitor xmlns="http://tempuri.org/Programs.xsd">
+  <program>
+    <name>DebugServer</name>
+    <time>1.0</time>
+    <path>"C:\OldSchoolPT\bin\Server\DebugServer.exe"</path>
+    <check>false</check>
+  </program>
+</ApplicationMonitor>

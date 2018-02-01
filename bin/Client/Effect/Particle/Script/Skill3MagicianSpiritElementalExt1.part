@@ -1,0 +1,49 @@
+particlesystem "HolyValor" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 10
+    emitradius = xyz(0,0,0)
+    lifetime = 1000
+    texture = "effect\\particle\\blow_001.bmp"
+    initial size = 20
+    initial color = rgba(100,100,100,100)
+    initial velocity = XYZ(0,0,0)
+    initial partAngleZ = 0
+    fade so at 1 color = rgba(255,255,255,100)
+    fade so at 1 size = 6
+    fade so at 2 color = rgba(255,255,255,255)
+    fade so at 2 size = 12
+    fade so at 3 color = rgba(255,255,255,100)
+    fade so at 3 size = 6
+    at 3 eventtimer = 1
+    fade so at 6.0 color = rgba(0,0,0,0)
+    }
+
+    eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 10
+    emitradius = xyz(0,0,0)
+    lifetime = 1000
+    texture = "effect\\particle\\flare.tga"
+    initial size = 20
+    initial color = rgba(100,100,100,100)
+    initial velocity = XYZ(0,0,0)
+    initial partAngleZ = 0
+    fade so at 1 color = rgba(255,150,100,200)
+    fade so at 1 size = 6
+    fade so at 2 color = rgba(255,150,100,255)
+    fade so at 2 size = 10
+    fade so at 3 color = rgba(255,150,100,200)
+    fade so at 3 size = 6
+    fade so at 3 partAngleZ = 360
+    at 3 eventtimer = 1
+    fade so at 6.0 color = rgba(0,0,0,0)
+    }
+}

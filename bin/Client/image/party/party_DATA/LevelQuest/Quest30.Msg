@@ -1,0 +1,5 @@
+
+Hunt twenty Bargons in
+forgotten land and then
+go back to miscellaneous
+store in Town to get rewarded.

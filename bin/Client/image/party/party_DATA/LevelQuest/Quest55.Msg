@@ -1,0 +1,4 @@
+
+Hunt twenty Muffins that 
+appear in Mushroom Cave
+and go back to Verkan.

@@ -1,0 +1,478 @@
+*PetKind
+"Fire Dragon   ASTERYAN"
+"Water Dragon  KRONAPSYS"
+"Wind Dragon   RINDBEOR"
+"Earth Dragon BAHAMUT"
+end
+
+*PetName
+"Terry"
+"Napsys"
+"EOR"
+"Mut"
+end
+
+*Welcom_ALL
+"Nice to meet you! I am a descendant of( %s )."
+"I don't have a name yet, but You just call me like( %s )."
+"I heard you're one of selected warriors, but you seem to be weak." 
+"That's fine~ Human and Dragon grow together" 
+"Don't worry, I can help you. Learn together"
+end
+
+*Welcom_Tems
+"Welcome to PristonTale." 
+"This is Ricarten town, it's located South of Priston Land." 
+"You can buy any equipments for hunting." 
+"The low level players should come in the shops frequently." 
+"First, you look around Ricarten Town and talk with citizens."
+end
+
+*Welcom_Mora
+"Welcome to PristonTale." 
+"This is Phillai town, it's located North of Priston Land." 
+"You can buy any equipments for hunting." 
+"The low level players should come in the shops frequently" 
+"First, look around in this town and talk with citizens."
+end
+
+
+*ChatBox
+"You can see our chatting"
+"What do you want to ask?"
+"Can we talk now?"
+"Just type what do you want to talk?"
+end
+
+
+*ChatTab_All
+"Do you want talk with eveyone?"
+"Everyone listens to you"
+"Do you want more infomation?"
+end
+
+
+*ChatTab_Clan
+"Do you want to talk with your clan?"
+"Only clan players listen to you."
+"Do you want more infomation?"
+end
+
+
+*ChatTab_Party
+"Do you want to talk with your party players?"
+"Only party members listen to you."
+"I'm your party player too^^"
+end
+
+
+*ChatTab_Trade
+"It's so convenient when you sell or buy something."
+"Write down what you want to trade."
+"Do you want to sell your equipments?"
+end
+
+
+*ChatTab_Whisper
+"Do you want to talk with particular person?"
+"Only a person listens to you."
+"whispering whispering..."
+end
+
+
+*Bar_Stamina
+"You see your Stamina at sight."
+"The Stamina will be decreased when you run or move."
+"Can you run with me?"
+end
+
+
+*Bar_Life
+"You see your HP at sight."
+"The HP Will be decreased when a Monster attacks you."
+"If you don't have enough HP, will fell down.-_-"
+end
+
+
+*LeftSkill
+"You can use the skill by cliking the left mouse."
+"¡®Punch¡¯ the image is for the Normal ATK."
+"Oops!, Don't attack me!"
+end
+
+
+*RightSkill
+"You can use the skill by clicking the right mouse."
+"After learning the skill, you register here and use it easily."
+"After level 10, you can learn a skill."
+end
+
+
+*Bar_Mana
+"You see your Mana at sight."
+"MA will be decreaed when you use Skill or Magic."
+"You can't buy MA in any store."
+end
+
+
+*DayandNight
+"This bar is for real time of Priston Land."
+"If you see Sun, it means a daytime.."
+"IF you see Moon, it means a night-_-"
+end
+
+
+*Bar_Exp
+"You see your Exp at sight."
+"If the bar is filled with, you level up!!"
+"How long I have to wait for next level up?"
+end
+
+
+*Exp_Num
+"You can see your level EXP(%)."
+"When you reach the Exp of 100%, it means level up!"
+"Is it far to level up?"
+end
+
+
+*Potion_ShortKey
+"It can be useful for hunting."
+"The number of Potions will depend on an Armlet."
+"Gulping Gulping¡¦"
+"You have used the Potion of First PlaceHolder."
+"You have used the Potion of Second PlaceHolder."
+"You have used the Potion of Third PlaceHolder."
+end
+
+
+*RunAndWalk
+"You can select Run or Walk."
+"RUN? WALK?"
+"Run quickly! We have to do many things!"
+"This short key is for Run or Walk."
+end
+
+
+*Camera_Hand
+"You're watching the Screen by Passive Mode."
+"You can select other side view."
+"Do you like this one?"
+end
+
+
+*Camera_Auto
+"You're watching the Screen by Auto Mode."
+"You can select other side view."
+"Don't spin too much.Dizzy¡¦"
+end
+
+*Camera_Fix
+"You're watching the Screen by Lock Mode."
+"You can select other side view."
+"Can you see me well?"
+end
+
+
+*Mini_Map
+"This map shows your stand simply."
+"You see friend, shops, warehouse and Warpgate at sight."
+"You can't find me in the map. I always be with you..^^"
+"You can open and close."
+end
+
+
+*CarStatus
+"Do you wanna know your Exp and level?"
+"See! You can confirm your ATK Power, Defense and Etc..."
+"Do you wonder my level?"
+"This short key is for opening or closing Info of Inventory."
+end
+
+
+*InvenTory
+"Can I see your item?"
+"You can't pick up an item if your inventory is full or has no space."
+"Please gimmy some-_-;;;"
+"This short key is for opening or closing the item inventory."
+end
+
+
+*Skill
+"Can I see your Skills?"
+"All skills can be registered in this inventory for Future."
+"OMG! You don't have any skills yet."
+"This short key is for opening or closing the skill inventory."
+end
+
+
+*Party
+"You can see your party players."
+"The party can be Maxium 6 persons."
+"You can party wiht 6 persons at Maxium."
+"This short key is for opening or closing Party inventory."
+end
+
+
+*Quest
+"You can confirm the Quest in progress."
+"You should confirm your quest in Quest inventory."
+"Do you want me to do it-_-? You should do by yourself!"
+"This is short key for opening or closing Quest inventory."
+end
+
+
+*System
+"You can see Guide or close the game."
+"Do you need a guide? Do you wanna close?"
+"You leave me alone? Hate you..¤Ð_¤Ð"
+"This short key is for opening the system icon." 
+end
+
+
+*InvenTory_Item
+"This is your item."
+"Where do you want to move?"
+"What did you use an item?"
+end
+
+
+*Drop_Item
+"You can pick up the item!"
+"Pick up all items. Every little helps!"
+"Have you got something? Give me some~"
+end
+
+
+*Monster
+"A Monster!! Let's Attack~!!!"
+"Cheer Up! You can win!"
+"You don't have any skill yet...-_-;"
+end
+
+
+*Message
+"Do you need my help?"
+"I'm still kid dragon, don't have enough power. Let's become a strong!"
+"The most powerful weapon is my cuteness. Ho Ho"
+end
+
+
+*Battle_Message
+"Well done! You can use Auto ATK by pressing the Shift button with clicking mouse right button."
+"Cheer Up~"
+"Cheer Up! You seem to be almost level up~"
+"Just more~ more~ Fighting!"
+"LOOK TIRED~ Take a rest a little." 
+"Now, you don't have a death penalty, but it will be critical for high level."
+"Don't you need a Potion?"
+"You're getting stronger!!"
+"I will grow up with you."
+"If your inventory is full, go to town and sell your items."
+"Yap~ It's my ATK" or "HP~"
+"Huk Huk, It's hard to help someone..¤Ì.¤Ì"
+"Let's play together~"
+"If you get a great item, give me a half!"
+"...You are stronger than I expected."
+"I'am starving! Let's eat something first.."
+"Did you get a great item?"
+"Getting tired..."
+"Powerful ATK or HP~ Yeap!"
+"If you get a crystal, try to use it. a monster becomes your friend."
+"Go Go~Let's play PT until tomorrow!"
+"Be of good cheer~ Cheer Up! Be of good cheer~"
+"Playing game with your sweetheart is more fun, do you have anyone?"
+"It is a good day, isn't it?"
+"La la la~ la la la~"
+"To use a skill, you should be level 10~ Cheer Up~"
+"Oh! You seem to be almost level up! Is it helpful?"
+end
+
+
+*Normal_Message
+"Oh!  When would I become a real Dragon?' 
+"It is a good day to get great item, isn't it?'
+"You feel reliable as long as I stay with you, don't you?"
+"Zzz. I dropped off a doze, sorry."
+"It is not good for you to play game too much."
+"Have you ever heard of Aging and Mixture?" 
+"It is a good day, isn¡¯t it?"
+"La la la~ la la la~" 
+"Playing game with your sweetheart is more fun, do you have anyone?"  
+end
+
+
+*Level_Message2-1
+"Congratulations! You have leveled up!"
+"As you level up, you can receive 5 stat points. You can distribute the points in the window of character info." 
+"Your character will be grown up by stat distribution evenly among power, spirit, talent, agility, and health." 
+"Now click C."
+end
+
+*Level_Message2-2
+"Power :  ATK, ST, recovery of ST, HP, absorb, and weight increased." 
+"Spirit:  magic ATK, MP, and recovery of MP increased."
+"Talent:  ATK RTG, ATK power, defense, STM, speed, and absorb increased." 
+"Agility:  damage of shooting weapon, ATK RTG, defense increased."
+"Health:  HP, recovery of HP, STM, weight, and recovery of MP increased."
+end
+
+*Level_Message3
+"In Pristontale, there are several short keys to use potion easily when you want to recover your character¡¯s POW, STM, MP." 
+"If you assign potion to mini inventory at the center of the bottom, you can use them easily pressing short keys number 1 to 3" 
+"Do you know that number of potions depend on Armlet?"
+end
+
+*Level_Message4
+"There is a mini map in the right side of the bottom." 
+"It is indicating where you are now" 
+"It is indicating where is the field now." 
+"It is indicating NPC are green, you fellows are yellow" 
+"You can look through your circumstance around." 
+"You can turn the mini map on and off pressing tap key."
+end
+
+
+*Level_Message5
+"You can arm 2 weapons alternatively."
+"Now let's try to alter your weapon pressing W key or Arrow key in your inventory after pressing V" 
+"And you also try to make weapons altered by condition. " 
+"You will hunter monsters more favorably."
+end
+
+
+*Level_Message6-1 
+"In Pristontale, there is a party system" 
+"You can associate with other players enjoying the hunting. 
+"It can be joined 2 to 6" 
+"EXP and Gold will be divided between party players." 
+"You can chat with your party players." 
+end
+
+*Level_Message6-2
+"However if you have a gap over 10 from the character" 
+"There may be an exception you can not have a party."
+"Click the character to join the party" 
+"press Invite button and ask the player to join or not," 
+"He is OK, you have a party!"
+end
+
+
+*Level_Message7
+"The Warp Gate is a way to move place to place in a moment" 
+"You can move to far location using each Warp Gate."  
+"You can use Warp Gates in Pillai and Ricarten for free" 
+"To come and go a lot of fields, you have to get a Wing" 
+"from Warp Gate Inventor in Ricarten. Have you ever met him?"
+end
+
+
+*Level_Message8
+"Find the Mixing Craftsman in Ricarten," 
+"and you can do Mixture of your equipments to be strengthened. 
+"Even you have to spend Sheltoms and Gold to do Mixture" 
+"It is the way to raise your equipments' capacity safely." 
+"Be careful! Once you do Mixture, it won't do again."
+end
+
+
+*Level_Message9-1 
+"Find Aging Craftsman," 
+"you can do Aging, your items to be strengthened." 
+"You have to Spend Sheltoms and Gold to do Aging, "
+"You can do Aging 9 times totally."
+end 
+
+
+*Level_Message9-2
+"The aged item is glittering with various colors at each steps, it is awesome!" 
+"However as Aging step is going on, the possibility of failure gets higher" 
+"If failed, you may lose your Sheltoms, Gold, and the item" 
+"Be careful~!"
+end
+
+
+*Level_Message10-1
+"Congratulations! Your level is 10. Now you are going on as real warrior." 
+"I have told Skill Master in Ricarten or Pillai." 
+"The Skill Master will let you know a skill you need." 
+"You can learn one skill from the Skill Master" 
+"Getting 1 skill point as 2 levels up~"
+end
+
+*Level_Message10-2
+"As level of skill is higher, the power is stronger too." 
+"Now, it's time to say good bye."
+"We can meet again when you become a great warrior." 
+"Because it is a promise between the warrior and the Dragon." 
+"You promise to be a great warrior^^" 
+"I will miss you so much..."
+end
+
+*Special_Message8_Mecha
+"The Mechanician is talented character" 
+"Using the most various weapons in Priston Land."
+"Mechanician use the weapon of Mechanician spec" 
+"When your level is over 20, Skill Master in Ricarten will help you to Rank up to higher class."
+end
+
+*Special_Message8_Fighter
+"The Fighter is the toughest character in Priston Land." 
+"The Fighter mainly uses Axe." 
+"For strong damage, use both handed weapon," 
+"Fie defense and ATK POW, use one- handed weapon." 
+"When your level is over 20, Skill Master in Ricarten will help you to Rank up to higher class."
+end
+
+*Special_Message8_Pikeman
+"The Pikeman, who fights in many battles with splendid skills and weapons!" 
+"The Pikeman mainly uses Spear"
+"They have the strongest skill to damage enemies in close range¡¦" 
+"However they have no shield as they're weak in defense." 
+"When your level is over 20, the Skill Master in Ricarten will help you to Rank up to higher class."
+end
+
+*Special_Message8_Archer
+"The Archer, show monsters a strong power with your Bow from a distance!" 
+"She mainly uses Bow" 
+"One shot, one kill! Dreaming a sniper~" 
+"When your level is over 20, the Skill Master in Phillai will help you to Rank up to higher class."
+end
+
+*Special_Message8_Knight
+"The Knight, who's going on the way of the Saint Knight of the land." 
+"The Knight manily uses Sword"
+"When your level is over 20, Magic Master in Phillai will help you to Rank up to higher class"
+end
+
+*Special_Message8_Atalanta
+"The Atalanta, a female warrior who's going on the land with Javelin!" 
+"The Atalanta mainly uses Javelin" 
+"When your level is over 20, Magic Master in Phillai will help you to Rank up to higher class."
+end
+
+*Special_Message8_Priestess
+"The Priestess, a woman saintess who helps other people following Words of God." 
+"The Priestess mainly uses Staff or Wand"
+"The Priestess of the land can do a range attack strongly" 
+"They can also play a roll of healing ." 
+"When your level is over 20, Magic Master in Phillai will help you to Rank up to higher class."
+end
+
+*Special_Message8_Magician
+"The Magician, who uses magic power with spiritual strength, rather than training physicalness." 
+"The Magician mainly uses Staff or Wand"
+"Though they are weak now, as level's up, they are going to give full play to their gifts." 
+"When your level is over 20, Magic Master in Phillai will help you to Rank up to higher class."
+end
+
+*Special_Message9
+"Now, it is the time to say good bye. Oh! Don't be sad." 
+"It's not a farewell. We will surely meet again." 
+"And you are strong enough without my help."   
+"Ok, go for a fight"
+end
+
+
+
+

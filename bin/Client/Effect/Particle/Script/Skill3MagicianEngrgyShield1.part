@@ -1,0 +1,50 @@
+particlesystem "HolyValor" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 50
+    emitradius = xyz(0,23,0)
+    lifetime = 1
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 72
+    initial color = rgba(100,100,100,100)
+    initial velocity = XYZ(0,0,0)
+    fade so at 0.3 color = rgba(100,100,100,100)
+    fade so final color = rgba(0,0,0,0)
+    }
+
+  eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 50
+    emitradius = xyz(0,23,0)
+    lifetime = 1
+    texture = "effect\\particle\\circle_006.bmp"
+    initial size = 72
+    initial color = rgba(100,100,100,100)
+    initial velocity = XYZ(0,0,0)
+    fade so at 0.3 color = rgba(100,100,100,100)
+    fade so final color = rgba(0,0,0,0)
+    }
+
+    eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 55
+    emitradius = xyz(0,23,0)
+    lifetime = 1
+    texture = "effect\\particle\\circle_007.bmp"
+    initial size = 72
+    initial color = rgba(150,150,150,80)
+    initial velocity = XYZ(0,0,0)
+    fade so at 0.3 color = rgba(150,150,150,80)
+    fade so final color = rgba(0,0,0,0)
+    }
+}

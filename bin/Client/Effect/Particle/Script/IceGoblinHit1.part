@@ -1,0 +1,65 @@
+particlesystem "IceGoblinHit1" 1.00 {
+  position = XYZ(0,0,0)
+
+   eventsequence "FuryRespawn" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    delay = 0.1
+    numparticles = 2
+    gravity = XYZ(0,0,0)
+    emitrate = 200
+    emitradius = xyz(0,0,0)
+    lifetime = 0.4
+    texture = "effect\\particle\\flare.tga"
+    initial size = 0
+    initial color = rgba(50,150,255,200)
+    initial velocity = XYZ(0,0,0)
+    fade so at 0.1 color = rgba(50,255,255,255)
+    fade so final color = rgba(255,255,255,0)
+    fade so final size = 150
+    }
+
+  eventsequence "FuryRespawn" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    loops = 1
+    delay = 0.1
+    numparticles = 2
+    gravity = XYZ(0,0,0)
+    emitrate = 200
+    emitradius = xyz(0,0,0)
+    lifetime = 0.4
+    texture = "effect\\particle\\Water.bmp"
+    initial size = 50
+    initial color = rgba(50,150,255,255)
+    initial velocity = XYZ(0,0,0)
+    fade so at 0.1 color = rgba(50,255,255,255)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 200
+    }
+    eventsequence "FuryRespawn" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    loops = 1
+    numparticles = 2
+    delay = 0.2
+    gravity = XYZ(0,0,0)
+    emitrate = 200
+    emitradius = xyz(0,0,0)
+    lifetime = 0.4
+    texture = "effect\\particle\\Water.bmp"
+    initial size = 50
+    initial color = rgba(50,150,255,255)
+    initial velocity = XYZ(0,0,0)
+    initial partAngleY = 0
+    fade so at 0.1 color = rgba(50,255,255,255)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 200
+    }
+}
+
+
+
+
+
+

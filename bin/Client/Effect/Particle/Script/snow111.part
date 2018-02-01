@@ -1,0 +1,36 @@
+particlesystem "snow" 1.00 {
+  position = XYZ(0,50,0)
+  eventsequence "snow" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 80
+    gravity = XYZ(0,-20,0)
+    emitrate = 25
+    emitradius = XYZ(random(-250,250),random(0,300),random(250,250))
+    lifetime = 2
+    texture = "effect\\particle\\snow.bmp"
+    initial color = rgba(0,0,0,0)
+    initial size    = random(2,5)
+    initial velocity = XYZ(random(-10,10),-200,random(-600,-700))
+    fade so at 0.2 color = rgba(255,255,255,255)
+    at 0.5 velocityX   = random(-30,30)
+    at 1 velocityX   = random(-30,30)
+    at 1.5 velocityX   = random(-30,30)
+    at 2 velocityX   = random(-30,30)
+   }
+
+   eventsequence "snow" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 120
+    gravity = XYZ(0,-3,0)
+    emitrate = 60
+    emitradius = XYZ(random(-400,400),random(0,200),random(200,600))
+    lifetime = 1
+    texture = "effect\\particle\\dust2.bmp"
+    initial color     = rgba(0,0,0,0)
+    initial size       = random(300,600)
+    initial sizeExt  = random(150,400)
+    initial velocity = XYZ(random(-10,10),-200,random(-500,-600))
+    fade so at 0.2 color = rgba(255,255,255,10)
+    fade so at 1.0 color = rgba(255,255,255,0)
+    }
+}

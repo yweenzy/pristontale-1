@@ -1,0 +1,109 @@
+particlesystem "HolyValor" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "DownLight" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 3
+    emitradius = xyz(0,-50,0)
+    lifetime = 1000
+    texture = "effect\\particle\\circle-1.bmp"
+    initial size = 90
+    initial color = rgba(0,50,140,140)
+    initial velocity = XYZ(0,0,0)
+    initial partAngleY = 0
+    fade so at 1.0 color = rgba(255,150,50,50)
+    fade so at 2.0 color = rgba(255,150,50,0)
+    fade so at 3.0 color = rgba(255,150,50,50)
+    fade so at 1.0 size = 130
+    fade so at 2.0 size = 100
+    fade so at 3.0 size = 130
+    at 3 eventtimer = 1.0
+    fade so at 4.0 color = rgba(0,80,130,130)
+    fade so at 5.0 color = rgba(0,0,0,0)
+    fade so at 3.0 partAngleY = -20
+    }
+    eventsequence "DownLight" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 3
+    emitradius = xyz(0,-40,0)
+    lifetime = 1000
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 130
+    initial color = rgba(255,150,50,50)
+    initial velocity = XYZ(0,0,0)
+    fade so at 1 color = rgba(255,150,50,100)
+    fade so at 2 color = rgba(255,150,50,50)
+    fade so at 3 color = rgba(255,150,50,100)
+    at 3 eventtimer = 1
+    fade so at 6.0 color = rgba(0,0,0,0)
+    }
+    eventsequence "DownLight" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 3
+    emitradius = xyz(0,-30,0)
+    lifetime = 1000
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 180
+    initial color = rgba(255,150,50,50)
+    initial velocity = XYZ(0,0,0)
+    fade so at 1 color = rgba(255,150,50,180)
+    fade so at 2 color = rgba(255,150,50,150)
+    fade so at 3 color = rgba(255,150,50,180)
+    at 3 eventtimer = 1
+    fade so at 6.0 color = rgba(0,0,0,0)
+    }
+
+eventsequence "Down" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 100
+    emitradius = xyz(0,-40,0)
+    lifetime = 1000
+    texture = "effect\\particle\\Effect_RGJ3.bmp"
+    initial size = 115
+    initial color = rgba(50,50,50,50)
+    initial velocity = XYZ(0,0,0)
+    initial partAngleY = 0
+    fade so at 1.0 size = 130
+    fade so at 2.0 size = 120
+    fade so at 3.0 size = 130
+    at 3 eventtimer = 1.0
+    fade so at 3.0 color = rgba(255,255,255,120)
+    fade so at 4.0 color = rgba(200,200,200,20)
+    fade so at 5.0 color = rgba(0,0,0,0)
+    fade so at 4.0 size = 35
+    fade so at 5.0 partAngleY = 250
+    at 5.0 size = 35
+    }
+ eventsequence "Down" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    loops = 100
+    numparticles = 5
+    gravity = XYZ(0,0,0)
+    emitrate = 1
+    emitradius = xyz(0,-35,0)
+    lifetime = 2
+    texture = "effect\\particle\\Effect_RGJ3.bmp"
+    initial size = 40
+    initial color = rgba(255,255,255,0)
+    initial velocity = XYZ(0,0,0)
+    initial partAngleY = 0
+    fade so at 0.6 color = rgba(255,255,255,200)
+    fade so final size = 240
+    fade so final color = rgba(0,0,0,0)
+    }
+}

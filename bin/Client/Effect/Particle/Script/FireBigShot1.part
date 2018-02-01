@@ -1,0 +1,72 @@
+particlesystem "FireJet" 1.00 {
+  position = XYZ(0,50,-50)
+
+  eventsequence "Smoke1" {
+    sourceblendmode = BLEND_INVSHADOW
+    numparticles = 20
+    gravity = XYZ(0,-10,0)
+    emitrate = 30
+    emitradius = xyz(0,0,0)
+    loops = 100
+    lifetime = Random(0.4,1)
+    texture = "effect\\particle\\MonParticle01.bmp"
+    initial color = rgba(255,255,255,255)
+    initial size = 60
+    initial velocity = XYZ(random(-20,20),random(40,70),random(-20,20))
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 10
+    }
+
+  eventsequence "UpFire" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 30
+    gravity = XYZ(0,-10,0)
+    emitrate = 100
+    emitradius = xyz(0,0,0)
+    loops = 100
+    lifetime = Random(0.01,0.5)
+    texture = "effect\\particle\\fire-1.bmp"
+    initial color = rgba(100,200,150,255)
+    initial size = 50
+    initial velocity = XYZ(random(-20,20),random(20,40),random(-20,20))
+    emitradius = xyz(random(-1,1),0,random(-1,1))
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 10
+    }
+
+eventsequence "Smoke2" {
+    sourceblendmode = BLEND_INVSHADOW
+    numparticles = 8
+    gravity = XYZ(0,-10,0)
+    emitrate = 30
+    emitradius = xyz(0,0,0)
+    loops = 100
+    lifetime = Random(0.4,0.5)
+    texture = "effect\\particle\\MonParticle01.bmp"
+    initial color = rgba(255,255,255,255)
+    initial size = 20
+    initial velocity = XYZ(random(-20,20),random(40,70),random(-20,20))
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 10
+    }
+eventsequence "UpFire" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 5
+    gravity = XYZ(0,-10,0)
+    emitrate = 80
+    emitradius = xyz(0,0,0)
+    loops = 100
+    lifetime = Random(0.01,0.5)
+    texture = "effect\\particle\\fire-1.bmp"
+    initial color = rgba(200,200,150,255)
+    initial size = 55
+    initial velocity = XYZ(random(-20,20),random(20,40),random(-20,20))
+    emitradius = xyz(random(-1,1),0,random(-1,1))
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 10
+    }
+
+}
+
+
+

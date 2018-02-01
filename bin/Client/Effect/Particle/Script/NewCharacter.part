@@ -1,0 +1,19 @@
+particlesystem "light" 1.00 {
+  position = XYZ(0,50,0)
+    eventsequence "light2" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 50
+    gravity = XYZ(0,0,0)
+    emitrate = 20
+    emitradius = xyz(random(-30,30),-40,random(-30,30))
+    lifetime = 3
+    texture = "effect\\particle\\flare.tga"
+    initial size = random(10,20)
+    initial color = rgba(255,200,80,255)
+    initial LocalAngleY = 0
+    initial velocity = XYZ(0,random(20,40),0)
+    fade so final color = rgba(0,0,0,0)
+    fade so final localangleY = 180
+    
+    }
+}

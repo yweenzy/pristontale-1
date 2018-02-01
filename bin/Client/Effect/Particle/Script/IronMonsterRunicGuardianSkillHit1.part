@@ -1,0 +1,72 @@
+particlesystem "OmiCronHit1" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "faeries" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 40
+    gravity = XYZ(0,-20,0)
+    emitrate = 80
+    emitradius = xyz(random(-120,120),10,random(-120,120))
+    lifetime = 3
+    texture = "effect\\particle\\Dust1.bmp"
+    initial size = 100
+    initial color = rgba(255,140,50,255)
+    initial velocity = XYZ(random(-5,5),random(-5,60),random(-5,5))
+    fade so at 1.5 color = rgba(0,0,0,0)
+    fade so final size = 30
+    }
+
+    eventsequence "Black1" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 15
+    gravity = XYZ(0,-220,0)
+    emitradius = xyz(random(-50,50),random(0,30),random(-50, 50))
+    emitrate = 150
+    loops = 1
+    delay = 0.2
+    lifetime = Random(0.2, 2)
+    texture = "effect\\particle\\star03Y_01.bmp"
+    initial color = rgba(255,150,50,255)
+    initial size = random(10,15)
+    initial velocity = XYZ(random(-40,40),random(100,150),random(-40,40))
+    fade so at 0.1 color = rgba(255,150,50,255)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 15
+    }
+   eventsequence "FuryRespawn" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    loops = 1
+    delay = 0.2
+    numparticles = 2
+    gravity = XYZ(0,0,0)
+    emitrate = 20
+    emitradius = xyz(0,10,0)
+    lifetime = 0.5
+    texture = "effect\\particle\\m_futy.bmp"
+    initial size = 50
+    initial color = rgba(200,200,200,150)
+    initial velocity = XYZ(0,0,0)
+    fade so at 0.1 color = rgba(255,255,255,200)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 450
+    }
+    
+    eventsequence "FireJet" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    numparticles = 6
+    loops = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 10
+    lifetime = 0.6
+    texture = "effect\\particle\\light-03.bmp"
+    initial color = rgba(255,200,20,0)
+    initial size = 120
+    initial partAngleY = random(0,360)
+    initial velocity = XYZ(random(-1,1),random(-1,-1),random(-1,1))
+    fade so at 0.2 color = rgba(255,100,20,255)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = random(260,350)
+    }
+}

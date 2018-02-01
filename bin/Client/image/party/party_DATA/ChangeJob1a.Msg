@@ -1,0 +1,11 @@
+
+For the rank-up quest, you
+need to defeat 3 different
+type of wolverines. Each 
+will drop a horn, a claw,
+and a tail. Then bring 
+them back to me as an 
+evidence.
+ 
+
+ 

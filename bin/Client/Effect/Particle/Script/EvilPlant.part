@@ -1,0 +1,22 @@
+particlesystem "NewCharacter" 1.00 {
+  position = XYZ(0,0,0)
+   eventsequence "light2" {
+    sourceblendmode = BLEND_LAMP
+    //particleType = TYPE_THREE
+    numparticles = 3
+    gravity = XYZ(0,0,0)
+    emitrate = 80
+    loops = 1
+    emitradius = xyz(0,0,0)
+    lifetime = 1.5
+    texture = "effect\\particle\\a_shield.TGA"
+    initial size = 20
+    initial color = rgba(0,0,0,0)
+    initial velocity = XYZ(0,0,0)
+    initial partAngleZ = 0
+    fade so at 0.2 color = rgba(200,0,255,200)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 70
+    fade so final partAngleZ = random(-2000,-800)
+   }
+}

@@ -1,0 +1,4 @@
+
+Completed the Quest and
+Received Bouns Skill 
+point +1 as compensation

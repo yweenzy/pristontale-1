@@ -1,0 +1,188 @@
+particlesystem "HolyValor" 1.00 {
+  position = XYZ(0,0,0)
+  
+  eventsequence "Light1" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 3
+    gravity = XYZ(0,0,0)
+    emitrate = 150
+    emitradius = xyz(0,random(20,50),0)
+    lifetime = 3
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 80
+    initial color = rgba(80,80,200,100)
+    initial velocity = XYZ(0,0,0)
+    fade so at 1.5 color = rgba(100,100,255,200)
+    fade so final color = rgba(0,0,0,0)
+   }
+  eventsequence "smallParticle" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 10
+    gravity = XYZ(0,0,0)
+    emitrate = 50
+    emitradius = xyz(random(-15,15),random(-5,5),random(-15,15))
+    lifetime = 1.2
+    texture = "effect\\particle\\flare.tga"
+    initial size = 4
+    initial color = rgba(255,255,255,255)
+    initial velocity = XYZ(0,random(20,60),0)
+    at 0.2 size = 8
+    at 0.4 size = 4
+    at 0.6 size = 8
+    at 0.8 size = 4
+    at 1.0 size = 8
+    at 1.2 size = 4
+    fade so final color = rgba(0,0,0,0)
+   }
+    
+   eventsequence "faeries" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_THREE
+    numparticles = 2
+    loops = 1
+    delay = 0.2
+    gravity = XYZ(0,0,0)
+    emitrate = 60
+    emitradius = xyz(0,40,0)
+    lifetime = 2
+    texture = "effect\\particle\\HolyValor.bmp"
+    initial size = 25
+    initial sizeExt = 20
+    initial LocalAngleY = 0
+    initial color = rgba(100,100,100,100)
+    fade so at 1.0 color = rgba(255,255,255,255)
+    at 0.8 velocity = xyz(0, 20, 0)
+    fade so final color = rgba(0,0,0,0)
+   }
+    eventsequence "Line" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_THREE
+    numparticles = 20
+    loops = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 60
+    emitradius = xyz(random(-13,13),random(0,10),random(-13,13))
+    lifetime = 0.9
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 3
+    initial sizeExt = random(50,70)
+    initial LocalAngleY = 0
+    initial color = rgba(0,100,255,255)
+    initial velocity = XYZ(0,random(30,40),0)
+    fade so at 0.3 color = rgba(0,100,255,255)
+    fade so at 0.5 velocity = XYZ(0,random(40,70),0)
+    fade so final color = rgba(0,0,0,0)
+    fade so final LocalAngleY = random(200,500)
+  }
+  eventsequence "DownLight" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 3
+    emitradius = xyz(0,0,0)
+    lifetime = 1000
+    texture = "effect\\particle\\circle-1.bmp"
+    initial size = 30
+    initial color = rgba(0,50,140,140)
+    initial velocity = XYZ(0,0,0)
+    initial partAngleY = 0
+    fade so at 1.0 color = rgba(0,100,255,255)
+    fade so at 2.0 color = rgba(0,50,145,140)
+    fade so at 3.0 color = rgba(0,100,255,255)
+    fade so at 1.0 size = 32
+    fade so at 2.0 size = 30
+    fade so at 3.0 size = 32
+    at 3 eventtimer = 1.0
+    fade so at 4.0 color = rgba(0,80,130,130)
+    fade so at 5.0 color = rgba(0,0,0,0)
+    fade so at 3.0 partAngleY = -20
+    }
+    eventsequence "DownLight" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 3
+    emitradius = xyz(0,10,0)
+    lifetime = 1000
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 50
+    initial color = rgba(50,50,155,255)
+    initial velocity = XYZ(0,0,0)
+    fade so at 1 color = rgba(100,180,230,255)
+    fade so at 2 color = rgba(50,80,150,200)
+    fade so at 3 color = rgba(100,180,230,255)
+    at 3 eventtimer = 1
+    fade so at 6.0 color = rgba(0,0,0,0)
+    }
+
+    eventsequence "DownLight" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 3
+    emitradius = xyz(0,0,0)
+    lifetime = 1000
+    texture = "effect\\particle\\light1.bmp"
+    initial size = 60
+    initial color = rgba(100,100,100,100)
+    initial velocity = XYZ(0,0,0)
+    fade so at 1.0 color = rgba(180,180,180,180)
+    fade so at 2.0 color = rgba(150,150,150,150)
+    fade so at 3.0 color = rgba(180,180,180,180)
+    at 3 eventtimer = 1.0
+    fade so at 4.0 color = rgba(150,150,150,150)
+    fade so at 5.0 color = rgba(0,0,0,0)
+    }
+
+eventsequence "downParticle" {
+    sourceblendmode = BLEND_LAMP
+    loops = 100
+    numparticles = 6
+    gravity = XYZ(0,0,0)
+    emitrate = 8
+    emitradius = xyz(random(-6,6),random(0,2),random(-6,6))
+    lifetime = 0.5
+    texture = "effect\\particle\\flare.tga"
+    initial size = 4
+    initial color = rgba(255,255,255,255)
+    initial velocity = XYZ(0,random(10,40),0)
+    at 0.2 size = 6
+    at 0.4 size = 4
+    at 0.6 size = 6
+    at 0.8 size = 4
+    fade so final color = rgba(0,0,0,0)
+   }
+
+eventsequence "Down" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 100
+    emitradius = xyz(0,0,0)
+    lifetime = 1000
+    texture = "effect\\particle\\HolyValordown.bmp"
+    initial size = 30
+    initial color = rgba(50,50,50,50)
+    initial velocity = XYZ(0,0,0)
+    initial partAngleY = 0
+    fade so at 1.0 size = 35
+    fade so at 2.0 size = 32
+    fade so at 3.0 size = 35
+    at 3 eventtimer = 1.0
+    fade so at 3.0 color = rgba(255,255,255,255)
+    fade so at 4.0 color = rgba(200,200,200,200)
+    fade so at 5.0 color = rgba(0,0,0,0)
+    fade so at 4.0 size = 35
+    fade so at 5.0 partAngleY = 300
+    at 5.0 size = 35
+    }
+}

@@ -1,0 +1,66 @@
+particlesystem "Attack" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "Attack1" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 2
+    gravity = XYZ(0,0,0)
+    emitrate = 40
+    emitradius = xyz(0,0,0)
+    lifetime = 1.3
+    texture = "effect\\particle\\shock.tga"
+    initial size = 50
+    initial PartAngle = xyz(0,0,random(0,360))
+    initial color = rgba(50,100,255,255)
+    fade so at 0.2 color = rgba(50,100,200,255)
+    fade so at 0.3 color = rgba(50,100,200,255)
+    fade so at 0.2 size = 100
+    fade so at 0.3 size = 100
+    fade so final color = rgba(20,20,20,20)
+    fade so final size = 90
+   }
+eventsequence "Attack1" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 40
+    delay = 0.2
+    emitradius = xyz(0,0,0)
+    lifetime = 0.6
+    texture = "effect\\particle\\circle_003.bmp"
+    initial size = 45
+    initial PartAngle = xyz(0,0,random(0,360))
+    initial color = rgba(255,150,50,255)
+    fade so at 0.1 color = rgba(100,200,255,255)
+    fade so final color = rgba(20,20,20,20)
+    fade so final size = 50
+   }
+eventsequence "lline1" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 1
+    particleType = TYPE_THREE
+    gravity = XYZ(0,0,0)
+    emitrate = 100
+    emitradius = XYZ(0,0,0)
+    loops = 1
+    delay = 0.1
+    lifetime = 1.5
+    texture = "effect\\particle\\Line_001.bmp"
+    initial color = rgba(100,255,255,255)
+    initial size    = random(5,10)
+    initial sizeext =  random(180,200)
+    initial Partangle = XYZ(0, 0, -90)
+    
+
+    fade so at 0.2 color = rgba(100,255,255,150)
+    fade so at 0.5 color = rgba(100,255,255,150)
+    at 1  sizeext = random(5,10)
+    fade so at 1.4 size = 1
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 1
+    }
+
+
+
+}

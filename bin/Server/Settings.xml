@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ApplicationMonitor>
+	<settings>
+		<log>True</log>
+		<OnError>DoNothing</OnError>
+		<email></email>
+		<SMTP></SMTP>
+		<LogLimitValue>100</LogLimitValue>
+		<CheckTime>2</CheckTime>
+		<CheckAtStartup>False</CheckAtStartup>
+		<LoadWithWindows>False</LoadWithWindows>
+		<LogLimit>False</LogLimit>
+		<EmailFreq>EveryHour</EmailFreq>
+		<EmailFreqValue>1</EmailFreqValue>
+	</settings>
+</ApplicationMonitor>

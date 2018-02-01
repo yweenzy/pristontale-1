@@ -1,0 +1,693 @@
+@charset "utf-8";
+/* CSS Document 
+
+a:link
+{
+	color:#900;
+	text-decoration:none;
+}
+
+a:visited
+{
+	color:#900;
+	text-decoration:none;
+}
+
+a:hover
+{
+	color:#000;
+	text-decoration:none;
+}
+
+a:active
+{
+	color:#000;
+	text-decoration:none;
+}
+*/
+
+#Conteudo
+{
+	padding: 10px;
+	overflow: hidden;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	float: left;
+	background-image: linear-gradient(bottom, rgb(156,110,31) 2%, rgb(255,229,207) 50%, rgb(189,125,47) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(156,110,31) 2%, rgb(255,229,207) 50%, rgb(189,125,47) 100%);
+	background-image: -moz-linear-gradient(bottom, rgb(156,110,31) 2%, rgb(255,229,207) 50%, rgb(189,125,47) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgb(156,110,31) 2%, rgb(255,229,207) 50%, rgb(189,125,47) 100%);
+	background-image: -ms-linear-gradient(bottom, rgb(156,110,31) 2%, rgb(255,229,207) 50%, rgb(189,125,47) 100%);
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.02, rgb(156,110,31)),
+		color-stop(0.5, rgb(255,229,207)),
+		color-stop(1, rgb(189,125,47))
+);
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-shadow: #000 0px 0px 2px 0px;
+	width: 700px;
+}
+
+.lojCont
+{
+	background: url(../themes/reloadedpt/img/bgCont_r16_c2.png) repeat;
+	width: 700px;
+	overflow: hidden;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	padding-bottom: 20px;
+	box-shadow: #000 0px 0px 2px 0px;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Top
+{
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	text-align: right;
+	overflow: hidden;
+}
+
+#lojMenu
+{
+	float: right;
+	width: 200px;
+	overflow: hidden;
+	border: 1px solid #900;
+	padding: 5px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	background: #FFF;
+}
+
+.lojItem
+{
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	background:url(../img/bgMenu_ver.png) center repeat-x;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: #C00 1px solid;
+	cursor: pointer;
+	color: #FFF;
+	font-weight:bold;
+	font-size:12px;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+
+.lojItem:hover
+{
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	background:url(../img/bgMenu_ver_2.png) center repeat-x;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border: #C00 1px solid;
+	cursor: pointer;
+	color: #FFF;
+	font-weight:bold;
+	font-size:12px;
+	margin-top:1px;
+	margin-bottom:1px;
+}
+
+#lojaPriston
+{
+	width:630px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+	margin-bottom:10px;
+	margin-top:10px;
+	background:url(../img/bgLojaPTtitle.png) repeat-x center;
+	color:#000;
+	font-size:16px;
+	padding:5px;
+	text-align:center;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	border:1px solid #000;
+}
+
+.loja
+{
+	width: 200px;
+	margin-left: 8px;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	float: left;
+	overflow: hidden;
+	border: 1px #C90 solid;
+	background-color:#FC6;
+background-image: linear-gradient(bottom, rgb(255,240,214) 0%, rgb(212,177,108) 54%, rgb(252,217,169) 100%);
+background-image: -o-linear-gradient(bottom, rgb(255,240,214) 0%, rgb(212,177,108) 54%, rgb(252,217,169) 100%);
+background-image: -moz-linear-gradient(bottom, rgb(255,240,214) 0%, rgb(212,177,108) 54%, rgb(252,217,169) 100%);
+background-image: -webkit-linear-gradient(bottom, rgb(255,240,214) 0%, rgb(212,177,108) 54%, rgb(252,217,169) 100%);
+background-image: -ms-linear-gradient(bottom, rgb(255,240,214) 0%, rgb(212,177,108) 54%, rgb(252,217,169) 100%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(255,240,214)),
+	color-stop(0.54, rgb(212,177,108)),
+	color-stop(1, rgb(252,217,169))
+);
+	box-shadow:1px 1px 2px 0px #000000;
+}
+
+.itemTitulo
+{
+	width:186px;
+	background:url(../img/bgSlidepainel.png) repeat-x center;
+	border:#666 2px solid;
+	text-align:center;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	padding:5px;
+	color:#FFF;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.itemImg
+{
+	width:200px;
+	background:#000;
+	margin-top:2px;
+	margin-bottom:2px;
+	max-height:88px;
+	text-align:center;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+}
+
+.itemLevel
+{
+	width:190px;
+	background:url(../img/bgOuro_2.png) repeat-x center;
+	border:#000 2px solid;
+	text-align:center;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	padding:3px;
+	color:#000;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.itemSelect
+{
+	width: 200px;
+	border: 1px solid #CCC;
+	padding: 3px;
+	font-size: 12px;
+	color: #333;
+	background-color: #EAEAEA;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3px;
+	text-align: left;
+}
+
+.specSelect
+{
+	width:200px;
+	border:1px solid #CCC;
+	padding:3px;
+	font-size:12px;
+	color:#333;
+	background-color:#EAEAEA;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:3px;
+}
+
+.itemLinha
+{
+	width:200px;
+	text-align:left;
+	overflow:hidden;
+	margin-bottom:2px;
+}
+
+.itemQtd
+{
+	width:30px;
+	border:1px solid #CCC;
+	padding:3px;
+	font-size:12px;
+	color:#333;
+	background-color:#EAEAEA;
+	text-align:center;
+	margin-left:10px;
+	float:left;
+	margin-right:50;
+}
+
+.itemQtd_nome
+{
+	padding: 3px;
+	font-size: 12px;
+	color: #666;
+	text-align: right;
+	font-size: 12px;
+	width: 60px;
+	float: left;
+}
+
+.compra
+{
+	padding: 3px;
+	font-size: 12px;
+	color: #666;
+	text-align: right;
+	font-size: 12px;
+	width: 60px;
+	float: left;
+}
+
+.btnCompra
+{
+	background: url(../img/bg_green.png) repeat-x center;
+	outline: none;
+	width: 115px;
+	color: #FFF;
+	font-size: 10px;
+	border: 1px solid #000;
+	padding: 4px;
+	text-align: center;
+	margin-left: 5px;
+	margin-top: 2px;
+	cursor: pointer;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	float: right;
+}
+
+.btnCompra:hover
+{
+	background: url(../img/bg_green_2.png) repeat-x center;
+	outline: none;
+	width: 115px;
+	color: #FFF;
+	font-size: 10px;
+	border: 1px solid #000;
+	padding: 4px;
+	text-align: center;
+	margin-left: 5px;
+	margin-top: 2px;
+	cursor: pointer;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	float: right;
+}
+
+.loading
+{
+	background: url(../img/loading6.gif) no-repeat center;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+	margin-top: 30px;
+	position: relative;
+	z-index: 99999;
+}
+
+#formPagseguro
+{
+	background: url(../img/pagseguro.png) no-repeat center;
+	width: 215px;
+	height: 273px;
+	float: left;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	margin-top: 25px;
+	overflow: hidden;
+}
+
+.formPagseguro
+{
+	width:215px;
+	height:273px;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px;
+}
+
+#formPaypal
+{
+	background: url(../img/paypal.png) no-repeat center;
+	width: 215px;
+	height: 273px;
+	float: left;
+	margin-left: 50px;
+	margin-bottom: 20px;
+	margin-top: 25px;
+	overflow: hidden;
+}
+
+.formPaypal
+{
+	width:215px;
+	height:273px;
+	overflow:hidden;
+	margin-left:auto;
+	margin-right:auto;
+	padding:0px;
+}
+
+.linhaAPI
+{
+	margin-top: 150px;
+	width: 150px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	padding: 3px;
+}
+
+.linhaAPI strong
+{
+	color:#FFF;
+	font-weight:bold;
+	font-size:12px;
+	text-shadow:#000 1px 1px 2px;
+}
+
+.linhaAPI_2
+{
+	width: 130px;
+	text-align: center;
+	margin-left: 5px;
+	overflow: hidden;
+	padding: 3px;
+	margin-top: 20px;
+	float: left;
+}
+
+.campoAPI
+{
+	border: #000 1px solid;
+	box-shadow: #000 1px 1px 2px 0px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	width: 100px;
+	padding: 5px;
+	font-size: 12px;
+	color: #666;
+	outline: none;
+	text-align: center;
+}
+
+.bntPagSeg
+{
+	background:url(../img/btnPagSeg.png) no-repeat;
+	width:105px;
+	height:42px;
+	outline:none;
+	border:none;
+	cursor:pointer;
+}
+
+.bntPagSeg:hover
+{
+	background:url(../img/btnPagSeg_2.png) no-repeat;
+	width:105px;
+	height:42px;
+	outline:none;
+	border:none;
+	cursor:pointer;
+}
+
+.btnPaypal
+{
+	background:url(../img/btnPaypal.png) no-repeat;
+	width:122px;
+	height:42px;
+	outline:none;
+	border:none;
+	cursor:pointer;
+}
+
+.btnPaypal:hover
+{
+	background:url(../img/btnPaypal_2.png) no-repeat;
+	width:122px;
+	height:42px;
+	outline:none;
+	border:none;
+	cursor:pointer;
+}
+
+.comunicado
+{
+	font-size: 14px;
+	color: #900;
+	text-align: justify;
+	margin-left: auto;
+	margin-right: auto;
+	width: 580px;
+	padding: 5px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.btnMenu
+{
+	float: left;
+	margin-left: 10px;
+	padding: 10px;
+	background: url(../img/bgOuro_1.png) repeat-x center;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	color: #FFF;
+	font-weight: bold;
+	border: 2px solid #FFF;
+	box-shadow: #000 0px 0px 1px 0px;
+	margin-top: 15px;
+}
+
+.btnMenu:hover
+{
+	float: left;
+	margin-left: 10px;
+	padding: 10px;
+	background: url(../img/bgOuro_1.png) repeat-x center;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	color: #FFF;
+	font-weight: bold;
+	border: 2px solid #FFF;
+	box-shadow: #000 0px 0px 3px 0px;
+	margin-top: 15px;
+}
+
+#Top a:link
+{
+	text-decoration:none;
+	color:#FFF;
+}
+
+#Top a:visited
+{
+	text-decoration:none;
+	color:#FFF;
+}
+
+#Top a:hover
+{
+	text-decoration:none;
+	color:#C00;
+}
+
+#Top a:active
+{
+	text-decoration:none;
+	color:#C00;
+}
+
+.information
+{
+	overflow: hidden;
+	float: right;
+	padding: 2px;
+	font-size: 14px;
+	font-weight: 700;
+	border: #FFF 1px solid;
+	box-shadow: #000 0px 0px 1px 0px;
+	background: url(../img/bg_green_2.png) repeat-x center;
+	color: #000;
+	text-shadow: #000 1px 1px 1px;
+	box-shadow: 0px 0px 2px 0px;
+	width: 270px;
+	margin-top: 15px;
+}
+
+.kaizen
+{
+	overflow: hidden;
+	background: url(../img/coins.png) no-repeat left center;
+	width: 210px;
+	height: 28px;
+	padding-left: 55px;
+	padding-top: 7px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	color: #FFF;
+}
+
+.logoEmp
+{
+	width:200px;
+	overflow:hidden;
+	float:left;
+	text-align:center;
+	margin-top:-20px;
+	position:relative;
+	z-index:999999;
+}
+
+.assinaturaWS
+{
+	width: 950px;
+	margin-top: 50px;
+	text-align: center;
+	padding-top: 3px;
+	font-size: 10px;
+	float: left;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+.assinaturaWS img
+{
+	margin-top:5px;
+}
+
+.moedas_real
+{
+	background: url(../img/bgReal.png) no-repeat center;
+	border: 2px solid #060;
+	margin-left: 50px;
+	float: left;
+	overflow: hidden;
+	width: 200px;
+	text-align: center;
+	padding: 5px;
+	text-shadow: #000 1px 1px 1px solid;
+	color: #FFF;
+	font-weight: bold;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+
+.moedas_euro
+{
+	background: url(../img/bgEuro.png) no-repeat center;
+	border: 2px solid #06C;
+	margin-left: 50px;
+	float: left;
+	overflow: hidden;
+	width: 200px;
+	text-align: center;
+	padding: 5px;
+	text-shadow: #000 1px 1px 1px solid;
+	color: #FFF;
+	font-weight: bold;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+
+.custo
+{
+	float: left;
+	width: 58px;
+	margin-left: 5px;
+	font-size: 12px;
+	color: #900;
+	text-align: left;
+	margin-top: 7px;
+	background: url(../img/Porco.png) left no-repeat;
+	padding-left: 20px;
+}
+
+.linha_9
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:500px;
+	overflow:hidden;
+}

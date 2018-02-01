@@ -1,0 +1,114 @@
+안녕하세요. Findhack 담당개발자 최미선입니다.
+ 
+1. UpdateData() : 아까 문의 하셨던 “UpdateData(TRUE);” 에 대한 설명하면, 
+
+UpdateData는 컨트롤과 컨트롤 사이에서 연결되어있는 변수의 initialize또는 retrieve를 담당합니다. 
+즉, UpdateData()는 해당 다이얼로그의 값들을 갱신해줍니다. 
+
+UpdateData(TRUE)는 현재 컨트롤에 있는 값을 연결되어 있는 변수에 저장하게 됩니다. 
+또한 UpdateData(FALSE)는 현재 컨트롤에 있는 값을 컨트롤에 출력시켜줍니다. 
+
+2. GetProcAddress() : 이 함수는 exported 된 DLL의 주소값을 리턴합니다. 
+
+즉, GetProcAddress(m_hInstDll, "KillTask"); 이 명령어는 m_hlnstDll에 로드되어 있는 npPSK.dll안에서 KillTask라는 함수를 호출하는 역할을 하게 됩니다. 
+그 외에 자세한 내용은 msdn라이브러리를 찾아보시면 자세하게 나옵니다. 
+
+3. Findhack.exe의 위 변조 방지는 이것의crc를 체크하는 방식으로 이루어 집니다. 
+
+Npmon.exe역시 동일한 방법으로 이루어 집니다. Crc를 체크하기 위해 제공되는 것이 npchk.dll입니다. 매뉴얼을 보면 npchk.dll로드하는 방법이 자세히 나와있습니다. 
+
+
+4. 안녕하십니까 잉카인터넷 조영채입니다.
+ 
+ 게임실행중 npmon 프로세스 확인 루틴 예제를 보내드립니다.
+
+    int hWnd;
+    hWnd = FindWindow("TfrmNPMON", "WWW.NPROTECT.COM");
+    if (hWnd != 0) {
+     AfxMessageBox("Exists");
+    } else {
+      AfxMessageBox("Not exists");
+   }
+
+ 설명: 
+ 
+FindWindows함수에서 처리후 리턴되는 값이 0이아닌 값이면 nProtect가 실행중인 상태이며 0이면 실행안된 상태입니다.
+ 
+
+
+
+
+	npscan.dll - GAMEHACK LIST	2002.6.26
+
+번호	게임핵 목록	                 비고
+1	Gmaster.1289216	
+2	Speedhack.23552	
+3	SpeedHack.61440	
+4	GAMEHACK.98307	
+5	tlconf.598016	
+6	toolin.504832	
+7	GameHack.95232	
+8	Voodoo.8704	
+9	Speed.32768	
+10	Gamehack.103424	
+11	Sexyon.222829	
+12	HackMU.225405	
+13	Alttab.156160	
+14	Levelup.98912
+15	mht.156160
+16	hakgui.148992
+17	Macexp.1141248
+18	SpeedHack.65536
+19	SpeedHack.86075
+20	GW32.134144
+21	GW32.134656
+22	KR_Loop.358912
+23	UOAutoPilot.229890
+24	MAGIC_TRAINER_CREATOR.2065408
+25	OMATIC.299008
+26	WinPWL3.53248
+27	ItemGrabberDemo.94208
+28	Cracker.7680
+29	Tradec.32768
+30	AsmEdit.137216
+31	PwdSpy.34816
+32	RO_FastAtk.40960
+33	WPE_PRO.774144
+34	automouse.233472
+35	ROU.169984
+36	RO-Trainer.442880
+37	RO_Utility.217088
+38	NameSpoofer.11264
+39	NameSpoofer-2.11776
+40	Arse_Kit.13824
+41	ShowIt.10752
+42	Arse_Kit-11.13824
+43	Arse_Kit-12.13824
+44	Pinger.24576
+45	LastPoint.10240
+46	LastPoint-11.10240
+47	LastPoint-12.10240
+48	SpyAgent4.599058
+49	AntiGenderCrash_11
+50	RagEmu.147456
+51	hbrsh.279006
+52	Helbreath_Speed_Hack.20480
+53	HelGameX.720896
+54	Trainer201.72704
+55	Winsock_packet_seditor.403456
+56	Lineage_Hack.875529
+57	Lineage_Hooker.137657
+58	Lineage_Hooker.168065
+59	OCGspeedhack_1.36864
+60	GameWiz.134656
+61	ArtMoney.969728
+62	CheatFinder_13
+63	MTC_127
+64	Memhack.690688
+65	OMatic.299008
+66	Cheat32.208416
+67	GameCheater.353792
+68	GenericGameTrainer.617984
+69	Hack32_159
+70	LastHope_20b
+

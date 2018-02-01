@@ -1,0 +1,38 @@
+particlesystem "Attack" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "Attack1" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 10
+    emitradius = xyz(0,0,0)
+    lifetime = 0.8
+    texture = "effect\\particle\shock.tga"
+    
+    initial size = 70
+    initial PartAngle = xyz(0,0,0)
+    initial color = rgba(255,255,255,255)
+    initial velocity = XYZ(0,0,0)
+    
+    fade so final color = rgba(20,20,20,20)
+    fade so final size = 150
+    fade so final PartAngle = xyz(0,0,50)
+  }
+  eventsequence "lline1" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 3
+    gravity = XYZ(0,0,0)
+    emitrate = 30
+    emitradius = XYZ(0,0,0)
+    loops = 1
+    lifetime = 0.5
+    texture = "effect\\particle\\flare.tga"
+    initial color = rgba(200,200,200,200)
+    initial size    = 8
+    initial sizeext =  random(200,250)
+    initial PartAngle = XYZ(0,0,random(-90,90))
+    fade so final color = rgba(0,0,0,0)
+    }
+   
+}

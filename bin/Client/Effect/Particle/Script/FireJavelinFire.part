@@ -1,0 +1,53 @@
+particlesystem "FireJet" 1.00 {
+  position = XYZ(0,50,-50)
+
+  eventsequence "Smoke" {
+    sourceblendmode = BLEND_INVSHADOW
+    numparticles = 20
+    gravity = XYZ(0,-10,0)
+    emitrate = 20
+    loops = 100
+    lifetime = Random(0.01,0.5)
+    texture = "effect\\particle\\MonParticle01.bmp"
+    initial color = rgba(255,255,255,255)
+    initial size = 5
+    initial velocity = XYZ(random(-10,10),random(10,20),random(-10,10))
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 20
+    }
+
+  eventsequence "UpFire" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 50
+    gravity = XYZ(0,-10,0)
+    emitrate = 100
+    loops = 100
+    lifetime = Random(0.01,0.5)
+    texture = "effect\\particle\\fire-1.bmp"
+    emitradius = xyz(random(-1,1),0,random(-1,1))
+    initial color = rgba(255,255,255,255)
+    initial size = 20
+    initial velocity = XYZ(random(-15,15),random(15,25),random(-15,15))
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 10
+    }
+
+    eventsequence "DownFire" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 20
+    gravity = XYZ(0,-10,0)
+    emitrate = 100
+    loops = 100
+    lifetime = Random(0.01,0.2)
+    emitradius = xyz(random(-1,1),0,random(-1,1))
+    texture = "effect\\particle\\fire-1.bmp"
+    initial color = rgba(255,255,255,255)
+    initial size = 15
+    initial velocity = XYZ(random(-2,2),random(-50,-30),random(-2,2))
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 10
+    }
+}
+
+
+

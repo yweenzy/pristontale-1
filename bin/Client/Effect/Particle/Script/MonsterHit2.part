@@ -1,0 +1,56 @@
+particlesystem "IceHit" 1.00 {
+  position = XYZ(0,0,0)
+  
+  eventsequence "Light" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 2
+    gravity = XYZ(0,0,0)
+    emitrate = 40
+    loops = 1
+    lifetime = 0.5
+    texture = "effect\\particle\\flare.tga"
+    initial color = rgba(255,200,50,255)
+    initial size = 80
+    initial velocity = XYZ(random(-5,5),random(5,5),random(-5,5))
+    initial partAngleZ = random(0,360)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 30
+    }
+
+  eventsequence "Hit1" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 40
+    loops = 1
+    lifetime = 0.5
+    texture = "effect\\particle\\flare.tga"
+    initial color = rgba(255,200,50,255)
+    initial size = 5
+    initial sizeExt = 150
+    initial velocity = XYZ(random(-5,5),random(5,5),random(-5,5))
+    initial partAngleZ = random(0,360)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 5
+    fade so final sizeExt = 200
+    }
+
+    eventsequence "Hit1" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 40
+    loops = 1
+    lifetime = 1
+    texture = "effect\\particle\\ice-at.bmp"
+    initial color = rgba(255,255,100,255)
+    initial size = 50
+    initial velocity = XYZ(random(-5,5),random(5,5),random(-5,5))
+    initial partAngleZ = random(0,360)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 40
+    }
+}
+
+
+

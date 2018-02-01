@@ -1,0 +1,37 @@
+particlesystem "Power" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "FireJet" {
+    sourceblendmode = BLEND_LAMP
+     particletype = TYPE_TWO
+    numparticles = 6
+    gravity = XYZ(0,-10,0)
+    emitrate = 15
+    loops = 2
+    lifetime = Random(0.01,0.2)
+    texture = "effect\\particle\\light-01.bmp"
+    initial color = rgba(100,230,50,150)
+    initial size = 140
+    initial partangleZ = random(0,360)
+    initial velocity = XYZ(random(-20,20),random(0,0),random(-20,20))
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 1
+    }
+    
+    eventsequence "FireJet" {
+    sourceblendmode = BLEND_LAMP
+     particletype = TYPE_TWO
+    numparticles = 6
+    gravity = XYZ(0,-10,0)
+    emitrate = 15
+    loops = 2
+    lifetime = Random(0.5,0.6)
+    texture = "effect\\particle\\light-02.bmp"
+    
+    initial color = rgba(100,255,50,150)
+    initial size = 150
+    initial partAngleZ = random(0,360)
+    initial velocity = XYZ(random(-5,5),random(-5,-5),random(-5,5))
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 1
+    }
+}

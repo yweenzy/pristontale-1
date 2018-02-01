@@ -1,0 +1,89 @@
+particlesystem "Explosion" 1.00 {
+  position = XYZ(0,50,0)
+
+
+
+   eventsequence "Attack1" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 10
+    emitradius = xyz(0,0,0)
+    lifetime = 0.8
+    texture = "effect\\particle\\shock.bmp"
+    initial size = 100
+    initial PartAngle = xyz(0,0,random(0,360))
+    initial color = rgba(200,200,200,230)
+    initial velocity = XYZ(0,0,0)
+    fade so final color = rgba(20,20,20,20)
+    fade so final size = 80
+  }
+  eventsequence "Flaming Debris" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 30
+    gravity = XYZ(0,-0.1,0)
+    emitrate = 200
+    emitradius = XYZ(random(-2,2),random(-2,2),random(-2,2))
+    lifetime = random(0.6,1.0)
+    texture = "effect\\particle\\star05B_01.bmp"
+    initial size = random(1,10)
+    initial color = rgba(255,255,255,255)
+    fade so at 0.4 color = rgba(255,255,255,255)
+    fade so at 0.8 color = rgba(0,0,0,0)
+    initial velocity = XYZ(random(-100,100),random(-100,100),random(-100,100))
+    fade so final size = 15
+    }
+   eventsequence "Flaming Debris" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 30
+    gravity = XYZ(0,-0.1,0)
+    emitrate = 200
+    emitradius = XYZ(random(-2,2),random(-2,2),random(-2,2))
+    lifetime = 1
+    texture = "effect\\particle\\star05Y_01.bmp"
+    initial size = random(1,5)
+    initial color = rgba(255,255,255,255)
+    fade so at 0.4 color = rgba(255,255,255,255)
+    fade so at 0.8 color = rgba(0,0,0,0)
+    initial velocity = XYZ(random(-70,70),random(-70,70),random(-70,70))
+    fade so final size = 15
+    }
+   eventsequence "Flaming Debris" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 15
+    gravity = XYZ(0,-0.1,0)
+    emitrate = 200
+    emitradius = XYZ(random(-2,2),random(-2,2),random(-2,2))
+    lifetime = random(0.5,1)
+    texture = "effect\\particle\\lovl_01.bmp"
+    initial size = random(1,10)
+    initial color = rgba(random(0,255),random(0,255),random(0,255),255)
+    fade so at 0.4 color = rgba(random(0,255),random(0,255),random(0,255),255)
+    fade so at 0.8 color = rgba(0,0,0,0)
+    initial velocity = XYZ(random(-30,30),random(-30,30),random(-30,30))
+    fade so final size = 15
+    }
+    
+
+   eventsequence "faeries" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    delay = 0.1
+    numparticles = 10
+    gravity = XYZ(0,-20,0)
+    emitrate = 140
+    emitradius = xyz(random(-30,30),random(-30,30),random(-30,30))
+    lifetime = 2
+    texture = "effect\\particle\\Dust1.bmp"
+    initial size = 10
+    initial color = rgba(200,200,200,50)
+    initial velocity = XYZ(random(-5,5),random(-20,20),random(-5,5))
+    fade so at 1.5 color = rgba(0,0,0,0)
+    fade so final size = 12
+    }
+
+}

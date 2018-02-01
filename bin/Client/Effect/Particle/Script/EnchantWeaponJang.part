@@ -1,0 +1,114 @@
+particlesystem "Power" 1.00 {
+  position = XYZ(0,20,0)
+    eventsequence "DownLight" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    loops = 1
+    emitradius = xyz(0,0,0) 
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 100
+    emitradius = xyz(0,0,0)
+    lifetime = 3
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 80
+    initial color = rgba(200,200,200,200)
+    initial velocity = XYZ(0,0,0)
+    fade so final color = rgba(0,0,0,0)
+    }
+
+  eventsequence "MiddleLight" {
+    sourceblendmode = BLEND_LAMP
+    emitradius = xyz(0,20,0) 
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 80
+    lifetime = 3
+    texture = "effect\\particle\\star05Y_03.bmp"
+    initial size = 80
+    initial color = rgba(200,200,200,200)
+    initial velocity = XYZ(0,0,0)
+    fade so final color = rgba(0,0,0,0)
+    }
+
+  eventsequence "DownLight" {
+    sourceblendmode = BLEND_LAMP
+    emitradius = xyz(0,0,0) 
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 80
+    emitradius = xyz(0,0,0)
+    lifetime = 3
+    texture = "effect\\particle\\star05Y_03.bmp"
+    initial size = 100
+    initial color = rgba(200,200,200,200)
+    initial velocity = XYZ(0,0,0)
+    fade so final color = rgba(0,0,0,0)
+    }
+
+  eventsequence "smallParticle" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 15
+    gravity = XYZ(0,0,0)
+    emitrate = 40
+    emitradius = xyz(random(-15,15),random(0,-20),random(-15,15))
+    lifetime = 1
+    texture = "effect\\particle\\star05Y_01.bmp"
+    initial size = 6
+    initial color = rgba(255,255,255,255)
+    initial velocity = XYZ(0,random(20,60),0)
+    initial LocalAngleY = 0
+    at 0.2 size = 35
+    at 0.4 size = 20
+    at 0.6 size = 35
+    at 0.8 size = 20
+    at 1.0 size = 35
+    at 1.2 size = 20
+    fade so final color = rgba(0,0,0,0)
+    fade so final LocalAngleY = random(400,200)
+   }
+
+  eventsequence "LineTraceParticle" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_FOUR
+    loops = 1
+    numparticles = 6
+    gravity = XYZ(0,0,0)
+    emitrate = 20
+    emitradius = xyz(random(-25,25),random(0,0),random(-25,25))
+    lifetime = 1.5
+    texture = "effect\\particle\\shield1.tga"
+    initial size = 8
+    initial sizeExt = 15
+    initial LocalAngleY = 0
+    initial color = rgba(200,150,50,255)
+    initial velocity = XYZ(random(-10,10),random(10,20),random(-10,10))
+    fade so final color = rgba(0,0,0,0)
+    fade so final LocalAngleY = random(400,200)
+    }
+
+    eventsequence "LineParticle" {
+    sourceblendmode = BLEND_LAMP
+    particleType = TYPE_THREE
+    numparticles = 15
+    gravity = XYZ(0,40,0)
+    delay = 0.3
+    emitrate = 60
+    loops = 1
+    emitradius = xyz(random(-10,10),0,random(-10,10))
+    lifetime = 1
+    texture = "effect\\particle\\flare.tga"
+    initial size = random(2,6)
+    initial sizeext = random(100,150)
+    initial color = rgba(200,150,50,255)
+    initial LocalAngleY = 0
+    initial velocity = XYZ(0,0,0)
+    fade so final color = rgba(0,0,0,0)
+    fade so final localangleY = random(200,400)
+    }
+
+    
+}

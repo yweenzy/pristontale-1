@@ -1,0 +1,19 @@
+﻿html { 
+  background: url(PT-BACK.jpg) no-repeat center center fixed; 
+background-size:100% 100%;
+overflow-x: hidden;
+}
+
+body {
+	
+}
+
+div#maintext {
+	position: relative;
+    background-image:url("player_rankings.png") ;
+	background-size:600px 1241px;
+   background-repeat: no-repeat;
+    background-position: center top;
+		Margin-top: 0%;
+	
+}

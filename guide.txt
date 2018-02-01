@@ -1,0 +1,10 @@
+How to get repository:
+
+1. Download & install GitExtension: https://sourceforge.net/projects/gitextensions/
+2. Create new Folder somewhere, where you want to download the new Project
+3. Right-click the new folder and select "create new Repository here"
+4. right-click and select "Git Browse"
+5. Select Menu: Repsoitory->RemoteRepositories
+6. Add new Remote repository
+7. Pull <master> from new remote Repository
+8. trink coffee...

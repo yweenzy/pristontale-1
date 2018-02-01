@@ -1,0 +1,34 @@
+Used in aging
+10
+Catch from drop
+0
+For mature
+17
+For mature
+4  
+Matured
+12
+Bought from NPC
+5
+Dropped item
+6
+Used force orb
+24
+Sold in NPC
+7
+Putted in force orb NPC
+25
+Complete force orb
+26
+Putted item in mix NPC
+9
+Mix complete
+3
+Sold item in personal shop
+22
+Bought item in personal shop
+23
+Received item in a trade
+2
+Gave item in a trade
+8

@@ -1,0 +1,39 @@
+particlesystem "FireJet" 1.00 {
+  position = XYZ(0,50,-100)
+  eventsequence "Second" {
+    sourceblendmode = BLEND_INVSHADOW
+    numparticles = 2
+    gravity = XYZ(0,-10,0)
+    emitradius = xyz(0,random(-3,3),0)
+    emitrate = 8
+    loops = 200
+    lifetime = Random(0.2,0.4)
+    texture = "effect\\particle\\MonParticle01.bmp"
+    initial color = rgba(255,255,255,20)
+    initial size = 8
+    initial velocity = XYZ(random(-5,5),random(20,30),random(-5,5))
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 14
+    }
+
+  eventsequence "Third" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 8
+    gravity = XYZ(0,-10,0)
+    emitradius = xyz(0,random(-4,-2),0)
+    emitrate = 20
+    loops = 200
+    lifetime = Random(0.2,0.5)
+    texture = "effect\\particle\\fire_003.bmp"
+    initial color = rgba(255,150,50,160)
+    initial size = 10
+    initial velocity = XYZ(random(-10,10),random(20,30),random(-10,10))
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 2
+    }
+  
+    
+}
+
+
+

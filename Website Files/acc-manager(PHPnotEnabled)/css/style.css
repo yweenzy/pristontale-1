@@ -1,0 +1,187 @@
+a:link {
+    font-family: Tahoma;
+    font-size: 10px;
+    color: #7f7f7f;
+    text-decoration: none;
+}
+
+a:visited {
+    font-family: Tahoma;
+    font-size: 10px;
+    color: #666666;
+    text-decoration: none;
+}
+
+
+a:active {
+    font-family: Tahoma;
+    font-size: 10px;
+    color: #7f7f7f;
+    text-decoration: none;
+}
+
+a:hover {
+    font-family: Tahoma;
+    font-size: 10px;
+    color: #2d88b6;
+    text-decoration: underline;
+}
+
+#whitelink a:link {
+    font-family: Tahoma;
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#whitelink a:visited {
+    font-family: Tahoma;
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+#whitelink a:active {
+    font-family: Tahoma;
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+#whitelink a:hover {
+    font-family: Tahoma;
+    font-size: 10px;
+    color: white;
+    text-decoration: underline;
+}
+
+#whitelink_bot a:link {
+    font-family: Tahoma;
+    font-size: 9px;
+    color: white;
+    text-decoration: none;
+}
+
+#whitelink_bot a:visited {
+    font-family: Tahoma;
+    font-size: 9px;
+    color: white;
+    text-decoration: none;
+}
+
+
+#whitelink_bot a:active {
+    font-family: Tahoma;
+    font-size: 9px;
+    color: white;
+    text-decoration: none;
+}
+
+#whitelink_bot a:hover {
+    font-family: Tahoma;
+    font-size: 9px;
+    color: white;
+    text-decoration: underline;
+}
+
+#bluelink a:link {
+    font-family: Tahoma;
+    font-size: 10px;
+    color: #2d88b6;
+    text-decoration: none;
+}
+
+#bluelink a:visited {
+    font-family: Tahoma;
+    font-size: 10px;
+    color: #2d88b6;
+    text-decoration: none;
+}
+
+
+#bluelink a:active {
+    font-family: Tahoma;
+    font-size: 10px;
+    color: #2d88b6;
+    text-decoration: none;
+}
+
+#bluelink a:hover {
+    font-family: Tahoma;
+    font-size: 10px;
+    color: #2d88b6;
+    text-decoration: underline;
+}
+
+table {
+    font-family: Tahoma;
+    font-size: 10px;
+}
+
+
+body {
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    font-family: Tahoma;
+    font-size: 10px;
+    color: #7f7f7f;
+    background-color: white;
+    scrollbar-arrow-color: white;
+    scrollbar-3dlight-color: #e5e5e5;
+    scrollbar-highlight-color: #2d88b6;
+    scrollbar-face-color: #2d88b6;
+    scrollbar-shadow-color: #2d88b6;
+    scrollbar-darkshadow-color: #e5e5e5;
+    scrollbar-track-color: #e5e5e5;
+}
+
+.padding_table {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.padding_all {
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:5px;
+    padding-bottom:5px
+}
+
+.padding_left_sub {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+input {
+    font-family: Tahoma;
+    font-size: 10px;
+    color: #7f7f7f;
+    background-color: white;
+    border-top: 1px solid #cecece;
+    border-bottom: 1px solid #cecece;
+    border-left: 1px solid #cecece;
+    border-right: 1px solid #cecece;
+}
+
+.button {
+    font-family: Tahoma;
+    font-size: 10px;
+    color: #FFFFFF;
+    background-color: #2d88b6;
+    border-top: 1px solid #2d88b6;
+    border-bottom: 1px solid #2d88b6;
+    border-left: 1px solid #2d88b6;
+    border-right: 1px solid #2d88b6;
+}
+
+.alert_color {color: #2d88b6}
+
+select {
+    font-family: Tahoma;
+    font-size: 10px;
+    color: #7f7f7f;
+    background-color: #FFFFFF;
+}

@@ -1,0 +1,79 @@
+particlesystem "Power" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "Attack1" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 2
+    gravity = XYZ(0,0,0)
+    emitrate = 40
+    delay = 0.2
+    emitradius = xyz(0,0,0)
+    lifetime = 0.6
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 40
+    initial PartAngle = xyz(0,0,random(0,360))
+    initial color = rgba(255,50,0,255)
+    fade so at 0.1 color = rgba(255,150,50,255)
+    fade so final color = rgba(20,20,20,20)
+    fade so final size = 42
+   }
+   eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1000
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 15
+    emitradius = xyz(0,0,0)
+    lifetime = 2
+    texture = "effect\\particle\\circle_002.bmp"
+    initial size = 5
+    initial color = rgba(255,100,50,150)
+    initial velocity = XYZ(0,0,0)
+    initial partAngle = xyz(0,0,0)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 15
+    } 
+
+    eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1000
+    numparticles = 2
+    gravity = XYZ(0,0,0)
+    emitrate = 15
+    emitradius = xyz(0,0,0)
+    lifetime = 1000
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 25
+    initial color = rgba(255,100,50,50)
+    initial velocity = XYZ(0,0,0)
+    initial partAngle = xyz(0,0,0)
+    fade so at 1 color = rgba(255,100,50,200)
+    fade so at 1 size   = 25
+    fade so at 2 color = rgba(255,100,50,100)
+    fade so at 2 size   = 20
+    fade so at 3 color = rgba(200,100,50,200)
+    fade so at 3 size   = 25
+    at 3 eventtimer = 1
+    fade so at 5 color = rgba(0,0,0,0)
+    } 
+   eventsequence "faeries" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_FOUR
+    loops = 1000
+    numparticles = 2
+    gravity = XYZ(0,0,0)
+    emitrate = 2
+    emitradius = xyz(random(-7,7),random(-7,7),random(-7,7))
+    lifetime = 1
+    texture = "effect\\particle\\attack02_02.bmp"
+    initial size = 0.1
+    initial sizeExt = 30
+    initial LocalAngleY = 0
+    initial LocalAngleZ = 30
+    initial color = rgba(255,150,50,255)
+    fade so at 0.7 color = rgba(255,255,255,255) 
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 10
+    fade so final LocalAngleZ = random(400, 600)
+    }
+}

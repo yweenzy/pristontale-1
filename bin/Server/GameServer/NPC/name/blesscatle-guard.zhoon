@@ -1,0 +1,6 @@
+//blesscatle-guard.npc
+
+*J_NAME		"Bless Castle Guard"
+
+*J_CHAT		"Fierce fights are going on here at siege!"
+*J_CHAT		"I better get out of here when siege is here..."

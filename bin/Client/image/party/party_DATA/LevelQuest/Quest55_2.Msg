@@ -1,0 +1,4 @@
+
+Hunt twenty Dire Bees 
+that appear in Beehive
+Cave and go back to Raymon.

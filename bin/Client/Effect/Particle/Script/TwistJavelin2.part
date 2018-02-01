@@ -1,0 +1,60 @@
+particlesystem "Power" 1.00 {
+  position = XYZ(0,20,-100)
+
+  eventsequence "Hit1" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 10
+    emitradius = xyz(0,0,0)
+    lifetime = 0.8
+    texture = "effect\\particle\shock.tga"
+    
+    initial size = 70
+    initial PartAngle = xyz(0,0,0)
+    initial color = rgba(100,255,100,255)
+    initial velocity = XYZ(0,0,0)
+    
+    fade so final color = rgba(20,20,20,20)
+    fade so final size = 100
+    fade so final PartAngle = xyz(0,0,50)
+  }
+
+
+  eventsequence "Light1" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 100
+    emitradius = xyz(0,0,0)
+    lifetime = 2
+    texture = "effect\\particle\\flare.tga"
+    initial size = 50
+    initial color = rgba(255,255,255,255)
+    initial velocity = XYZ(0,0,0)
+    fade so at 0.5 color = rgba(100,100,255,200)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 90
+   }
+
+  
+
+    eventsequence "faeries" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 15
+    loops = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 200
+    emitradius = xyz(random(-1,1),random(-1,1),random(10,20))
+    lifetime = 0.8
+    texture = "effect\\particle\\water2.tga"
+    initial size = 15
+    initial color = rgba(200,200,200,255)
+     initial LocalAnglez = 0
+    initial velocity = XYZ(random(-10,10),random(-10,10),random(20,50))
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 40
+    }
+}

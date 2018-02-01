@@ -1,0 +1,104 @@
+particlesystem "HolyValor" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "light2" {
+    sourceblendmode = BLEND_LAMP
+    particleType = TYPE_THREE
+    numparticles = 20
+    gravity = XYZ(0,0,0)
+    emitrate = 15
+    emitradius = xyz(random(-20,20),110,random(-20,20))
+    lifetime = 1.6
+    texture = "effect\\particle\\flare.tga"
+    initial size = random(5,10)
+    initial sizeext = random(200,300)
+    initial color = rgba(0, 0, 0, 0)
+    fade so at 0.4 color = rgba(255,150,50,100)
+    initial velocity = XYZ(0,0,0)
+    fade so final color = rgba(0,0,0,0)
+    }
+    eventsequence "light2" {
+    sourceblendmode = BLEND_LAMP
+    particleType = TYPE_THREE
+    numparticles = 20
+    gravity = XYZ(0,0,0)
+    emitrate = 15
+    emitradius = xyz(random(-10,10),110,random(-10,10))
+    lifetime = 1.7
+    texture = "effect\\particle\\flare.tga"
+    initial size = random(5,10)
+    initial sizeext = random(200,300)
+    
+    initial color = rgba(0, 0, 0, 0)
+    fade so at 0.4 color = rgba(200,200,200,100)
+   initial velocity = XYZ(0,0,0)
+    fade so final color = rgba(0,0,0,0)
+    }
+
+  eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    particleType = TYPE_THREE
+    numparticles = 4
+    gravity = XYZ(0,0,0)
+    emitrate = 1
+    emitradius = xyz(0,120,0)
+    lifetime = 4
+    texture = "effect\\particle\\aurora4_201.bmp"
+    initial size = 300
+    initial sizeExt = 250
+    initial color = rgba(0,0,0,0)
+    initial velocity = XYZ(0,0,3)
+    fade so at 1 color = rgba(100,100,100,100)
+    fade so at 2 color = rgba(150,150,150,130)
+    fade so final color = rgba(0,0,0,0)
+    }
+   eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    particleType = TYPE_THREE
+    numparticles = 4
+    gravity = XYZ(0,0,0)
+    emitrate = 1
+    emitradius = xyz(0,120,-5)
+    lifetime = 4
+    texture = "effect\\particle\\aurora4_201.bmp"
+    initial size = 300
+    initial sizeExt = 250
+    initial color = rgba(0,0,0,0)
+    initial velocity = XYZ(0,0,-3)
+    fade so at 1 color = rgba(100,100,100,100)
+    fade so at 2 color = rgba(150,150,150,130)
+    fade so at 3 color = rgba(100,100,100,100)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 50
+    }
+    
+    eventsequence "snow" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 60
+    gravity = XYZ(0,-3,0)
+    emitrate = 20
+    delay = 1
+    emitradius = XYZ(random(-80,80),random(50,120),random(-80,80))
+    lifetime = 4
+    gravity = XYZ(0, random(-10,-5), 0)
+    texture = "effect\\particle\\star05Y_01.bmp"
+    initial color = rgba(255,255,255,255)
+    initial size    = random(2,4)
+    initial velocity = XYZ(random(-5,5),random(30,40),random(-5,5))
+    fade so at 0.5 color = rgba(255,255,255,255)
+    fade so at 1.2 color = rgba(255,255,255,255)
+    at 0.1 size = 3
+    at 0.2 size = 6
+    at 0.3 size = 3
+    at 0.4 size = 6
+    at 0.5 size = 3
+    at 0.5 size = 6
+    at 0.6 size = 3
+    at 0.7 size = 6
+    at 0.8 size = 3
+    at 0.9 size = 6
+    at 1.0 size = 3
+    at 1.1 size = 6
+    at 1.2 size = 3
+    fade so final color = rgba(0, 0, 0, 0)
+   }
+}

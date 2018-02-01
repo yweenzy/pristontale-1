@@ -1,0 +1,99 @@
+particlesystem "Attack" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "Attack1" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 10
+    emitradius = xyz(0,0,0)
+    lifetime = 0.8
+    texture = "effect\\particle\shock.tga"
+    
+    initial size = 70
+    initial PartAngle = xyz(0,0,0)
+    initial color = rgba(200,200,200,200)
+    initial velocity = XYZ(0,0,0)
+    
+    fade so final color = rgba(20,20,20,20)
+    fade so final size = 150
+    fade so final PartAngle = xyz(0,0,50)
+  }
+
+  eventsequence "tttt" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 10
+    emitradius = xyz(0,0,0)
+    lifetime = 0.4
+    texture = "effect\\particle\\circle-1.tga"
+    
+    initial size = 20
+    initial color = rgba(255,0,0,255)
+    initial velocity = XYZ(0,0,0)
+    
+    fade so final color = rgba(20,20,20,20)
+    fade so final size = 100
+  }
+
+   eventsequence "Attack3" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 100
+    gravity = XYZ(0,0,0)
+    emitrate = 600
+    emitradius = XYZ(random(0,0),random(0,0),random(0,0))
+    lifetime = random(0,0.9)
+    texture = "effect\\particle\\flare.tga"
+    initial size = random(4,6)
+    initial color = rgba(255,0,0,255)
+
+    fade so final color = rgba(0,0,0,0)
+    initial velocity = XYZ(random(-200,200),random(-20,20),random(-20,20))
+  }
+
+  eventsequence "Attack4" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 20
+    gravity = XYZ(0,0,0)
+    emitrate = 200
+    emitradius = xyz(random(-3,3),random(-3,3),random(-3,3))
+    lifetime = 1.5
+    texture = "effect\\particle\\flare.tga"
+
+    initial size = 6
+    initial color = rgba(random(0,255),random(0,255),random(0,255),random(0,255))
+    initial velocity = XYZ(random(-10,10),random(-10,10),random(-10,10))
+    
+    at 1 velocity = XYZ(random(-10,10),random(-10,10),random(-10,10))
+    at 2 velocity = XYZ(random(-10,10),random(-10,10),random(-10,10))
+    at 3 velocity = XYZ(random(-10,10),random(-10,10),random(-10,10))
+    at 4 velocity = XYZ(random(-10,10),random(-10,10),random(-10,10))
+    at 5 velocity = XYZ(random(-10,10),random(-10,10),random(-10,10))
+    
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 20
+  }
+  
+  eventsequence "lline1" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 2
+    gravity = XYZ(0,0,0)
+    emitrate = 25
+    emitradius = XYZ(0,0,0)
+    loops = 1
+    lifetime = 0.7
+    texture = "effect\\particle\\flare.tga"
+    initial color = rgba(200,200,200,200)
+    initial size    = 7
+    initial sizeext =  random(120,150)
+    initial Partangle = XYZ(0,0,random(-90,90))
+
+    fade so at 0.2 color = rgba(255,255,255,255)
+    fade so final color = rgba(0,0,0,0)
+    }
+   
+}

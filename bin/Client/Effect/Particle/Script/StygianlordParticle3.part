@@ -1,0 +1,18 @@
+particlesystem "DMachine" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "faeries" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 5
+    loops = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 40
+    emitradius = xyz(random(-15,15),random(0,10),random(-15,15))
+    lifetime = 0.8
+    texture = "effect\\particle\\dust1.bmp"
+    initial size = 25
+    initial color = rgba(255,255,255,255)
+    initial velocity = XYZ(0,15,0)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 30
+    }
+}

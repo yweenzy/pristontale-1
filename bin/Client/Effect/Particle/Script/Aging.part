@@ -1,0 +1,77 @@
+particlesystem "NewCharacter" 1.00 {
+  position = XYZ(0,0,0)
+   eventsequence "light2" {
+    sourceblendmode = BLEND_LAMP
+    particleType = TYPE_THREE
+    numparticles = 25
+    gravity = XYZ(0,0,0)
+    emitrate = 80
+    loops = 1
+    emitradius = xyz(random(-20,20),0,random(-20,20))
+    lifetime = 1.5
+    texture = "effect\\particle\\flare.tga"
+    initial size = random(5,10)
+    initial sizeext = random(100,200)
+    initial color = rgba(255,150,50,255)
+    initial LocalAngleY = 0
+    initial velocity = XYZ(0,0,0)
+    fade so final color = rgba(0,0,0,0)
+    fade so final localangleY = random(400,600)
+    
+    }
+    
+    eventsequence "light2" {
+    sourceblendmode = BLEND_LAMP
+    particleType = TYPE_THREE
+    numparticles = 10
+    gravity = XYZ(0,0,0)
+    delay = 0.3
+    emitrate = 80
+    loops = 1
+    emitradius = xyz(random(-10,10),0,random(-10,10))
+    lifetime = 1
+    texture = "effect\\particle\\flare.tga"
+    initial size = random(5,10)
+    initial sizeext = random(200,250)
+    initial color = rgba(255,255,255,255)
+    initial LocalAngleY = 0
+    initial velocity = XYZ(0,0,0)
+    fade so final color = rgba(0,0,0,0)
+    fade so final localangleY = random(400,600)
+    }
+
+    eventsequence "light2" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 20
+    gravity = XYZ(0,0,0)
+    emitrate = 30
+    loops = 1
+    emitradius = xyz(random(-40,40),random(-20,20),random(-40,40))
+    lifetime = 1.5
+    texture = "effect\\particle\\flare.tga"
+    initial size = random(10,15)
+    initial color = rgba(random(0,255),150,80,255)
+    initial LocalAngleY = 0
+    initial velocity = XYZ(0,0,0)
+    fade so final color = rgba(0,0,0,0)
+    fade so final localangleY = random(300,500)
+    }
+    
+    eventsequence "light2" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 20
+    gravity = XYZ(0,0,0)
+    emitrate = 30
+    loops = 1
+    emitradius = xyz(random(-20,20),random(-20,20),random(-20,20))
+    lifetime = 1.3
+    texture = "effect\\particle\\flare.tga"
+    initial size = random(5,10)
+    initial color = rgba(random(0,255),random(0,255),random(0,255),255)
+    initial LocalAngleY = 0
+    initial velocity = XYZ(0,0,0)
+    fade so final color = rgba(0,0,0,0)
+    fade so final localangleY = random(1000,1200)
+    }
+
+}

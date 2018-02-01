@@ -1,0 +1,55 @@
+particlesystem "Power" 1.00 {
+  position = XYZ(0,0,0)
+  
+    eventsequence "Start" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_THREE
+    loops = 1
+    numparticles = 40
+    gravity = XYZ(0,0,0)
+    emitrate = 90
+    emitradius = xyz(0,0,0)
+    lifetime = 0.5
+    texture = "effect\\particle\\flare.tga"
+    initial size = random(3,5)
+    initial sizeExt = random(70,90)
+    initial partAngle = XYZ(random(-360,360), random(-360,360), random(0,120))
+    initial color = rgba(255,200,50,200)
+    initial velocity = XYZ(0,0,0)
+    fade so final color = rgba(0,0,0,0)
+    fade so final sizeExt = 200
+    } 
+    
+    eventsequence "Start" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 3
+    loops = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 80
+    emitradius = xyz(random(-1,1),random(-1,1),random(-1,1))
+    lifetime = 0.8
+    texture = "effect\\particle\\water2.tga"
+    initial size = 10
+    initial color = rgba(255,255,255,255)
+    initial velocity = XYZ(random(-5,5),random(-5,5),random(-5,5))
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 50
+    }
+
+   eventsequence "faeries" {
+    sourceblendmode = BLEND_LAMP
+    loops = 100
+    numparticles = 20
+    gravity = XYZ(0,0,0)
+    emitrate = 20
+    emitradius = xyz(random(-4,4),random(-4,4),random(-4,4))
+    lifetime = 1
+    texture = "effect\\particle\\star05Y_01.bmp"
+    initial size = random(10,20)
+    initial color = rgba(255,200,50,200)
+    initial velocity = XYZ(0,0,0)
+    //initial partAngle = xyz(random(0,360), random(0,360), random(0,360))
+    fade so final color = rgba(0,0,0,0)
+    fade so final sizeExt = 200
+    }
+}

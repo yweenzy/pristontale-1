@@ -1,0 +1,67 @@
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[tbl_admins]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[tbl_admins](
+	[id_usuario] [int] IDENTITY(1,1) NOT NULL,
+	[login] [varchar](25) NOT NULL,
+	[senha] [varchar](25) NOT NULL,
+ CONSTRAINT [PK_tbl_admins] PRIMARY KEY CLUSTERED 
+(
+	[id_usuario] ASC
+)WITH (PAD_INDEX  = OFF, IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[tbl_item_code]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[tbl_item_code](
+	[id_cod_item] [int] IDENTITY(1,1) NOT NULL,
+	[codigo_item] [varchar](50) NOT NULL,
+	[nome_item] [varchar](50) NOT NULL,
+ CONSTRAINT [PK_tbl_item_code] PRIMARY KEY CLUSTERED 
+(
+	[id_cod_item] ASC
+)WITH (PAD_INDEX  = OFF, IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[tbl_acoes]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[tbl_acoes](
+	[id_acao] [int] IDENTITY(1,1) NOT NULL,
+	[detalhe_acao] [varchar](50) NOT NULL,
+	[codigo_acao] [varchar](50) NOT NULL,
+ CONSTRAINT [PK_tbl_acoes] PRIMARY KEY CLUSTERED 
+(
+	[id_acao] ASC
+)WITH (PAD_INDEX  = OFF, IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+END
+GO
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+IF NOT EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[tbl_itens]') AND type in (N'U'))
+BEGIN
+CREATE TABLE [dbo].[tbl_itens](
+	[id_item] [int] IDENTITY(1,1) NOT NULL,
+	[nome_item] [varchar](50) NOT NULL,
+	[codigo_item] [varchar](50) NOT NULL,
+ CONSTRAINT [PK_tbl_itens] PRIMARY KEY CLUSTERED 
+(
+	[id_item] ASC
+)WITH (PAD_INDEX  = OFF, IGNORE_DUP_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+END

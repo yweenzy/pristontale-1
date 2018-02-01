@@ -1,0 +1,39 @@
+particlesystem "Attack" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "Attack4" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 40
+    gravity = XYZ(0,0,0)
+    emitrate = 200
+    emitradius = xyz(random(0,0),random(-0,0),random(-0,0))
+    lifetime = 1
+    texture = "effect\\particle\\flare.tga"
+
+    initial size = 10
+    //rgba(255,150,50,255)
+    initial color = rgba(255,130,50,random(0,255))
+    initial velocity = XYZ(random(-60,60),random(-50,50),random(-60,60))
+    
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 10
+  }
+  
+  eventsequence "Attack3" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 15
+    gravity = XYZ(0,0,0)
+    emitrate = 200
+    emitradius = XYZ(random(-10,10),random(0,0),random(-10,10))
+    lifetime = random(1,1.5)
+    texture = "effect\\particle\\dust2.bmp"
+    initial size = random(10,25)
+    initial color = rgba(255,120,50,255)
+
+    fade so final color = rgba(0,0,0,0)
+    initial velocity = XYZ(random(-30,30),random(0,20),random(-30,30))
+  }
+  
+   
+}

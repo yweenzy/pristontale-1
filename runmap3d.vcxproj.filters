@@ -1,0 +1,1388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{dfab6869-5414-43da-82eb-10a386eae192}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="XtrapSrcD5">
+      <UniqueIdentifier>{daf1e0c1-a0b2-421f-bdbc-985e7313dd62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XtrapSrcD5\Client">
+      <UniqueIdentifier>{4f0fc129-388e-4688-92c4-7c7b6f1868bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XtrapSrcD5\Server">
+      <UniqueIdentifier>{37a5f751-6e40-4988-9e1d-558beed44dac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nProtect">
+      <UniqueIdentifier>{f5699ae3-aebb-4fe8-bc8a-a0524a3d655f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XignCode">
+      <UniqueIdentifier>{72d57f5d-3020-46f5-89b7-580b87ddd3bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XignCode\Server">
+      <UniqueIdentifier>{85f85cb4-661c-47d0-af71-83050d07574e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XignCode\Client">
+      <UniqueIdentifier>{0b54b6ce-2990-4ebb-b1b0-0dc0d80bfd03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{3d1e43ab-60b5-42a2-a9bd-dbe20bebe0df}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Src\SinBaRam">
+      <UniqueIdentifier>{2aaab93b-1818-42db-bcb0-3990954c5db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\SinBaRam\SkillFunction">
+      <UniqueIdentifier>{7c70dccf-ebb6-41d6-a861-9183e8e9bba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\SinBaRam\sin3D">
+      <UniqueIdentifier>{eca2e2f5-b9a5-4c09-a613-84083b3c6f95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\SinBaRam\sin3D\AssaEffect">
+      <UniqueIdentifier>{7fe7b7af-2726-484b-9ba4-ada5e53d5369}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\SinBaRam\sinETC">
+      <UniqueIdentifier>{29de659b-fe69-4fe9-a722-787651b1ccac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\sound">
+      <UniqueIdentifier>{eb206df2-56e7-44b4-a2d7-d07338bfc96c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\HanGame">
+      <UniqueIdentifier>{f8bda4db-23aa-4f92-b5eb-92810fa486f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\IME">
+      <UniqueIdentifier>{680cda47-fe21-4bfb-b514-bdd3aab06869}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\tjboy">
+      <UniqueIdentifier>{b841a88e-7ee3-4e94-8abc-59331bda7183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\tjboy\ClanMenu">
+      <UniqueIdentifier>{6554b3ac-3a98-4624-82fa-fb6818650890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\tjboy\IsaoCheck">
+      <UniqueIdentifier>{43766325-0009-4e03-8003-d731da92dfeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\tjboy\ygy">
+      <UniqueIdentifier>{71b2a60a-6c98-4e57-915e-18f3f6d983c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\tjboy\ygy\Memmap">
+      <UniqueIdentifier>{00152795-1305-421a-aecf-9a57fcf6642c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\tjboy\ygy\Packet">
+      <UniqueIdentifier>{4331658d-1208-4633-973d-cd5821977b69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\tjboy\ygy\Process">
+      <UniqueIdentifier>{78d79b66-9791-4565-bd1c-28a497714a20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\tjboy\Park">
+      <UniqueIdentifier>{f31bae18-1a09-49c5-85cb-7af318270cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\WinInt">
+      <UniqueIdentifier>{b1e71683-4cb4-4438-b9a2-fd61b5ec8132}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Park">
+      <UniqueIdentifier>{2aa8255e-b9d6-4f0c-a7d0-45a1ec882f5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\MiniDump">
+      <UniqueIdentifier>{553c023f-9e1f-439f-b13f-8aad9144260c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Server">
+      <UniqueIdentifier>{a94c68dc-4bcd-4e81-928c-48032fb25ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Language">
+      <UniqueIdentifier>{8742c391-eceb-4fc7-9450-e71d911d2e40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Language\Argentina">
+      <UniqueIdentifier>{a05da303-276d-4d16-8838-8b88a1bdcba5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Language\Brazil">
+      <UniqueIdentifier>{714ccccf-d99f-4f1d-8246-b5988f7e9b5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Language\Chinese">
+      <UniqueIdentifier>{949e1a7a-372c-47f1-a24a-c69545c78b9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Language\English">
+      <UniqueIdentifier>{ddb563aa-010e-455f-895f-4eb7d56b3ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Language\Japanese">
+      <UniqueIdentifier>{67d3029b-73a5-4e71-946f-324048279735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Language\Korean">
+      <UniqueIdentifier>{22bab7ad-444a-417b-9bda-1c30200acf9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Language\taiwan">
+      <UniqueIdentifier>{878648b7-d317-478d-8555-018fcea390cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Language\thai">
+      <UniqueIdentifier>{6423bae4-695b-4559-b480-ce600a6c535e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Language\veitnam">
+      <UniqueIdentifier>{65504b04-3d04-47ce-ba62-2054060b8c72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\smLib3d">
+      <UniqueIdentifier>{299c2284-a506-4cca-a296-4e626c95860b}</UniqueIdentifier>
+      <Extensions>cpp</Extensions>
+    </Filter>
+    <Filter Include="Src\HoBaram">
+      <UniqueIdentifier>{ff695b98-b1c4-4a57-8c3c-0354109465dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\HoBaram\NewEffect">
+      <UniqueIdentifier>{0d2233e3-dd33-4678-bb8f-16a10d67d991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\HoBaram\NewEffect\Script">
+      <UniqueIdentifier>{55aaada5-20b0-4254-8b24-95f62f1918b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\HoBaram\NewEffect\Script\lua">
+      <UniqueIdentifier>{9a34f2ee-dd07-45cc-81fa-3a6b9083b66b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\HoBaram\NewEffect\Math">
+      <UniqueIdentifier>{081686a7-3851-4551-b16a-1acbad8b2c88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="nprotect\PT_KeyCrypt.cpp">
+      <Filter>nProtect</Filter>
+    </ClCompile>
+    <ClCompile Include="nprotect\nProtect.cpp">
+      <Filter>nProtect</Filter>
+    </ClCompile>
+    <ClCompile Include="Xigncode\Server\zwave_sdk_linker.cpp">
+      <Filter>XignCode\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Language\jts.cpp">
+      <Filter>Src\Language</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WinInt\WavIntHttp.cpp">
+      <Filter>Src\WinInt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WinInt\WinIntThread.cpp">
+      <Filter>Src\WinInt</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\Ygy\Util.cpp">
+      <Filter>Src\tjboy\ygy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\Ygy\Process\Process.cpp">
+      <Filter>Src\tjboy\ygy\Process</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\Ygy\Packet\Packet.cpp">
+      <Filter>Src\tjboy\ygy\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\Ygy\memmap\memmap.cpp">
+      <Filter>Src\tjboy\ygy\Memmap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\clanmenu\BMPsmooth.cpp">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\clanmenu\cE_chatlist.cpp">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\clanmenu\cE_chip.cpp">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\clanmenu\cE_CJoin.cpp">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\clanmenu\cE_Cmake.cpp">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\clanmenu\cE_CViewClanInfo.cpp">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\clanmenu\cE_deletecha.cpp">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\clanmenu\cE_isclanmember.cpp">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\clanmenu\cE_Notice.cpp">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\clanmenu\cE_nouser.cpp">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\clanmenu\cE_report.cpp">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\clanmenu\cE_Updatecldata.cpp">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\clanmenu\cE_user.cpp">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\clanmenu\clan_Enti.cpp">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\clanmenu\GuideHelp.cpp">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\clanmenu\Help.cpp">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\clanmenu\tjclan.cpp">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\clanmenu\tjScroll.cpp">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\isaocheck\auth.cpp">
+      <Filter>Src\tjboy\IsaoCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\isaocheck\isaocheck.cpp">
+      <Filter>Src\tjboy\IsaoCheck</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\park\MicVolume.cpp">
+      <Filter>Src\tjboy\Park</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TJBOY\park\ParkDXPlayer.cpp">
+      <Filter>Src\tjboy\Park</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sound\Dxwav.cpp">
+      <Filter>Src\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sound\Wave.cpp">
+      <Filter>Src\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Server\ClientFuncPos.cpp">
+      <Filter>Src\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Server\DllServer.cpp">
+      <Filter>Src\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Server\gameSQL.cpp">
+      <Filter>Src\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Server\OnSever.cpp">
+      <Filter>Src\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Server\openlive.cpp">
+      <Filter>Src\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Server\PartySever.cpp">
+      <Filter>Src\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Server\Svr_Damge.cpp">
+      <Filter>Src\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Server\svrEventSpawn.cpp">
+      <Filter>Src\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smLib3d\FilterEffect.cpp">
+      <Filter>Src\smLib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smLib3d\smDsx.cpp">
+      <Filter>Src\smLib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smLib3d\smgeosub.cpp">
+      <Filter>Src\smLib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smLib3d\smJpeg.cpp">
+      <Filter>Src\smLib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smLib3d\smMap3d.cpp">
+      <Filter>Src\smLib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smLib3d\smmatrix.cpp">
+      <Filter>Src\smLib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smLib3d\smObj3d.cpp">
+      <Filter>Src\smLib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smLib3d\smRead3d.cpp">
+      <Filter>Src\smLib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smLib3d\smRend3d.cpp">
+      <Filter>Src\smLib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smLib3d\smSin.cpp">
+      <Filter>Src\smLib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smLib3d\smStage3d.cpp">
+      <Filter>Src\smLib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smLib3d\smStgObj.cpp">
+      <Filter>Src\smLib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smLib3d\smTexture.cpp">
+      <Filter>Src\smLib3d</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\HaPremiumItem.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\HaQuest.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinCharStatus.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinHelp.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinHelpPet.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinInterFace.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinInvenTory.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinItem.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinMain.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinMessageBox.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinMsg.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinParkPcBangPet.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinPetMessage.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinQuest.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinShop.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinSkill.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinSkill_Info.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinSOD2.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinSubMain.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinTrade.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinUtil.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinWarpGate.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\YameEffect.cpp">
+      <Filter>Src\SinBaRam</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\AssaEffect.cpp">
+      <Filter>Src\SinBaRam\sin3D\AssaEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\AssaParticle7.cpp">
+      <Filter>Src\SinBaRam\sin3D\AssaEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\AssaTestParticle.cpp">
+      <Filter>Src\SinBaRam\sin3D\AssaEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinAssaParticle.cpp">
+      <Filter>Src\SinBaRam\sin3D\AssaEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinAssaSkillEffect.cpp">
+      <Filter>Src\SinBaRam\sin3D\AssaEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sin3D.cpp">
+      <Filter>Src\SinBaRam\sin3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinEffect.cpp">
+      <Filter>Src\SinBaRam\sin3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinEffect2.cpp">
+      <Filter>Src\SinBaRam\sin3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinParticle.cpp">
+      <Filter>Src\SinBaRam\sin3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinPublicEffect.cpp">
+      <Filter>Src\SinBaRam\sin3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinSkillEffect.cpp">
+      <Filter>Src\SinBaRam\sin3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\AssaUtil.cpp">
+      <Filter>Src\SinBaRam\sinETC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\sinEvent.cpp">
+      <Filter>Src\SinBaRam\sinETC</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\SkillFunction\Morayion.cpp">
+      <Filter>Src\SinBaRam\SkillFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinbaram\SkillFunction\Tempskron.cpp">
+      <Filter>Src\SinBaRam\SkillFunction</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Park\HoMessageBox.cpp">
+      <Filter>Src\Park</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\AssaParticle.cpp">
+      <Filter>Src\HoBaram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\HoAnimData.cpp">
+      <Filter>Src\HoBaram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\hoAssaParticleEffect.cpp">
+      <Filter>Src\HoBaram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\HoEffect.cpp">
+      <Filter>Src\HoBaram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\HoLinkHeader.cpp">
+      <Filter>Src\HoBaram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\HoLogic.cpp">
+      <Filter>Src\HoBaram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\HoLogin.cpp">
+      <Filter>Src\HoBaram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\HoMinMax.cpp">
+      <Filter>Src\HoBaram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\HoNewParticle.cpp">
+      <Filter>Src\HoBaram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\HoNewParticleMgr.cpp">
+      <Filter>Src\HoBaram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\HoOpening.cpp">
+      <Filter>Src\HoBaram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\HoParticle.cpp">
+      <Filter>Src\HoBaram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\HoParty.cpp">
+      <Filter>Src\HoBaram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\HoPhysics.cpp">
+      <Filter>Src\HoBaram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\HoSky.cpp">
+      <Filter>Src\HoBaram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\HoTextFile.cpp">
+      <Filter>Src\HoBaram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\LowLevelPetSystem.cpp">
+      <Filter>Src\HoBaram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\PCBangPetSystem.cpp">
+      <Filter>Src\HoBaram</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\NewEffect\HoEffectController.cpp">
+      <Filter>Src\HoBaram\NewEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\NewEffect\HoEffectMain.cpp">
+      <Filter>Src\HoBaram\NewEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\NewEffect\HoEffectManager.cpp">
+      <Filter>Src\HoBaram\NewEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\NewEffect\HoEffectModel.cpp">
+      <Filter>Src\HoBaram\NewEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\NewEffect\HoEffectResMgr.cpp">
+      <Filter>Src\HoBaram\NewEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\NewEffect\HoEffectUtil.cpp">
+      <Filter>Src\HoBaram\NewEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\NewEffect\HoEffectView.cpp">
+      <Filter>Src\HoBaram\NewEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\NewEffect\HoNewEffectFunction.cpp">
+      <Filter>Src\HoBaram\NewEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\NewEffect\Script\PiScript.cpp">
+      <Filter>Src\HoBaram\NewEffect\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\NewEffect\Script\PiScriptLuaCommand.cpp">
+      <Filter>Src\HoBaram\NewEffect\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\NewEffect\math\COLOR3.CPP">
+      <Filter>Src\HoBaram\NewEffect\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\NewEffect\math\COLOR4.CPP">
+      <Filter>Src\HoBaram\NewEffect\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\NewEffect\math\MATRIX4.CPP">
+      <Filter>Src\HoBaram\NewEffect\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HoBaram\NewEffect\math\POINT3.CPP">
+      <Filter>Src\HoBaram\NewEffect\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ActionGame.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\AreaServer.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\avictrl.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BellatraFontEffect.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CAutoCamera.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\character.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\checkdll.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cracker.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CurseFilter.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Damage.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Drawsub.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\effectsnd.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\field.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fileread.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FontImage.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FullZoomMap.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\makeshadow.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\netplay.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Particle.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pbackground.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\playmain.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\playsub.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\record.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sinHaQuest.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SkillSub.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smReg.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\smwsock.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TextMessage.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Winmain.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ime.cpp">
+      <Filter>Src\IME</Filter>
+    </ClCompile>
+    <ClCompile Include="src\STRCLASS.CPP">
+      <Filter>Src\IME</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mini_dump.cpp">
+      <Filter>Src\MiniDump</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SrcServer\PristonSQLDll.h">
+      <Filter>Src\HanGame</Filter>
+    </ClInclude>
+    <ClInclude Include="XTrapSrcD5\Client\XTrap4Client.h">
+      <Filter>XtrapSrcD5\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="XTrapSrcD5\ClientExt\XTrap4ClientExt1.h">
+      <Filter>XtrapSrcD5\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="XTrapSrcD5\Server\MessageProtocol.h">
+      <Filter>XtrapSrcD5\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="XTrapSrcD5\Server\ServerXTrap.h">
+      <Filter>XtrapSrcD5\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="nprotect\CSAuth.h">
+      <Filter>nProtect</Filter>
+    </ClInclude>
+    <ClInclude Include="nprotect\NPGameLib.h">
+      <Filter>nProtect</Filter>
+    </ClInclude>
+    <ClInclude Include="nprotect\PT_KeyCrypt.h">
+      <Filter>nProtect</Filter>
+    </ClInclude>
+    <ClInclude Include="nprotect\nProtect.h">
+      <Filter>nProtect</Filter>
+    </ClInclude>
+    <ClInclude Include="nprotect\npfgmsdk.h">
+      <Filter>nProtect</Filter>
+    </ClInclude>
+    <ClInclude Include="nprotect\npkcrypt.h">
+      <Filter>nProtect</Filter>
+    </ClInclude>
+    <ClInclude Include="Xigncode\Server\xtypes.h">
+      <Filter>XignCode\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Xigncode\Server\zwave_sdk_errors.h">
+      <Filter>XignCode\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Xigncode\Server\zwave_sdk_helper.h">
+      <Filter>XignCode\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Xigncode\Server\zwave_sdk_linker.h">
+      <Filter>XignCode\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Xigncode\Client\xtypes.h">
+      <Filter>XignCode\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Xigncode\Client\zcwave_errors.h">
+      <Filter>XignCode\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Xigncode\Client\zwave_sdk_client.h">
+      <Filter>XignCode\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Language\jts.h">
+      <Filter>Src\Language</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Language\language.h">
+      <Filter>Src\Language</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WinInt\RingBuff.h">
+      <Filter>Src\WinInt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WinInt\WavIntHttp.h">
+      <Filter>Src\WinInt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WinInt\WinIntThread.h">
+      <Filter>Src\WinInt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\WinInt\ZipLib.h">
+      <Filter>Src\WinInt</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\Ygy\Util.h">
+      <Filter>Src\tjboy\ygy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\Ygy\YgyHeader.h">
+      <Filter>Src\tjboy\ygy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\Ygy\Process\Process.h">
+      <Filter>Src\tjboy\ygy\Process</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\Ygy\Packet\Packet.h">
+      <Filter>Src\tjboy\ygy\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\Ygy\Packet\PacketStruct.h">
+      <Filter>Src\tjboy\ygy\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\Ygy\memmap\memmap.h">
+      <Filter>Src\tjboy\ygy\Memmap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\clanmenu\BMPsmooth.h">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\clanmenu\cE_chatlist.h">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\clanmenu\cE_chip.h">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\clanmenu\cE_CJoin.h">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\clanmenu\cE_Cmake.h">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\clanmenu\cE_CViewClanInfo.h">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\clanmenu\cE_deletecha.h">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\clanmenu\cE_isclanmember.h">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\clanmenu\cE_Notice.h">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\clanmenu\cE_nouser.h">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\clanmenu\cE_report.h">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\clanmenu\cE_Updatecldata.h">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\clanmenu\cE_user.h">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\clanmenu\clan_Enti.h">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\clanmenu\tjclan.h">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\clanmenu\tjclanDEF.h">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\clanmenu\tjScroll.h">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\isaocheck\auth.h">
+      <Filter>Src\tjboy\IsaoCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\isaocheck\isaocheck.h">
+      <Filter>Src\tjboy\IsaoCheck</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\park\MicVolume.h">
+      <Filter>Src\tjboy\Park</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\park\ParkDXPlayer.h">
+      <Filter>Src\tjboy\Park</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\clanmenu\GuideHelp.h">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TJBOY\clanmenu\Help.h">
+      <Filter>Src\tjboy\ClanMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sound\Dxwav.h">
+      <Filter>Src\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sound\SHELL.H">
+      <Filter>Src\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sound\STREAM.H">
+      <Filter>Src\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Sound\Wave.h">
+      <Filter>Src\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Server\AutoDropItem.h">
+      <Filter>Src\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Server\BlessCastle.h">
+      <Filter>Src\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Server\ClientFuncPos.h">
+      <Filter>Src\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Server\DllServer.h">
+      <Filter>Src\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Server\E_serverlog.h">
+      <Filter>Src\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Server\Gamesql.h">
+      <Filter>Src\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Server\HackTrap.h">
+      <Filter>Src\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Server\onserver.h">
+      <Filter>Src\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Server\openlive.h">
+      <Filter>Src\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Server\PartyMsg.h">
+      <Filter>Src\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Server\PristonSQLDll.h">
+      <Filter>Src\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Server\serverlog.h">
+      <Filter>Src\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Server\ServerMsg.h">
+      <Filter>Src\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Server\Set_EventSpawn.h">
+      <Filter>Src\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Server\svr_Damage.h">
+      <Filter>Src\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Server\svrEventGame.h">
+      <Filter>Src\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Server\svrEventSpawn.h">
+      <Filter>Src\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Server\svrHaQuest.h">
+      <Filter>Src\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smLib3d\FilterEffect.h">
+      <Filter>Src\smLib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smLib3d\smd3d.h">
+      <Filter>Src\smLib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smLib3d\smDsx.h">
+      <Filter>Src\smLib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smLib3d\smGeosub.h">
+      <Filter>Src\smLib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smLib3d\smJpeg.h">
+      <Filter>Src\smLib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smLib3d\smMap3d.h">
+      <Filter>Src\smLib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smLib3d\smmatrix.h">
+      <Filter>Src\smLib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smLib3d\smObj3d.h">
+      <Filter>Src\smLib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smLib3d\smRead3d.h">
+      <Filter>Src\smLib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smLib3d\smrend3d.h">
+      <Filter>Src\smLib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smLib3d\smSin.h">
+      <Filter>Src\smLib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smLib3d\smStage3d.h">
+      <Filter>Src\smLib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smLib3d\smStgObj.h">
+      <Filter>Src\smLib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smLib3d\smTexture.h">
+      <Filter>Src\smLib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smLib3d\smType.h">
+      <Filter>Src\smLib3d</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\amstream.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\HaPremiumItem.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\HaQuest.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\HaQuestBoard.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinCharStatus.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinHelp.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinHelpPet.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinInterFace.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinInvenTory.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinItem.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinLinkHeader.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinMain.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinMakeItem.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinMessageBox.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinMonster.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinMsg.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinParkPcBangPet.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinPetMessage.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinQuest.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinShop.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinSkill.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinSkill_Info.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinSOD2.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinSubMain.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinTable.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinTrade.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinUtil.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinWarpGate.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinWingItem.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\YameEffect.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\AssaEffect.h">
+      <Filter>Src\SinBaRam\sin3D\AssaEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\AssaParticle7.h">
+      <Filter>Src\SinBaRam\sin3D\AssaEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\AssaTestParticle.h">
+      <Filter>Src\SinBaRam\sin3D\AssaEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinAssaParticle.h">
+      <Filter>Src\SinBaRam\sin3D\AssaEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinAssaSkillEffect.h">
+      <Filter>Src\SinBaRam\sin3D\AssaEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sin3D.h">
+      <Filter>Src\SinBaRam\sin3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinEffect.h">
+      <Filter>Src\SinBaRam\sin3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinEffect2.h">
+      <Filter>Src\SinBaRam\sin3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinParticle.h">
+      <Filter>Src\SinBaRam\sin3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinPublicEffect.h">
+      <Filter>Src\SinBaRam\sin3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinSkillEffect.h">
+      <Filter>Src\SinBaRam\sin3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\AssaUtil.h">
+      <Filter>Src\SinBaRam\sinETC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinEvent.h">
+      <Filter>Src\SinBaRam\sinETC</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\SkillFunction\Morayion.h">
+      <Filter>Src\SinBaRam\SkillFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\SkillFunction\Tempskron.h">
+      <Filter>Src\SinBaRam\SkillFunction</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinCraftItem_Server.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinbaram\sinCraftItem_Client.h">
+      <Filter>Src\SinBaRam</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Park\HoMessageBox.h">
+      <Filter>Src\Park</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\AssaParticle.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\HoAnimData.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\hoAssaParticleEffect.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\HoEffect.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\HoLinkHeader.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\HoLogic.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\HoLogin.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\HoMinMax.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\HoNewParticle.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\HoNewParticleLinkHeader.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\HoNewParticleMgr.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\HoOpening.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\HoParticle.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\HoParty.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\HoPhysics.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\HoSky.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\HoTextFile.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\LowLevelPetSystem.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\ParkFireCrackerTable.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\PCBangPetSystem.h">
+      <Filter>Src\HoBaram</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\HoEffectController.h">
+      <Filter>Src\HoBaram\NewEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\HoEffectEvent.h">
+      <Filter>Src\HoBaram\NewEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\HoEffectMain.h">
+      <Filter>Src\HoBaram\NewEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\HoEffectManager.h">
+      <Filter>Src\HoBaram\NewEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\HoEffectModel.h">
+      <Filter>Src\HoBaram\NewEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\HoEffectResMgr.h">
+      <Filter>Src\HoBaram\NewEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\HoEffectUtil.h">
+      <Filter>Src\HoBaram\NewEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\HoEffectView.h">
+      <Filter>Src\HoBaram\NewEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\HoNewEffectFunction.h">
+      <Filter>Src\HoBaram\NewEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\HoNewEffectHeader.h">
+      <Filter>Src\HoBaram\NewEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\Script\PiScript.h">
+      <Filter>Src\HoBaram\NewEffect\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\Script\PiScriptLuaCommand.h">
+      <Filter>Src\HoBaram\NewEffect\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\Script\lua\lauxlib.h">
+      <Filter>Src\HoBaram\NewEffect\Script\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\Script\lua\lua.h">
+      <Filter>Src\HoBaram\NewEffect\Script\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\Script\lua\lualib.h">
+      <Filter>Src\HoBaram\NewEffect\Script\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\math\bSphere3.h">
+      <Filter>Src\HoBaram\NewEffect\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\math\COLOR3.H">
+      <Filter>Src\HoBaram\NewEffect\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\math\color4.h">
+      <Filter>Src\HoBaram\NewEffect\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\math\lineSeg3.h">
+      <Filter>Src\HoBaram\NewEffect\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\math\mathGlobal.h">
+      <Filter>Src\HoBaram\NewEffect\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\math\MATRIX4.H">
+      <Filter>Src\HoBaram\NewEffect\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\math\point3.h">
+      <Filter>Src\HoBaram\NewEffect\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\HoBaram\NewEffect\math\POINT4.H">
+      <Filter>Src\HoBaram\NewEffect\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ActionGame.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\AreaServer.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\avictrl.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BellatraFontEffect.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CAutoCamera.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\character.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\checkname.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cracker.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CurseFilter.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\damage.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\drawsub.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\effectsnd.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\field.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fileread.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FontImage.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FullZoomMap.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ItemForm.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ItemForm2.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LevelTable.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\makeshadow.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\netplay.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NetType.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\npkcrypt.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\particle.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\pbackground.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\playmain.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\playmodel.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\playsub.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\record.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resource.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sinHaQuest.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SkillSub.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smPacket.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smreg.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\smwsock.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TextMessage.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timer.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ime.h">
+      <Filter>Src\IME</Filter>
+    </ClInclude>
+    <ClInclude Include="src\STRCLASS.H">
+      <Filter>Src\IME</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mini_dump.h">
+      <Filter>Src\MiniDump</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Language\English\e_clanText.h">
+      <Filter>Src\Language\English</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Language\English\e_HoTextFile.h">
+      <Filter>Src\Language\English</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Language\English\e_JobCode.h">
+      <Filter>Src\Language\English</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Language\English\e_PartyMsg.h">
+      <Filter>Src\Language\English</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Language\English\e_QuestMsg.h">
+      <Filter>Src\Language\English</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Language\English\e_ServerMsg.h">
+      <Filter>Src\Language\English</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Language\English\E_Set_EventSpawn.h">
+      <Filter>Src\Language\English</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Language\English\e_sinCraftItem.h">
+      <Filter>Src\Language\English</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Language\English\e_sinMsg.h">
+      <Filter>Src\Language\English</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Language\English\e_sinSkill_Info.h">
+      <Filter>Src\Language\English</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Language\English\E_TalkText.h">
+      <Filter>Src\Language\English</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Language\English\e_TextMessage.h">
+      <Filter>Src\Language\English</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Language\English\E_VolText.h">
+      <Filter>Src\Language\English</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="HanDes.lib">
+      <Filter>Src\HanGame</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\arario.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\arario2.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\arario3.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\argenPT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\argenPT1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\ë¡œë”©ì¤‘.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icon1.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\icon2.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\loadimg.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\loading.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\loading_japan.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\Loading1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\logo.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Resources\SUBAPT.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Script1.aps">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources\Script1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

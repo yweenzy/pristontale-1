@@ -1,0 +1,20 @@
+*J_NAME		"Casa"
+
+//火の司祭の挨拶 -- 常に出るメッセージ
+
+*J_CHAT			"Hopefully my team will win! ^_^"					1
+//運営権を持ったクラン
+*J_CHAT			"Woohoo!"					2
+
+//ベラトラが現在進行中であるか参加不可能な時 - 下のメッセージの中でランダム
+*J_CHAT			"SoD is a fierce battle!""						3
+*J_CHAT			"I will show you the scores of my team"					4
+*J_CHAT			"Are you ready for SoD?"									5
+
+//ベラトラに参加できない時間 - 次のメッセージの中でランダム
+*J_CHAT			"SoD is a fierce battle!"					3
+*J_CHAT			"Survive or Die!"					4
+*J_CHAT			"Only the strongest warriors will get trough the last round"							5
+
+//ベラトラ入場が不可能なレベル
+*J_CHAT			"Are you ready?"

@@ -1,0 +1,10 @@
+    [Royal Jelly]
+
+For the rank-up quest, you 
+have to extract 9 drops of 
+honey out of Beedog after 
+you defeat him.  By 
+letting them age, you can 
+make royal jelly with 
+them. Then, you may take 
+it to Molly the Granny.

@@ -1,0 +1,59 @@
+particlesystem "HolyValor" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 50
+    emitradius = xyz(0,23,0)
+    lifetime = 1000
+    texture = "effect\\particle\\circle_006.bmp"
+    initial size = 72
+    initial color = rgba(100,100,100,20)
+    initial velocity = XYZ(0,0,0)
+    fade so at 1 color = rgba(100,100,100,80)
+    fade so at 2 color = rgba(255,180,150,100)
+    fade so at 3 color = rgba(100,100,100,80)
+    at 3 eventtimer = 1
+    fade so at 6.0 color = rgba(0,0,0,0)
+    }
+    eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 55
+    emitradius = xyz(0,23,0)
+    lifetime = 1000
+    texture = "effect\\particle\\circle_007.bmp"
+    initial size = 72
+    initial color = rgba(150,150,150,30)
+    initial velocity = XYZ(0,0,0)
+    fade so at 1 color = rgba(150,150,150,40)
+    fade so at 2 color = rgba(255,255,255,60)
+    fade so at 3 color = rgba(150,150,150,40)
+    at 3 eventtimer = 1
+    fade so at 6.0 color = rgba(0,0,0,0)
+    }
+
+   eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 55
+    emitradius = xyz(0,23,0)
+    lifetime = 1000
+    texture = "effect\\particle\\circle_008.bmp"
+    initial size = 72
+    initial color = rgba(150,50,150,30)
+    initial velocity = XYZ(0,0,0)
+    fade so at 1 color = rgba(150,150,150,70)
+    fade so at 2 color = rgba(255,255,255,80)
+    fade so at 3 color = rgba(150,150,150,70)
+    at 3 eventtimer = 1
+    fade so at 6.0 color = rgba(0,0,0,0)
+    }
+     
+}

@@ -1,0 +1,59 @@
+particlesystem "LeafDown" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "leaf1" {
+    sourceblendmode = BLEND_ALPHA
+    numparticles = 100
+    gravity = XYZ(0,-6,0)
+    emitrate = 3
+    emitradius = XYZ(random(-60,60),50,random(-60,60))
+
+    lifetime = 10
+    texture = "effect\\particle\\epc001.tga"
+    initial PartAngleX = 0
+    initial PartAngleZ = 0
+    fade so at 6 PartAngleX = 150
+    fade so at 6 PartAngleZ = 150
+    initial color = rgba(255,255,255,255)
+    initial size = random(3,6)
+    initial velocity = XYZ(random(-10,10),0,random(-10,10))
+    at 6 eventtimer = 0.01
+    }
+
+    eventsequence "leaf2" {
+    sourceblendmode = BLEND_ALPHA
+    numparticles = 100
+    gravity = XYZ(0,-6,0)
+    emitrate = 3
+    emitradius = XYZ(random(-60,60),50,random(-60,60))
+
+    lifetime = 10
+    texture = "effect\\particle\\epc002.tga"
+    initial PartAngleX = 0
+    initial PartAngleZ = 0
+    fade so at 6 PartAngleX = 150
+    fade so at 6 PartAngleZ = 150
+    initial color = rgba(255,255,255,255)
+    initial size = random(3,6)
+    initial velocity = XYZ(random(-10,10),0,random(-10,10))
+    at 6 eventtimer = 0.01
+    }
+
+    eventsequence "leaf3" {
+    sourceblendmode = BLEND_ALPHA
+    numparticles = 100
+    gravity = XYZ(0,-6,0)
+    emitrate = 3
+    emitradius = XYZ(random(-60,60),50,random(-60,60))
+
+    lifetime = 10
+    texture = "effect\\particle\\epc003.tga"
+    initial PartAngleX = 0
+    initial PartAngleZ = 0
+    fade so at 6 PartAngleX = 150
+    fade so at 6 PartAngleZ = 150
+    initial color = rgba(255,255,255,255)
+    initial size = random(2,4)
+    initial velocity = XYZ(random(-10,10),0,random(-10,10))
+    at 6 eventtimer = 0.01
+    }
+}

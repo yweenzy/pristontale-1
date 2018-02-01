@@ -1,0 +1,23 @@
+particlesystem "Power" 1.00 {
+  position = XYZ(0,20,0)
+  eventsequence "faeries" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_FOUR
+    loops = 1
+    numparticles = 15
+    gravity = XYZ(0,0,0)
+    emitrate = 20
+    emitradius = xyz(random(-25,25),0,random(-25,25))
+    lifetime = 1.5
+    texture = "effect\\particle\\shield1.tga"
+    initial size = 10
+    initial sizeExt = 20
+    initial LocalAngleY = 0
+    initial color = rgba(255,255,255,255)
+    initial velocity = XYZ(random(-10,10),random(40,60),random(-10,10))
+    fade so final color = rgba(0,0,0,0)
+    fade so final LocalAngleY = random(-200,-100)
+    }
+
+    
+}

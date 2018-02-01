@@ -1,0 +1,8 @@
+//arad.npc
+
+*J_NAME		"Craftman Salon
+
+*J_CHAT		"You need a recipe and three types of rune to make an item."
+*J_CHAT		"I am the only person in the Priston continent who can make any item you wish to make."
+*J_CHAT		"Please check on item mixture recipe before you make one as produced item depends on the rune used to make an item."
+*J_CHAT		"Notice: This system is still under development!"

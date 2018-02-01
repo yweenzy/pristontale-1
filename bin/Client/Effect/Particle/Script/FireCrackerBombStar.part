@@ -1,0 +1,24 @@
+particlesystem "Explosion" 1.00 {
+  position = XYZ(0,50,0)
+
+ eventsequence "faeries" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_THREE
+    numparticles = 2
+    loops = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 60
+    emitradius = xyz(0,-20,0)
+    lifetime = 2
+    texture = "effect\\particle\\st_01.bmp"
+    initial size = 40
+    initial sizeExt = 45
+    initial LocalAngleY = 0
+    initial color = rgba(255,255,255,255)
+    fade so at 1.0 color = rgba(100,100,100,100)
+    fade so final color = rgba(0,0,0,0)
+    fade so at 0.25 size = 80
+    fade so final size = 85
+   }
+
+}

@@ -1,0 +1,38 @@
+particlesystem "WaterWave" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "Water1" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 10
+    emitradius = xyz(0,0,0)
+    lifetime = 1.2
+    texture = "effect\\particle\\water.bmp"
+    initial size = random(15,25)
+    initial color = rgba(100,150,80,130)
+    initial velocity = XYZ(0,0,0)
+    //initial partAngleX = -90
+    fade so final color = rgba(20,20,20,20)
+    fade so final size = 60
+  }
+
+    eventsequence "Water2" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    loops = 1
+    numparticles = 3
+    gravity = XYZ(0,0,0)
+    emitrate = 17
+    emitradius = xyz(random(-9,9),0,random(-9,9))
+    lifetime = 1
+    texture = "effect\\particle\\water.bmp"
+    initial size = random(6,12)
+    initial color = rgba(40,100,90,100)
+    initial velocity = XYZ(0,0,0)
+    //initial partAngleX = -90
+    fade so final color = rgba(20,20,20,20)
+    fade so final size = 28
+  }
+}

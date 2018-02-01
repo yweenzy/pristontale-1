@@ -1,0 +1,20 @@
+particlesystem "HolyValor" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "MiddleLight" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 2
+    gravity = XYZ(0,0,0)
+    emitrate = 50
+    emitradius = xyz(0,0,0)
+    lifetime = 1000
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 50
+    initial color = rgba(100,60,90,120)
+    initial velocity = XYZ(0,0,0)
+    fade so at 1 color = rgba(100,60,90,255)
+    fade so at 2 color = rgba(100,60,90,150)
+    fade so at 3 color = rgba(100,60,90,255)
+    at 3 eventtimer = 1
+    fade so at 6.0 color = rgba(0,0,0,0)
+    }
+}

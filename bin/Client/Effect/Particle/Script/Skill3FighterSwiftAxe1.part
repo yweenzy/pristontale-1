@@ -1,0 +1,101 @@
+particlesystem "Power" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 50
+    emitradius = xyz(0,15,0)
+    lifetime = 2
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 80
+    initial color = rgba(50,80,255,120)
+    initial velocity = XYZ(0,0,0)
+    fade so at 0.3 color = rgba(50,80,255,170)
+    fade so at 0.3 size = 100
+    fade so at 1.0 size = 110
+    fade so final size = 110
+    fade so final color = rgba(0,0,0,0)
+    }
+eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 50
+    emitradius = xyz(0,40,0)
+    lifetime = 2
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 80
+    initial color = rgba(50,80,255,120)
+    initial velocity = XYZ(0,0,0)
+    fade so at 0.3 color = rgba(50,80,255,170)
+    fade so at 0.3 size = 100
+    fade so at 1.0 size = 120
+    fade so final size = 120
+    fade so final color = rgba(0,0,0,0)
+    }
+  eventsequence "faeries" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_THREE
+    numparticles = 1
+    loops = 1
+    delay = 0.5
+    gravity = XYZ(0,0,0)
+    emitrate = 60
+    emitradius = xyz(0,50,0)
+    lifetime = 2
+    texture = "effect\\particle\\SwiftAxe.tga"
+    initial size = 25
+    initial sizeExt = 20
+    initial LocalAngleY = 0
+    initial color = rgba(0,0,0,0)
+    fade so at 1.0 color = rgba(100,100,255,255)
+    at 0.8 velocity = xyz(0, 20, 0)
+    fade so final color = rgba(0,0,0,0)
+   }
+   eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 1
+    gravity = XYZ(0,0,0)
+    emitrate = 50
+    delay = 0.2
+    emitradius = xyz(0,20,0)
+    lifetime = 1000
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 70
+    initial color = rgba(0,0,0,0)
+    initial velocity = XYZ(0,0,0)
+    fade so at 1 color = rgba(50,80,180,100)
+    fade so at 2 color = rgba(50,80,180,200)
+    fade so at 3 color = rgba(50,80,180,100)
+    at 3 eventtimer = 1
+    fade so at 6.0 color = rgba(0,0,0,0)
+    }   
+
+   eventsequence "faeries" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_FOUR
+    loops = 1000
+    numparticles = 6
+    gravity = XYZ(0,0,0)
+    emitrate = 5
+    emitradius = xyz(random(-15,15),random(-5,5),random(-15,15))
+    lifetime = 1
+    texture = "effect\\particle\\attack02_02.bmp"
+    initial size = 1
+    initial sizeExt = 30
+    initial LocalAngleY = 0
+    initial color = rgba(0,0,0,0)
+    initial velocity = XYZ(0,random(100,150),0)
+    fade so at 0.2 color = rgba(0,50,250,180)
+    fade so at 0.7 color = rgba(255,150,150,200) 
+    fade so at 0.5 velocity = XYZ(0,random(-10,10),0)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 10
+    fade so final LocalAngleY = random(600,800)
+    }
+
+}

@@ -1,0 +1,52 @@
+<VisualStudioProject>
+  <VisualBasic ProjectType="Local" ProductVersion="7.10.3077" SchemaVersion="2.0" ProjectGuid="FB774103-5585-4505-836D-91320AD0F065">
+    <Build>
+      <Settings ApplicationIcon="" AssemblyKeyContainerName="" AssemblyName="PriTaTor" AssemblyOriginatorKeyFile="" AssemblyOriginatorKeyMode="None" DefaultClientScript="JScript" DefaultHTMLPageLayout="Grid" DefaultTargetSchema="IE50" DelaySign="false" OutputType="WinExe" OptionCompare="Binary" OptionExplicit="On" OptionStrict="Off" RootNamespace="PriTaTor" StartupObject="WindowsApplication1.Form1">
+        <Config Name="Debug" BaseAddress="285212672" ConfigurationOverrideFile="" DefineConstants="" DefineDebug="true" DefineTrace="true" DebugSymbols="true" IncrementalBuild="true" Optimize="false" OutputPath="bin\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="1" />
+        <Config Name="Release" BaseAddress="285212672" ConfigurationOverrideFile="" DefineConstants="" DefineDebug="false" DefineTrace="true" DebugSymbols="false" IncrementalBuild="false" Optimize="true" OutputPath="bin\" RegisterForComInterop="false" RemoveIntegerChecks="false" TreatWarningsAsErrors="false" WarningLevel="1" />
+      </Settings>
+      <References>
+        <Reference Name="mscorlib" AssemblyName="mscorlib" HintPath="mscorlib.dll" />
+        <Reference Name="Microsoft.VisualBasic" AssemblyName="Microsoft.VisualBasic" HintPath="Microsoft.VisualBasic.dll" />
+        <Reference Name="System.Windows.Forms" AssemblyName="System.Windows.Forms" HintPath="System.Windows.Forms.dll" />
+        <Reference Name="System" AssemblyName="System" HintPath="System.dll" />
+        <Reference Name="System.Drawing" AssemblyName="System.Drawing" HintPath="System.Drawing.dll" />
+        <Reference Name="System.Data" AssemblyName="System.Data" HintPath="System.Data.dll" />
+      </References>
+      <Imports>
+        <Import Namespace="Microsoft.VisualBasic" />
+        <Import Namespace="System" />
+        <Import Namespace="System.Collections" />
+        <Import Namespace="System.Data" />
+        <Import Namespace="System.Drawing" />
+        <Import Namespace="System.Diagnostics" />
+        <Import Namespace="System.Windows.Forms" />
+      </Imports>
+    </Build>
+    <Files>
+      <Include>
+        <File RelPath="AssemblyInfo.vb" SubType="Code" BuildAction="Compile" />
+        <File RelPath="PriTaTor.My\MyApplication.vb" SubType="Code" BuildAction="Compile" />
+        <File RelPath="PriTaTor.My\MyComputer.vb" SubType="Code" BuildAction="Compile" />
+        <File RelPath="PriTaTor.My\MyProject.vb" SubType="Code" BuildAction="Compile" />
+        <File RelPath="PriTaTor\Form2.vb" SubType="Code" BuildAction="Compile" />
+        <File RelPath="PriTaTor\Form3.vb" SubType="Code" BuildAction="Compile" />
+        <File RelPath="PriTaTor\Funktionen.vb" SubType="Code" BuildAction="Compile" />
+        <File RelPath="PriTaTor\ItemDistributor.vb" SubType="Code" BuildAction="Compile" />
+        <File RelPath="PriTaTor\FormItemFound.vb" SubType="Code" BuildAction="Compile" />
+        <File RelPath="PriTaTor\Konstanten.vb" SubType="Code" BuildAction="Compile" />
+        <File RelPath="PriTaTor.My.Resources\Resources.vb" SubType="Code" BuildAction="Compile" />
+        <File RelPath="PriTaTor.My\MySettings.vb" SubType="Code" BuildAction="Compile" />
+        <File RelPath="PriTaTor.My\MySettingsProperty.vb" SubType="Code" BuildAction="Compile" />
+        <File RelPath="PriTaTor\PriTaEditor.vb" SubType="Code" BuildAction="Compile" />
+        <File RelPath="PriTaTor\Programmstarts.vb" SubType="Code" BuildAction="Compile" />
+        <File RelPath="PriTaTor.Form3.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="PriTaTor.Form2.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="PriTaTor.FormItemFound.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="PriTaTor.PriTaEditor.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="PriTaTor.Resources.resx" BuildAction="EmbeddedResource" />
+        <File RelPath="PriTaTor.ItemDistributor.resx" BuildAction="EmbeddedResource" />
+      </Include>
+    </Files>
+  </VisualBasic>
+</VisualStudioProject>

@@ -1,0 +1,72 @@
+
+*Keyboard
+1, 2, 3 : Use items placed in the short-cut inventory. 
+   W    : Toggle between equipment modes.
+   E    : Toggle between inventory modes.  
+   R    : Toggle between Run/Walk modes. 
+   S    : Open or close Skill window.
+   C    : Open or close Character Information window.
+   V    : Open or close Inventory window.  
+   D    : Open or close Party window. 
+   X    : Open or close System window. 
+   Z    : Switch between camera modes.
+  Tab   : Show/hide mini-map.  
+ F1~F8  : Select Skills.
+ [ก็] [กๆ] [ก้] [ก่]  : Zoom in/out, move left/right.  
+Ctrl+[ก้] [ก่] : Tilt camera up/down. 
+ Enter  : Enter chatting mode. Press again to close.
+Space bar: Close current window.  
+Ctrl+Home: Capture the current screen. 
+           (Saved as .jpg files in PT's capture directory)
+Ctrl+End : Capture the current screen. 
+           (Saved as .bmp files in PT's capture directory)
+Page Up  : Switches camera angle to top view.
+Page Up  : Switches camera angle to bottom view.. 
+  ESC    : Cancels current process. 
+ 
+ 
+*Mouse
+Left-click     : .Character movements
+                 .Pick up items
+                 .Talk to NPC
+                 .Move items
+                 .Menu button
+                 .Select left button skill
+Right-click    : .Select right button skill 
+                 .Use selected skill
+Mouse movements: Move the mouse pointer around the screen.
+Wheel up/down  : Tilt Camera Up/Down.
+Drag wheel     : Forward/Back for Zoom.
+                 Left/Right for camera angle.
+
+
+* Commands
+ /:character's(CH) name<Search CH> 
+ /:(Type in searching CH's )
+ 
+ /:character's(CH) name message<whisper> 
+ /:(CH's name) message
+ 
+ <re-whisper> Press up/down direction key to
+    re-whisper again. 
+ //character's name <Party> //character
+    (Type in the character's name you wish to party with)
+
+
+* Trade 
+1: Click the character you wish to trade with.
+2: Press the trade button to ask for trade.
+3: accepted, place the wishing items(gold) in the inventory.
+4: After confirmation, press the trade button to finish.
+
+* Party
+1: Click the character you wish to party with.
+2: Press the button placed on right hand top to
+ ask for party.
+
+* Add to friend list
+1: Click the character(CH) you wish to be friends with.
+2: Press the button placed on right high to
+  register as friend.
+3: Once registered, double-click the CH's name to whisper.
+   (CH's name will be appeared in chat box)

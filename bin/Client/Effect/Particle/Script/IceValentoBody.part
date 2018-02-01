@@ -1,0 +1,92 @@
+particlesystem "HolyValor" 1.00 {
+  position = XYZ(0,0,0)
+
+
+  eventsequence "Attack1" {
+    sourceblendmode = BLEND_LAMP
+//    loops = 1
+    numparticles = 2
+    gravity = XYZ(0,0,0)
+    emitrate = 40
+//    delay = 5
+    emitradius = xyz(0,0,0)
+    lifetime = 3.5
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 60
+    initial PartAngle = xyz(0,0,random(0,360))
+    initial color = rgba(200,100,50,230)
+    fade so at 0.1 color = rgba(200,100,50,200)
+    fade so at 0.6  color = rgba(0,0,0,0)
+    at 0.6 eventtimer = 0.1
+    fade so at 3.5 color = rgba(0,0,0,0)
+//    fade so final color = rgba(0,0,0,0)
+    fade so final size = 62
+   }
+
+eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+//    loops = 1000
+    numparticles = 2
+    gravity = XYZ(0,0,0)
+    emitrate = 15
+    emitradius = xyz(0,0,0)
+    lifetime = 1000
+    texture = "effect\\particle\\flare.bmp"
+    initial size = 35
+    initial color = rgba(255,100,50,50)
+    initial velocity = XYZ(0,0,0)
+    initial partAngle = xyz(0,0,0)
+    fade so at 1 color = rgba(255,100,50,200)
+    fade so at 1 size   = 35
+    fade so at 2 color = rgba(255,100,50,100)
+    fade so at 2 size   = 30
+    fade so at 3 color = rgba(200,100,50,200)
+    fade so at 3 size   = 35
+    at 3 eventtimer = 1
+    fade so at 5 color = rgba(0,0,0,0)
+    } 
+
+   eventsequence "faeries" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_FOUR
+//    loops = 1000
+    numparticles = 4
+    gravity = XYZ(0,0,0)
+    emitrate = 12
+    emitradius = xyz(random(-7,7),random(-7,7),random(-7,7))
+    lifetime = 1
+    texture = "effect\\particle\\attack02_02.bmp"
+    initial size = 0.1
+    initial sizeExt = 30
+    initial LocalAngleY = 0
+    initial LocalAngleZ = 30
+    initial color = rgba(255,150,50,255)
+    fade so at 0.7 color = rgba(255,255,255,255) 
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 10
+    fade so final LocalAngleZ = random(700, 800)
+    }
+   eventsequence "faeries" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_FOUR
+//    loops = 1000
+    numparticles = 10
+    gravity = XYZ(0,0,0)
+    emitrate = 10
+    emitradius = xyz(random(-15,15),random(-20,10),random(-15,15))
+    lifetime = 1
+    texture = "effect\\particle\\attack02_02.bmp"
+    initial size = 5
+    initial sizeExt = 30
+    initial LocalAngleY = 0
+    initial color = rgba(0,0,0,0)
+    initial velocity = XYZ(0,random(50,70),0)
+    fade so at 0.2 color = rgba(0,50,250,180)
+    fade so at 0.7 color = rgba(255,150,150,200) 
+    fade so at 0.5 velocity = XYZ(0,random(-25,20),0)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 12
+    fade so final LocalAngleY = random(400,500)
+    }
+
+}

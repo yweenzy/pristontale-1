@@ -1,0 +1,72 @@
+particlesystem "FireJet" 1.00 {
+  position = XYZ(0,0,0)
+  
+  eventsequence "FireJet" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 3
+    gravity = XYZ(0,-10,0)
+    emitrate = 15
+    loops = 250
+    lifetime = Random(0.01,0.2)
+    texture = "effect\\particle\\light-01.bmp"
+    initial color = rgba(255,150,50,230)
+    initial size = 40
+    initial partangleZ = random(0,360)
+    initial velocity = XYZ(random(-20,20),random(0,0),random(-20,20))
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 20
+    }
+    
+    eventsequence "FireJet" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 3
+    gravity = XYZ(0,-10,0)
+    emitrate = 13
+    loops = 250
+    lifetime = Random(0.5,0.6)
+    texture = "effect\\particle\\light-03.bmp"
+    
+    initial color = rgba(255,255,255,200)
+    initial size = 50
+    initial partAngleZ = random(0,360)
+    initial velocity = XYZ(random(-5,5),random(-5,-5),random(-5,5))
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 20
+    }
+
+    eventsequence "FireJet" {
+    sourceblendmode = BLEND_LAMP
+    numparticles = 2
+    gravity = XYZ(0,-10,0)
+    emitrate = 20
+    loops = 250
+    lifetime = Random(0.5,0.8)
+    texture = "effect\\particle\\light-03.bmp"
+    initial color = rgba(255,255,255,100)
+    initial size = 40
+    initial partAngleZ = random(0,360)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 120
+    fade so final partAngleZ = random(0,500)
+    }
+    
+    eventsequence "BackLight" {
+    sourceblendmode = BLEND_LAMP
+    loops = 1
+    numparticles = 20
+    gravity = XYZ(0,0,0)
+    emitrate = 80
+    emitradius = xyz(random(-15,15),random(-15,15),random(-15,15))
+    lifetime = 1
+    texture = "effect\\particle\\flare.tga"
+    initial size = 8
+    
+    initial color = rgba(200,255,255,255)
+    initial velocity = XYZ(random(-10,10),random(-10,10),random(-10,10))
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 1
+    }
+}
+
+
+

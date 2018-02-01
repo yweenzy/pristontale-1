@@ -1,0 +1,21 @@
+particlesystem "HolyValor" 1.00 {
+  position = XYZ(0,0,0)
+  eventsequence "FuryRespawn" {
+    sourceblendmode = BLEND_LAMP
+    particletype = TYPE_TWO
+    loops = 1
+    numparticles = 2
+    gravity = XYZ(0,0,0)
+    emitrate = 50
+    emitradius = xyz(0,0,0)
+    lifetime = 3
+    texture = "effect\\particle\\m_futy-jin.bmp"
+    initial size = 220
+    initial color = rgba(150,150,150,150)
+    initial velocity = XYZ(0,0,0)
+    initial partAngleY = 0
+    fade so at 0.5 color = rgba(255,255,255,255)
+    fade so at 1 color = rgba(255,255,255,255)
+    fade so at 3 color = rgba(0,0,0,0)
+    }
+}

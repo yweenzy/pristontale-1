@@ -1,0 +1,4 @@
+
+Hunt five Ratoos in Cursed
+Temple and go back to the 
+Priest of the temple.

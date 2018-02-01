@@ -1,0 +1,50 @@
+StartSky: 0
+
+È²¹«Áö³· {
+FileName: Effect\\Sky\\rainsky01.ase 	    			CameraStop: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\rainfog01.ase          		        CameraStop: 0     RGBA: 255 255 255 255
+}
+
+
+
+È²¹«Áö³· {
+FileName: Effect\\Sky\\dayspace02.ase 	    			CameraStop: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\day\\02daysun.ase 		CameraStop: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\day\\02daysky.ase  		CameraStop: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\day\\02dayhill.ase 		CameraStop: 0	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky02\\day\\02dayfog.ase        		CameraStop: 0     RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky02\\day\\02dayfog02.ase               CameraStop: 0     RGBA: 255 255 255 255
+}
+
+
+È²¹«Áö³· {
+FileName: Effect\\Sky\\dayspace02.ase 	    			CameraStop: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\day\\02daysun.ase 		CameraStop: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\day\\02daysky02.ase  		CameraStop: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\day\\02dayhill.ase 		CameraStop: 0	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky02\\day\\02dayfog.ase        		CameraStop: 0     RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky02\\day\\02dayfog02.ase               CameraStop: 0     RGBA: 255 255 255 255
+}
+
+È²¹«ÁöÀú³á {
+FileName: Effect\\Sky\\eveningspace02.ase 	    		 	CameraStop: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\evening\\02eveningsun.ase  	CameraStop: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\evening\\02eveningsky.ase  	CameraStop: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\evening\\02eveninghill.ase 	CameraStop: 0	  RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky02\\evening\\02eveningfog.ase  	CameraStop: 0     RGBA: 255 255 255 255
+Filename: Effect\\Sky\\Sky02\\evening\\02eveningfog02.ase  	CameraStop: 0     RGBA: 255 255 255 255
+}
+
+È²¹«Áö¹ã {
+FileName: Effect\\Sky\\nightspace02.ase 	    			CameraStop: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\night\\02nightsun.ase 		CameraStop: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\night\\02nightsky.ase  		CameraStop: 0	  RGBA: 255 255 255 255
+FileName: Effect\\Sky\\Sky02\\night\\02nighthill.ase 		CameraStop: 0	  RGBA: 255 255 255 255
+//Filename: Effect\\Sky\\Sky02\\night\\02nightfog.ase        	CameraStop: 0     RGBA: 255 255 255 255
+}
+
+
+
+
+
+

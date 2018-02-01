@@ -1,0 +1,20 @@
+particlesystem "Power" 1.00 {
+  position = XYZ(0,0,0)
+  
+  eventsequence "faeries" {
+    sourceblendmode = BLEND_LAMP
+    //particletype = TYPE_ONE
+    numparticles = 50
+    loops = 10
+    gravity = XYZ(0,0,0)
+    emitrate = 30
+    emitradius = xyz(random(-9,9),random(-9,9),random(-9,9))
+    lifetime = 1
+    texture = "effect\\particle\\dust2.bmp"
+    initial size = 50
+    initial color = rgba(255,150,50,150)
+    initial velocity = XYZ(0,0,0)
+    fade so final color = rgba(0,0,0,0)
+    fade so final size = 0
+    }
+}
