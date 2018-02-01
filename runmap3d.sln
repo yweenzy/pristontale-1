@@ -16,9 +16,9 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{07C4E7A3-1D3D-491E-84FE-9917FE9BAA4D}.ClientDebug|Win32.ActiveCfg = Debug|Win32
 		{07C4E7A3-1D3D-491E-84FE-9917FE9BAA4D}.ClientDebug|Win32.Build.0 = Debug|Win32
-		{07C4E7A3-1D3D-491E-84FE-9917FE9BAA4D}.ClientRelease|Win32.ActiveCfg = Release|Win32
-		{07C4E7A3-1D3D-491E-84FE-9917FE9BAA4D}.ClientRelease|Win32.Build.0 = Release|Win32
-		{07C4E7A3-1D3D-491E-84FE-9917FE9BAA4D}.ClientRelease|Win32.Deploy.0 = Release|Win32
+		{07C4E7A3-1D3D-491E-84FE-9917FE9BAA4D}.ClientRelease|Win32.ActiveCfg = ClientRelease|Win32
+		{07C4E7A3-1D3D-491E-84FE-9917FE9BAA4D}.ClientRelease|Win32.Build.0 = ClientRelease|Win32
+		{07C4E7A3-1D3D-491E-84FE-9917FE9BAA4D}.ClientRelease|Win32.Deploy.0 = ClientRelease|Win32
 		{07C4E7A3-1D3D-491E-84FE-9917FE9BAA4D}.ServerDebug|Win32.ActiveCfg = DebugServer|Win32
 		{07C4E7A3-1D3D-491E-84FE-9917FE9BAA4D}.ServerDebug|Win32.Build.0 = DebugServer|Win32
 		{07C4E7A3-1D3D-491E-84FE-9917FE9BAA4D}.ServerRelease|Win32.ActiveCfg = ServerRelease|Win32

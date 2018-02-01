@@ -2769,6 +2769,10 @@ int rsRECORD_DBASE::RecvRecordDataFromClient( TRANS_RECORD_DATAS *lpTransRecord 
 			if ( rsServerConfig.Event_ExpUp )
 				exp2 = (exp*rsServerConfig.Event_ExpUp)/100;		//경험치업 이벤트일때
 
+			// Panzer
+			if (rsServerConfig.Event_FastExpUp1To2 && (TransRecordData.smCharInfo.Level >= 1 && TransRecordData.smCharInfo.Level <= 20))
+				exp2 = (exp*rsServerConfig.Event_FastExpUp1To2) * 100;
+
 #ifdef _LANGUAGE_ARGENTINA		//아르헨티나 해외 KYle
 			if ( rsServerConfig.Event_ExpUp_latin )
 				exp2 = (exp*rsServerConfig.Event_ExpUp_latin)/100;		//경험치업 이벤트일때

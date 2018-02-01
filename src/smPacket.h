@@ -2503,6 +2503,7 @@ struct rsSERVER_CONFIG	{
 	int		Event_SantaGoblin;		//산타고블린 이벤트
 	int		Event_WorldCup;			//월드컵 이벤트
 	int		Event_ExpUp;			//경험치업 이벤트
+	int     Event_FastExpUp1To2;    // Panzer - speed up the exp for player while his level is >= 1 and <= 20 
 	int		Event_CoupleRing;		// pluto 커플링 이벤트
 	int		Event_Watermelon;		// 박재원 - 수박 이벤트
 	int		Event_Star;				// 박재원 - 밤하늘의 소원이벤트

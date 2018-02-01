@@ -1994,6 +1994,23 @@ int SetServerConfig( char *decode , char *lpPoint )
 		flag++;
 	}
 
+	if (!flag && lstrcmpi(decode, "*FAST_EXPUP_1_TO_20") == 0)
+	{
+		p = GetWord(strBuff, p);
+		if (strBuff[0])
+			rsServerConfig.Event_FastExpUp1To2 = atoi(strBuff);
+		else
+			rsServerConfig.Event_FastExpUp1To2 = 1000;
+
+		//if (rsServerConfig.Event_ExpUp >= 100 && rsServerConfig.Event_ExpUp < 200) { rsServerConfig.Event_ExpUp = 100; }
+		//else if (rsServerConfig.Event_ExpUp >= 200 && rsServerConfig.Event_ExpUp < 300) { rsServerConfig.Event_ExpUp = 200; }
+		//else if (rsServerConfig.Event_ExpUp >= 300 && rsServerConfig.Event_ExpUp < 400) { rsServerConfig.Event_ExpUp = 300; }
+		//else if (rsServerConfig.Event_ExpUp >= 400) { rsServerConfig.Event_ExpUp = 400; }
+		//else { rsServerConfig.Event_ExpUp = 100; }
+
+		flag++;
+	}
+
 #ifdef _LANGUAGE_ARGENTINA
 
 		if ( !flag && ( lstrcmp( decode , "*경험치업_이벤트_라틴" )==0 || lstrcmpi( decode , "*EVENT_EXPUP_LATIN" )==0 ) ) {
