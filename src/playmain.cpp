@@ -4513,11 +4513,27 @@ int DrawEachPlayer( float fx , float fy , int SizeMode )
 			w += 20;
 			h += 20;
 
-			smRender.SMSHIFT_PERSPECTIVE_WIDTH = RENDCLIP_DEFAULT_SHIFT_PERSPECTIVE_WIDTH*3;
-			smRender.SMMULT_PERSPECTIVE_HEIGHT = RENDCLIP_DEFAULT_MULT_PERSPECTIVE_HEIGHT*2;
+			smRender.SMSHIFT_PERSPECTIVE_WIDTH = RENDCLIP_DEFAULT_SHIFT_PERSPECTIVE_WIDTH;
+			smRender.SMMULT_PERSPECTIVE_HEIGHT = RENDCLIP_DEFAULT_MULT_PERSPECTIVE_HEIGHT;
+
+			if (smConfig.AspectRatio)
+			{
+				smRender.SMSHIFT_PERSPECTIVE_WIDTH *= 3;
+				smRender.SMMULT_PERSPECTIVE_HEIGHT *= 3;
+			}
+			else
+			{
+				smRender.SMSHIFT_PERSPECTIVE_WIDTH *= 3;
+				smRender.SMMULT_PERSPECTIVE_HEIGHT *= 2;
+			}
 
 			dist = 30*fONE;
+			if (smConfig.AspectRatio) // Panzer -- monster size in top right window ( Z position )
+				dist *= 3;
+
 			he = -1*fONE;
+			if (smConfig.AspectRatio) // Panzer -- monster size in top right window ( Y position )
+				he = (he / 2) - 2000;
 		}
 		else 
 		{
@@ -4528,11 +4544,27 @@ int DrawEachPlayer( float fx , float fy , int SizeMode )
 			w += 10;
 			h += 10;
 
-			smRender.SMSHIFT_PERSPECTIVE_WIDTH = RENDCLIP_DEFAULT_SHIFT_PERSPECTIVE_WIDTH*4;
-			smRender.SMMULT_PERSPECTIVE_HEIGHT = RENDCLIP_DEFAULT_MULT_PERSPECTIVE_HEIGHT*6;
+			smRender.SMSHIFT_PERSPECTIVE_WIDTH = RENDCLIP_DEFAULT_SHIFT_PERSPECTIVE_WIDTH;
+			smRender.SMMULT_PERSPECTIVE_HEIGHT = RENDCLIP_DEFAULT_MULT_PERSPECTIVE_HEIGHT;
+
+			if (smConfig.AspectRatio)
+			{
+				smRender.SMSHIFT_PERSPECTIVE_WIDTH *= 4;
+				smRender.SMMULT_PERSPECTIVE_HEIGHT *= 9;
+			}
+			else
+			{
+				smRender.SMSHIFT_PERSPECTIVE_WIDTH *= 4;
+				smRender.SMMULT_PERSPECTIVE_HEIGHT *= 6;
+			}
 
 			dist = 100*fONE;
+			if (smConfig.AspectRatio) // Panzer -- monster size in top right window ( Z position )
+				dist *= 2;
+
 			he = 3*fONE;
+			if (smConfig.AspectRatio) // Panzer -- monster size in top right window ( Y position )
+				he = (he / 2) - 1000;
 		}
 
 		dist += EachCameraPos.y;
@@ -4842,7 +4874,7 @@ int DrawEachPlayer( float fx , float fy , int SizeMode )
 				char szBuff[256];
 				int ly;
 
-				ly = MidY+80;
+				ly = smConfig.AspectRatio ? MidY+100 : MidY+80;
 				wsprintf( szBuff , "Level   : %d", chrEachPlayer.smCharInfo.Level );
 				dsTextLineOut( hdc , MidX-50 , ly , szBuff , lstrlen(szBuff) );
 				ly+=16;

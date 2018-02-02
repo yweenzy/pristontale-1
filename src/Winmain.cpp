@@ -3877,7 +3877,7 @@ INT WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPreInst, LPSTR lpCmdLine, INT nCm
 
 			else
 			{
-				DrawEachPlayer(0.92f, 0.1f, 0);					//Enlarge the character drawing
+				DrawEachPlayer(0.92f, 0.1f, 0);					//Enlarge the character drawing   -- Panzer Check this!
 
 				dsDrawOffset_X = WinSizeX - 800;
 				dsDrawOffset_Y = WinSizeY - 600;
