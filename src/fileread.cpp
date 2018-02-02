@@ -2753,7 +2753,7 @@ smCONFIG *smConfigReg()
 				break;
 		}
 
-		Utils_Log(LOG_DEBUG, " AspectRatio = %s , ScreenSize.x = %d , ScreenSize.y = %d", smConfig.AspectRatio ? "16:9" : "4:3", smConfig.ScreenSize.x, smConfig.ScreenSize.y);
+		Utils_Log(LOG_DEBUG, "AspectRatio = %s , ScreenSize.x = %d , ScreenSize.y = %d", smConfig.AspectRatio ? "16:9" : "4:3", smConfig.ScreenSize.x, smConfig.ScreenSize.y);
 		Utils_Log(LOG_DEBUG, "Use ScreenSize: %d", atoi(buff));
 	}
 	else

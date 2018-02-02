@@ -113,6 +113,7 @@ extern int sinChatInputMode;   //{ 0- 아무것도 안그리기  1-보통  2-상점 }
 HDC hdc;
 int quit = 0;
 int QuitSave = 0;
+int AspectRatio = 0;
 int WinSizeX = 640;
 int WinSizeY = 480;
 int	WinColBit = 16;
@@ -412,6 +413,7 @@ INT WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPreInst, LPSTR lpCmdLine,INT nCmd
 	//The name registry operations ... (illegal software Enforcement)
 	HaejukReg();
 
+	AspectRatio = smConfig.AspectRatio;
 	WinSizeX = smConfig.ScreenSize.x;
 	WinSizeY = smConfig.ScreenSize.y;
 	WinColBit = smConfig.ScreenColorBit;
@@ -702,7 +704,12 @@ INT WINAPI WinMain(HINSTANCE hInst, HINSTANCE hPreInst, LPSTR lpCmdLine,INT nCmd
 			HWND		hImsi=GetDesktopWindow();
 			RECT		rImsi;
 			GetWindowRect(hImsi,&rImsi);
-			SetWindowPos(hwnd,HWND_TOP,0,0,rImsi.right,rImsi.bottom-30,SWP_SHOWWINDOW);
+			//SetWindowPos(hwnd,HWND_TOP,0,0,rImsi.right,rImsi.bottom-30,SWP_SHOWWINDOW); // Check THIS -- PANZER
+
+			// rImsi.right = 1920 = X
+			// rImsi.bottom = 1080 = Y
+			// (WinSizeX) ~~~~ (WinSizeY)
+			SetWindowPos(hwnd, HWND_TOP, 0, 0, WinSizeX, WinSizeY - 30, SWP_SHOWWINDOW);
 		}
 	#endif
 
@@ -2967,6 +2974,7 @@ extern int TestTraceMatrix();
 
 int InitD3D(HWND hWnd)
 {
+	float localfFOV;
 	Utils_Log(LOG_DEBUG, "InitD3D() - WinSizeX(%d)   WinSizeY(%d)   WinColBit(%d)", WinSizeX, WinSizeY, WinColBit);
 	hwnd = hWnd;
 
@@ -3008,7 +3016,8 @@ int InitD3D(HWND hWnd)
         smRender.m_FogIsRend = TRUE;
 
 		D3DMATRIX matProj;
-		D3D_SetProjectionMatrix( matProj, (g_PI/4.4f), (float(WinSizeX) / float(WinSizeY)), 20.f, 4000.f );
+		localfFOV = AspectRatio ? (g_PI / 6.f) : (g_PI / 4.4f);
+		D3D_SetProjectionMatrix( matProj, localfFOV, (float(WinSizeX) / float(WinSizeY)), 20.f, 4000.f );
 		renderDevice.SetTransform(D3DTRANSFORMSTATE_PROJECTION, &matProj);
 
 		renderDevice.SetRenderState(D3DRENDERSTATE_FOGTABLEMODE, D3DFOG_LINEAR);
@@ -3024,7 +3033,7 @@ int InitD3D(HWND hWnd)
 
 	renderDevice.Flip();
 
-	Sleep(600);
+	//Sleep(600);
 
 	LogoImage->Release();
 
@@ -3293,7 +3302,7 @@ int SetGameMode( int mode )
 	switch( GameMode )
 	{
 	case 1:
-		SetDxProjection( (g_PI/4.4f), WinSizeX, WinSizeY, 20.f, 4000.f );
+		SetDxProjection(AspectRatio ? (g_PI / 6.f) : (g_PI / 4.4f), WinSizeX, WinSizeY, 20.f, 4000.f );
 
 		smRender.CreateRenderBuff(CameraSight);
 
