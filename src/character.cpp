@@ -8302,7 +8302,11 @@ int smCHAR::DrawStateBar( int x, int y )
 */
 	float fSize;
 
-	fSize = (float)WinSizeX/800.0f;
+	// Panzer -- live bar size
+	if (AspectRatio)
+		fSize = (float)WinSizeX / 1055.0f;
+	else
+		fSize = (float)WinSizeX / 800.0f;
 
 
 	dsDrawTexImageFloat(MatEnergyBox[0] , (float)x , (float)y , STATE_BAR_WIDTH*fSize , STATE_BAR_HEIGHT*fSize, 128 , 16 , 0 , 0, STATE_BAR_WIDTH , 15, 255);

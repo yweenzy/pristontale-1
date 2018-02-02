@@ -3,6 +3,7 @@
 #include "Drawsub.h"
 #include "sinbaram\\sinlinkheader.h"
 
+extern int AspectRatio;
 extern int WinSizeX;
 extern int WinSizeY;
 

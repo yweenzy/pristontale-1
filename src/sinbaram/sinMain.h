@@ -79,6 +79,7 @@ extern POINT pRealCursorPos;    //확장 마우스 좌표
 
 extern HWND  hFocusWnd; //채팅 포커스 
 
+extern int AspectRatio;
 extern int WinSizeX;
 extern int WinSizeY;
 extern HWND hwnd;

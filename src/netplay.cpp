@@ -48,6 +48,7 @@
 #include "Xigncode\Client\zwave_sdk_client.h"
 #endif
 
+extern int AspectRatio;
 extern int WinSizeX;
 extern int WinSizeY;
 extern HWND hwnd;
